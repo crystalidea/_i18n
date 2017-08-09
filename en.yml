@@ -60,6 +60,7 @@ footer:
   languages: Languages
   english: English
   russian: Russian
+  dutch: Dutch
   email_placeholder: Your email address
   try_ut: Try Uninstall Tool
   try_ut_more: Get started in seconds and try Uninstall Tool free for 30 days.
@@ -281,7 +282,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
     stripe_3_info_2: "**Startup type** - the way the program starts. See the **Source** column above"
     stripe_3_info_3: "**Path to executable file** - full path to executable file belonging to the program you wish to start"
     stripe_3_info_4: "**Arguments** (optional) - list of command line arguments you wish to specify to the program"
-    stripe_3_info_5: "**Run task with highest priviledges** - (available only for a Windows Task) is specially designed to allow auto-starting of a program as administrator."
+    stripe_3_info_5: "**Run task with highest privileges** - (available only for a Windows Task) is specially designed to allow auto-starting of a program as administrator."
   portable_mode: # https://www.crystalidea.com/uninstall-tool/portable-mode
     title: Portable Mode - Uninstall Tool
     stripe_1_header: Portable Mode
