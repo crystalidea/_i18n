@@ -148,7 +148,7 @@ uninstall-tool: # https://www.crystalidea.com/es/uninstall-tool
   header_button_1: Versión de Prueba
   header_button_2: Características
   stripe_1_header: Elimine software indeseado, tenga su computadora limpia e incluso más rápida <br> con una aplicación efectiva, potente y fácil de usar para Windows
-  tour_feature_1: Asistente de Desinstalación
+  tour_feature_1: Asistente&nbsp;de Desinstalación
   tour_feature_1_text: Elimine completamente software no deseado eliminando restos de archivos de sistema y elementos del registro
   tour_feature_2: Rastreador de Instalación
   tour_feature_2_text: Instale aplicaciones con rastreo en tiempo real. Ve y registra que archivos/elementos de registro son creados
