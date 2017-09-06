@@ -58,7 +58,7 @@ footer:
   russian: Ruso
   dutch: Holandés
   spanish: Español
-  email_placeholder: 
+  email_placeholder: Your email address
   try_ut: Pruebe Uninstall Tool
   try_ut_more: Empiece en cuestión de segundos y pruebe Uninstall Tool gratis por 30 días.
   try_anytoiso: Pruebe AnyToISO
@@ -144,7 +144,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   header_button_1: Versión de Prueba
   header_button_2: Características
   stripe_1_header: Elimine software indeseado, tenga su computadora limpia e incluso más rápida <br> con una aplicación efectiva, potente y fácil de usar para Windows
-  tour_feature_1: Asistente de Desinstalación
+  tour_feature_1: Asistente&nbsp;de Desinstalación
   tour_feature_1_text: Elimina completamente software no deseado eliminando restos de archivos de sistema y elementos del registro
   tour_feature_2: Rastreador de Instalación
   tour_feature_2_text: Instala aplicaciones con rastreo en tiempo real. Ve y registra que archivos/elementos de registro son creados
