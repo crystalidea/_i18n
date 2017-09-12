@@ -61,6 +61,7 @@ footer:
   english: English
   russian: Russian
   dutch: Dutch
+  spanish: Spanish
   email_placeholder: Your email address
   try_ut: Try Uninstall Tool
   try_ut_more: Get started in seconds and try Uninstall Tool free for 30 days.
@@ -496,7 +497,7 @@ anytoiso: # https://www.crystalidea.com/anytoiso
   command-line-page: # https://www.crystalidea.com/anytoiso/command-line
     title: AnyToISO Command Line
     info_1_header: Convert an image/archive to ISO file
-    info_2_header: Extract an image/arhive file
+    info_2_header: Extract an image/archive file
     info_2_text: When extracting an ISO file with multiple file systems, the default file system is UDF. There's an option to specify which the file system to extract in the last /fs parameter. Possible values are iso9660, udf, xbox and hfs.
     info_3_header: Create ISO from CD/DVD/Blue-ray disks
     info_4_header: Create ISO from a local folder
