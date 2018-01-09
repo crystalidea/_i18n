@@ -99,7 +99,7 @@ buy-page: # https://www.crystalidea.com/store
   info_switch: Display estimated prices in $curr
   info_switch_back: Display prices in USD
   student_discount_header: Student discount
-  student_discount_info: If you're a student, please [e-mail us](/contact) using your university e-mail address (typically .edu TLD for the US).
+  student_discount_info: If you're a student, please [e-mail us](/contact) using your university e-mail address (typically .edu TLD for the US) for 30% discount.
 
 support-page: # https://www.crystalidea.com/uninstall-tool/support
   banner_header: $app_name Support
@@ -112,9 +112,13 @@ support-page: # https://www.crystalidea.com/uninstall-tool/support
   documentation_faq: Frequently Asked Questions
   documentation_release_notes: Release Notes
   contact: Contact Us
+  contact_2: Get Support
   contact_info: We reply to enquiries within two working days and to most questions within a few hours.
+  contact_info_2: To submit a bug, a problem or a feature request, please use the GitHub issue tracker.
   contact_mail: Contact Us
+  contact_mail_2: Contact us via e-mail
   contact_forum: Support Forum
+  contact_github: GitHub Issue Tracker
   support_pages: Support Pages
   latest_blog_posts: "Latest $app_name posts from our blog:"
   box_user_guide_header: $app_name User Guide
@@ -586,6 +590,8 @@ macs-fan-control: # https://www.crystalidea.com/macs-fan-control
     q5_a: MFC uses low level access to mac hardware information. Though this method is publicly available (IOKit interface), this is not allowed on the Mac App Store.
     q6_q: How do I uninstall the app?
     q6_a: On macOS simply quit the app and drag it from the application folder to the trash. On Windows you need to run its uninstall program. [Uninstall Tool](/uninstall-tool) can be helpful here.
+    q7_q: Why do I have high CPU usage by kernel_task when using Macs Fan Control?
+    q7_a: Thermal issues are causing kernel task to preemptively use up CPU to prevent overheating. Try putting fan(s) back to auto and if it doesn't help, try to [reset the SMC](https://support.apple.com/en-us/HT201295).
 
 speedyfox: # https://www.crystalidea.com/speedyfox
   title: SpeedyFox - Boost Firefox, Skype, Chrome, Thunderbird in a Single Click!
@@ -601,7 +607,7 @@ speedyfox: # https://www.crystalidea.com/speedyfox
   stripe_1_header: Supported programs
   stripe_1_info_1: Mentioned programs start working much more slowly with the lapse of time. The reason is fragmentation of profile databases. SpeedyFox is specially designed to resolve this problem. The method used in SpeedyFox is 100% safe for your profile (e.g. bookmarks, passwords, etc), it's well documented and has been tested on millions of computers.
   stripe_2_header: How Speedyfox works
-  stripe_2_info_1: With the passage of time SQLITE databases slow down considerably. It takes time to start apps that use such databases and the overall speed is effected. This is a very common problem and it occurs largely because of fragmentation of databases.
+  stripe_2_info_1: With the passage of time SQLITE databases slow down considerably. It takes time to start apps that use such databases and the overall speed is affected. This is a very common problem and it occurs largely because of fragmentation of databases.
   stripe_2_info_2: SpeedyFox is able to fix this problem with a single click! It seems unbelievable but after you optimize your Firefox with this tool, you will get a fresh newly-installed feel because the speed indeed gets considerably faster. You will get up to 3 times faster startup speeds, browsing history will become faster, and performing operations with cookies will be quicker than before.
   stripe_2_info_3: SpeedyFox compacts those databases without losing any data. Databases are optimized to operate faster and are decreased in size.
   stripe_3_header: How to use Speedyfox
