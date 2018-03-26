@@ -33,6 +33,8 @@ page-contact: # https://www.crystalidea.com/contact
   request_3: Restore Lost license
   contact_header: Contact Us
   contact_info: For product related questions, suggestions, bug reports, and comments please use our official forum.
+  support_header: To submit a bug, a problem or a feature request
+  support_info: "The GitHub issue tracker is the recommended way to get support. Navigate to the GitHub by clicking on the corresponding app button below:"
   email_header: Email Us
   email_info: For issues containing sensitive data contact us privately.
   box_help_pages: Help Pages
@@ -58,10 +60,6 @@ footer:
   subscribe_join: Join 14.000+ subscribers and receive product updates and  relevant software related articles.
   connect_with_us: Connect with us
   languages: Languages
-  english: English
-  russian: Russian
-  dutch: Dutch
-  spanish: Spanish
   email_placeholder: Your email address
   try_ut: Try Uninstall Tool
   try_ut_more: Get started in seconds and try Uninstall Tool free for 30 days.
@@ -579,7 +577,7 @@ macs-fan-control: # https://www.crystalidea.com/macs-fan-control
   faq-page: # https://www.crystalidea.com/macs-fan-control/faq
     title: Macs Fan Control FAQ
     q1_q: What are optimal fan settings for my MacBook/iMac/..?
-    q1_a: "The short answer is: experiment! First observe how temperature sensors behave under automatic fan control. Then try using some custom fan settings. Learn more about temperature sensors [here](/macs-fan-control/temperature-sensors). Of in doubt use our [forum](https://forums.crystalidea.com/viewforum.php?f=11)."
+    q1_a: "The short answer is: experiment! First observe how temperature sensors behave under automatic fan control. Then try using some custom fan settings. Learn more about temperature sensors [here](/macs-fan-control/temperature-sensors)."
     q2_q: Why is Macs Fan Control reporting 0rpm for one of my fans?
     q2_a: It's ok if you have MacBook Pro 13 inch 2015/2016, these models turn off the fan when the CPU temperature is low enough. If you have another model, it most likely means that the fan did not report any data to MFC. It is possible that one of your fan's is dead (there's physical damage to the fan or its cable). Please check your computer with the Apple Hardware Test (it's on the DVD that comes with your computer) and see if it reports a failure with one of your fans.
     q3_q: The app asks for a password. Which password is that?
@@ -624,7 +622,7 @@ changelog: # https://www.crystalidea.com/speedyfox/release-notes
   version: Version
   released_on: Released on
   release_notes: Release Notes
-  build_history: Builds History (Forum)
+  more_link: Download from GitHub
   new: New
   improved: Improved
   fixed: Fixed

@@ -28,6 +28,8 @@ page-contact:
   request_3: Verloren licentie herstellen
   contact_header: Contacteer Ons
   contact_info: Voor product gerelateerde vragen, suggesties, foutrapporten en opmerkingen, gelieve ons officiële forum te gebruiken.
+  support_header: To submit a bug, a problem or a feature request
+  support_info: "The GitHub issue tracker is the recommended way to get support. Navigate to the GitHub by clicking on the corresponding app button below:"
   email_header: E-mail ons
   email_info: Contacteer ons privé voor problemen met gevoelige gegevens.
   box_help_pages: Hulppagina's
@@ -50,10 +52,6 @@ footer:
   subscribe_join: Maak deel uit van 14.000+ inschrijvers en ontvang productupdates en relevante software gerelateerde artikelen.
   connect_with_us: Verbind met ons
   languages: Talen
-  english: Engels
-  russian: Russisch
-  dutch: Nederlands
-  spanish: Spaans
   email_placeholder: Uw e-mailadres
   try_ut: Probeer Uninstall Tool
   try_ut_more: Ga binnen enkele seconden aan de slag en probeer Uninstall Tool 30 dagen gratis.
@@ -561,7 +559,7 @@ macs-fan-control:
   faq-page:
     title: Macs Fan Control FAQ
     q1_q: Wat zijn optimale instellingen voor de koelers van mij MacBook/iMac/..?
-    q1_a: 'Het korte antwoord is: experimenteer! Bekijk eerst hoe temperatuursensoren zich gedragen onder automatische controle van de koelers. Probeer vervolgens enkele aangepaste instellingen voor de koelers te gebruiken. Leer [here](/macs-fan-control/temperature-sensors) meer over temperatuursensoren. Of maak bij twijfel gebruik van ons [forum](https://forums.crystalidea.com/viewforum.php?f=11).'
+    q1_a: 'Het korte antwoord is: experimenteer! Bekijk eerst hoe temperatuursensoren zich gedragen onder automatische controle van de koelers. Probeer vervolgens enkele aangepaste instellingen voor de koelers te gebruiken. Leer [here](/macs-fan-control/temperature-sensors) meer over temperatuursensoren.'
     q2_q: Waarom rapporteert Macs Fan Control 0tpm voor één van mijn koelers?
     q2_a: Het is ok als u MacBook Pro 13 inch 2015/2016 hebt, deze modellen schakelen de koeler uit wanneer de temperatuur van de CPU laag genoeg is. Als u een ander model hebt, betekent dit wellicht dat de koeler geen gegevens rapporteerde aan MFC. Het is mogelijk dat één van uw koelers dood is (fysieke schade aan de koeler of de kabel ervan). Gelieve uw computer te controleren met de Apple Hardware Test (dit vindt u op de DVD die met uw computer meegeleverd wordt) en kijk of het een defect aan één van uw koelers rapporteert.
     q3_q: De app vraagt om een wachtwoord. Welk wachtwoord is dit?
@@ -604,7 +602,7 @@ changelog:
   version: Versie
   released_on: Uitgebracht op
   release_notes: Release-Opmerkingen
-  build_history: Build Geschiedenis (Forum)
+  more_link: Download from GitHub
   new: Nieuw
   improved: Verbeterd
   fixed: Hersteld
