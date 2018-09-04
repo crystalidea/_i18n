@@ -11,7 +11,7 @@ main-page:
   heading_two: Mooi ontworpen voor zowel Windows als Mac
   latest_blog_posts: Laatste Blogberichten
   button_learn_more: Meer Info
-  button_free_download: Gratis Downloaden
+  button_free_download: Downloaden
   box_short_text_ut: Schone verwijdering van elk programma op uw PC.
   box_short_text_anytoiso: Elke CD/DVD-image Uitpakken of Omzetten naar ISO-formaat.
   box_short_text_mfc: Softwarecontrole van iMac, Macbook Pro/Air, Mac mini, Mac Pro koelers.
@@ -82,7 +82,7 @@ buy-page:
   bundle_save: Bespaar $!
   volume_discounts: Volumekortingen beschikbaar
   portable_info: Enkele gebruiker - meerdere PC's
-  info_eu: Voor klanten uit de Europese Unie wordt er belasting over de toegevoegde waarde bijgeteld bij alle bestellingen. Bedrijven kunnen belastingvrij aankopen door hun BTW-nummer te verstrekken. Voor klanten buiten de EU wordt er geen BTW toegevoegd.
+  info_eu: Alle prijzen zijn **inclusief BTW** (belasting over de toegevoegde waarde). Bedrijven kunnen belastingvrij aankopen door hun BTW-nummer te verstrekken. Voor klanten buiten de EU wordt er geen BTW toegevoegd.
   info_switch: Geschatte prijzen weergeven in $curr
   info_switch_back: Prijzen weergeven in USD
   student_discount_header: Studentenkorting
@@ -309,6 +309,7 @@ uninstall-tool:
     info_text_1: U kunt Uninstall Tool volledig gratis downloaden en uitproberen om al zijn functies te evalueren. Indien u enige problemen ondervindt bij het downloaden van de app, gelieve [ons te contacteren](/contact).
     info_text_2: "[Draagbare versie](/downloads/uninstalltool_portable.zip) (geen proefperiode, vereist speciale licentie en instructies voor activatie). [Meer info](/uninstall-tool/portable-mode)"
     info_text_3: Bekijk gedetailleerde informatie over wat er nieuw is in de [Release-Opmerkingen](/uninstall-tool/release-notes).
+    info_text_4: '[Gebruikersovereenkomst](/uninstall-tool/eula)'
   help-shortcuts-page:
     title: Uninstall Tool Sneltoetsen
     header: Uninstall Tool Sneltoetsen

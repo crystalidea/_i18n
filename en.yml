@@ -15,7 +15,7 @@ main-page: # https://www.crystalidea.com/
   heading_two: Beautifully designed for both Windows & Mac
   latest_blog_posts: Latest Blog Posts
   button_learn_more: Learn More
-  button_free_download: Free Download
+  button_free_download: Download
   box_short_text_ut: Clean removal of any program from your PC.
   box_short_text_anytoiso: Extract/Convert any CD/DVD image to ISO format.
   box_short_text_mfc: Software control of iMac, Macbook Pro/Air, Mac mini, Mac Pro fans.
@@ -93,7 +93,7 @@ buy-page: # https://www.crystalidea.com/store
   bundle_save: Save $!
   volume_discounts: Volume discounts available
   portable_info: Single user - multiple PCs
-  info_eu: For customers from the European Union, value added tax is added to all orders. Companies can purchase tax-free by providing their VAT registration number. For customers outside the EU, no VAT is added.
+  info_eu: For customers from the European Union, value added tax (VAT) **is included** in the listed prices. Companies can purchase tax-free by providing their VAT registration number. For customers outside the EU, no VAT is added.
   info_switch: Display estimated prices in $curr
   info_switch_back: Display prices in USD
   student_discount_header: Student discount
@@ -325,6 +325,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
     info_text_1: You can download and try out Uninstall Tool absolutely free of charge in order to evaluate all its features. If you have any problems downloading the app, please [contact us](/contact).
     info_text_2: "[Portable version](/downloads/uninstalltool_portable.zip) (no trial period, requires special license and activation instructions). [More info](/uninstall-tool/portable-mode)"
     info_text_3: See detailed information about what's new in the [Release Notes](/uninstall-tool/release-notes).
+    info_text_4: '[End-user License Agreement](/uninstall-tool/eula)'
   help-shortcuts-page: # https://www.crystalidea.com/uninstall-tool/keyboard-shortcuts
     title: Uninstall Tool Keyboard Shortcuts
     header: Uninstall Tool Keyboard Shortcuts
