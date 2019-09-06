@@ -123,6 +123,10 @@ faq-page:
 download-page:
   version: Versie
   updated: Bijgewerkt
+  download_win: Download voor Windows
+  download_mac: Download voor MacOS
+  download_mac_info: macOS 10.12 Sierra en later
+  older_systems: "Downloads for older systems:"
 uninstall-tool:
   title: Uninstall Tool - Unieke en Krachtige Verwijdertool, Verwijdersoftware, Programma's Verwijderen
   description: Verwijderprogramma dat elk programma op uw PC schoon verwijdert. Installatie opsporing, verwijdering van resten. Werkt bliksemsnel en controleert apps die uitgevoerd worden bij het opstarten van het systeem.
@@ -416,9 +420,6 @@ anytoiso:
     title: AnyToISO - Download
     header: Download AnyToISO
     header_info: Ultieme Optische Schijf Imaging Hulpprogramma / Extractor / ISO Maker.
-    download_win: Download voor Windows
-    download_mac: Download voor MacOS
-    download_mac_info: macOS 10.7+, download [here](/downloads/legacy/anytoiso_mac_10.6.zip) voor 10.6.
     info_text_1: U kunt AnyToISO volledig gratis downloaden en gebruiken. Indien u enige problemen ondervindt bij het downloaden van de app, gelieve [ons te contacteren](/contact).
     info_text_2: Lite-versie is volledig GRATIS, maar werkt enkel met bestanden die niet groter zijn dan een standaard CD-formaat (870 MB).
     info_text_3: "[Draagbare versie](/downloads/anytoiso_portable.zip) (vereist speciale licentie en instructies voor activatie). [Meer info](/anytoiso/portable-mode)"
@@ -533,10 +534,11 @@ macs-fan-control:
   stripe_2_slide_3_descr: Opties om snelheid koelers en sensortemperatuur weer te geven (weergegeven in het pictogram in het systeemvak onder Windows).
   stripe_review_try: Probeer Macs Fan Control Nu
   review_1: Werkt zo goed op mijn oude macbook pro...waarom maakte het Apple team deze geweldige tool niet? Heeft meer instellingen dan dat ik ooit kan gebruiken. Bedankt aan de ontwikkelaar om de app te maken.
-  review_2: Het is een geweldig stukje software, ideaal om de cpu temps in het oog te houden wanneer je meer cpu-belastende taken uitvoert.
-  review_3: Deed wonderen op mijn Windows 10 partitie, zorgde ervoor dat ik zware programma's kon draaien zonder zorgen dat mijn laptop oververhit!
-  review_4: Goed geïmplementeerde app die je helpt de temperaturen van je mac componenten in het oog te houden.
-  review_5: Geweldig om een Mac Pro stiller te doen werken (de geautomatiseerde routines van Apple kunnen een beetje agressief zijn) en aangepaste koelerbewegingen te maken.
+  review_2: If you have concerns about the long term health of any machine that's running hot enough, use Macs Fan Control to bump up your fan speed. 
+  review_3: Het is een geweldig stukje software, ideaal om de cpu temps in het oog te houden wanneer je meer cpu-belastende taken uitvoert.
+  review_4: Deed wonderen op mijn Windows 10 partitie, zorgde ervoor dat ik zware programma's kon draaien zonder zorgen dat mijn laptop oververhit!
+  review_5: Goed geïmplementeerde app die je helpt de temperaturen van je mac componenten in het oog te houden.
+  review_6: Geweldig om een Mac Pro stiller te doen werken (de geautomatiseerde routines van Apple kunnen een beetje agressief zijn) en aangepaste koelerbewegingen te maken.
   release_notes:
     title: Macs Fan Control Release-Opmerkingen
   button_buy: De app kopen
@@ -551,12 +553,10 @@ macs-fan-control:
     title: Macs Fan Control Download voor macOS & Windows (Boot Camp)
     header: Download Macs Fan Control
     header_info: Monitor en controleer de koelers van uw computer
-    download_win: Download voor Windows
-    download_mac: Download voor macOS
-    download_mac_info: macOS 10.7+, download [hier](/downloads/legacy/macsfancontrol_10.6.zip) voor 10.6.
     info_text_1: U kunt Macs Fan Control volledig gratis downloaden en gebruiken. Indien u enige problemen ondervindt bij het downloaden van de app, gelieve [ons te contacteren](/contact).
     info_text_2: Dit programma is voor ervaren gebruikers die weten hoe het te gebruiken zonder schade aan te richten aan hun macs. De auteurs zijn niet aansprakelijk voor verlies van gegevens, schade, verlies van winst en andere soorten verlies verbonden aan het gebruik of misbruik van het programma.
     info_text_3: "Bekijk gedetailleerde informatie over wat er nieuw is in de [Release-Opmerkingen](/macs-fan-control/release-notes). Vind [hier](https://github.com/crystalidea/macs-fan-control/releases) oudere versies."
+    info_text_4: "* When running on Windows, the app only works on mac models that are not equipped with the modern [T2 chip](/macs-fan-control/supported-models)."
   faq-page:
     title: Macs Fan Control FAQ
     q1_q: Wat zijn optimale instellingen voor de koelers van mij MacBook/iMac/..?

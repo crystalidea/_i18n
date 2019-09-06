@@ -138,6 +138,10 @@ faq-page: # https://www.crystalidea.com/uninstall-tool/faq
 download-page: # https://www.crystalidea.com/uninstall-tool/download
   version: Version
   updated: Updated
+  download_win: Download for Windows
+  download_mac: Download for macOS
+  download_mac_info: macOS 10.12 Sierra and later
+  older_systems: "Downloads for older systems:"
 
 uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   title: Uninstall Tool - Unique and Powerful Uninstaller, Uninstall Software, Remove Programs
@@ -433,9 +437,6 @@ anytoiso: # https://www.crystalidea.com/anytoiso
     title: AnyToISO - Download
     header: Download AnyToISO
     header_info: Ultimate Optical Disk Imaging Utility / Extractor / ISO Creator.
-    download_win: Download for Windows
-    download_mac: Download for macOS
-    download_mac_info: macOS 10.7+, download for 10.6 [here](/downloads/legacy/anytoiso_mac_10.6.zip).
     info_text_1: You can download and use AnyToISO Lite absolutely free of charge. If you have any problems downloading the app, please [contact us](/contact).
     info_text_2: Lite version is completely FREE but it only works with files not bigger than a regular CD size (870 MB).
     info_text_3: "[Portable version](/downloads/anytoiso_portable.zip) (requires special license and activation instructions). [More info](/anytoiso/portable-mode)"
@@ -542,7 +543,7 @@ macs-fan-control: # https://www.crystalidea.com/macs-fan-control
   stripe_1_info_1: Real-time monitoring of fan speed and temperature sensors including 3rd party HDD/SSD (using S.M.A.R.T.).
   stripe_1_info_2: Set custom RPM value (revolution per minute) or control fan speed in relation to a temperature sensor (e.g. 3rd party HDD).
   stripe_1_info_3: Every model of iMac, MacBook (Pro/Air), Mac mini, Mac Pro is supported.
-  stripe_1_info_4: Also works on Windows 10/8/7/Vista/XP installed via Boot Camp sharing the same easy-to-use user interface.
+  stripe_1_info_4: Also works on Windows 10/8/7/Vista/XP installed via Boot Camp. Unfortunately only on macs without the modern [T2 chip](/macs-fan-control/supported-models).
   stripe_2_slide_1_title: Simple and efficient user interface
   stripe_2_slide_1_descr: "Two tables layout: with list of fans and list of temperature sensors."
   stripe_2_slide_2_title: Change fan speed
@@ -551,10 +552,11 @@ macs-fan-control: # https://www.crystalidea.com/macs-fan-control
   stripe_2_slide_3_descr: Options to display fan speed and sensor temperature (displayed in the tray icon under Windows).
   stripe_review_try: Try Macs Fan Control Now
   review_1: Works so well on my old macbook pro...why didn't the Apple team make this great utility? Has more than enough settings than I can ever use. Thanks to the developer for making the app.
-  review_2: Its a great piece of software, great for helping you keep track of cpu temps when you're doing more cpu intensive tasks.
-  review_3: Worked miracles on my Windows 10 partition, enabling me to run heavy programs without worrying about my laptop overheating!
-  review_4: Well implemented app that helps you keeping a close eye on temperatures of your mac components.
-  review_5: Great for quieting down a Mac Pro (Apple's automated routines can be a bit aggressive) and create custom fan curves.
+  review_2: If you have concerns about the long term health of any machine that's running hot enough, use Macs Fan Control to bump up your fan speed. 
+  review_3: Its a great piece of software, great for helping you keep track of cpu temps when you're doing more cpu intensive tasks.
+  review_4: Worked miracles on my Windows 10 partition, enabling me to run heavy programs without worrying about my laptop overheating!
+  review_5: Well implemented app that helps you keeping a close eye on temperatures of your mac components.
+  review_6: Great for quieting down a Mac Pro (Apple's automated routines can be a bit aggressive) and create custom fan curves.
   release_notes: # https://www.crystalidea.com/macs-fan-control/release-notes
     title: Macs Fan Control Release Notes
   button_buy: Buy the app
@@ -569,12 +571,10 @@ macs-fan-control: # https://www.crystalidea.com/macs-fan-control
     title: Macs Fan Control Download for macOS & Windows (Boot Camp)
     header: Download Macs Fan Control
     header_info: Monitor and control your computer's fans
-    download_win: Download for Windows
-    download_mac: Download for macOS
-    download_mac_info: macOS 10.7+, download for 10.6 [here](/downloads/legacy/macsfancontrol_10.6.zip).
     info_text_1: You can download and use Macs Fan Control absolutely free of charge. If you have any problems downloading the app, please [contact us](/contact).
     info_text_2: This program is for advanced users who know how to use it without doing harm to their macs. The authors are not liable for data loss, damages, profit loss or any other types of losses connected with the use or misuse of the program.
     info_text_3: "See detailed information about what's new in the [Release Notes](/macs-fan-control/release-notes). Get older versions [here](https://github.com/crystalidea/macs-fan-control/releases)."
+    info_text_4: "* When running on Windows, the app only works on mac models that are not equipped with the modern [T2 chip](/macs-fan-control/supported-models)."
   faq-page: # https://www.crystalidea.com/macs-fan-control/faq
     title: Macs Fan Control FAQ
     q1_q: What are optimal fan settings for my MacBook/iMac/..?

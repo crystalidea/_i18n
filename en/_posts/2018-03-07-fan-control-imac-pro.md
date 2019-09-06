@@ -6,7 +6,7 @@ tags: [ "macs-fan-control"]
 image: /assets/images/blog/imac_pro_dual_fan.png
 ---
 
-Good news for happy owners of Apple iMac Pro! Tha current version of [Macs Fan Control](/macs-fan-control/download) (1.4.10) supports the new iMac Pro and correctly controls its enormous dual-fan cooler (both fans are syncronized). The app displays all available temperature sensors along with new twin SSDs.
+Good news for happy owners of Apple iMac Pro! Thе current version of [Macs Fan Control](/macs-fan-control/download) (1.4.10) supports the new iMac Pro and correctly controls its enormous dual-fan cooler (both fans are synchronized). The app displays all available temperature sensors along with new twin SSDs.
 
 <!--more-->
 
