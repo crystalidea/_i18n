@@ -524,7 +524,7 @@ macs-fan-control:
   stripe_1_header: Monitor en controleer koelers in Apple computers
   stripe_1_info_1: Real-time monitoring van snelheid koelers en temperatuursensoren inclusief HDD/SDD van derden (met S.M.A.R.T.).
   stripe_1_info_2: Stel aangepaste toerental (omwentelingen per minuut) in of controleer de snelheid van koelers in verhouding tot een temperatuursensor (vb. HDD van derden).
-  stripe_1_info_3: Elk model van iMac, MacBook (Pro/Air), Mac mini, Mac Pro wordt ondersteund.
+  stripe_1_info_3: Create and save custom fan presets so you can quickly switch between them depending on your activity.
   stripe_1_info_4: Werkt ook op Windows 10/8/7/Vista/XP, geïnstalleerd via Boot Camp, met dezelfde gebruiksvriendelijke interface.
   stripe_2_slide_1_title: Simpele en efficiënte gebruikersinterface
   stripe_2_slide_1_descr: 'Indeling met twee tabellen: met lijst van koelers en lijst van temperatuursensoren.'
@@ -541,12 +541,15 @@ macs-fan-control:
   review_6: Geweldig om een Mac Pro stiller te doen werken (de geautomatiseerde routines van Apple kunnen een beetje agressief zijn) en aangepaste koelerbewegingen te maken.
   release_notes:
     title: Macs Fan Control Release-Opmerkingen
-  button_buy: De app kopen
+  button_buy: Pro versie kopen
   buy-page:
-    title: Steun de ontwikkeling van Macs Fan Control, Koop Macs Fan Control Pro
-    header: Steun de ontwikkeling van Macs Fan Control
-    info_text_1: Beste Macs Fan Control gebruikers, als u geniet van de app kunt u de ontwikkeling (nieuwe functies) steunen. Van zodra/als we een betaalde versie van de app uitbrengen, ontvangt iedereen die dit kleine bedrag geïnvesteerd heeft de app GRATIS.
-    personal_license: Steun Macs Fan Control
+    title: Koop Macs Fan Control Pro, steun de ontwikkeling van Macs Fan Control
+    header: Koop Macs Fan Control Pro
+    info_text_1: With Pro version you get extra features (custom fan presets), priority customer support and confidence in future updates and improvements.
+    personal_license: Pro Licensie voor 1 computer
+    toolbox_info_1: The license is on a per-PC basis. The number of computers can be specified as 'Quantity' after pressing the 'Buy Now' button.
+    toolbox_info_2: The license is valid for both macOS &amp; Windows (Boot Camp). Windows version works only on computers without the modern T2 chip. Please refer to the list of [supported Apple computers](/macs-fan-control/supported-models).
+    toolbox_info_3: If you already bought the app earlier (donated), please [restore your license](/restore-license).
   support-page:
     title: Macs Fan Control - Help & Ondersteuning
   download-page:
@@ -607,7 +610,7 @@ changelog:
   new: Nieuw
   improved: Verbeterd
   fixed: Hersteld
-  older_versions: "Geschiedenis oudere versies:"
+  older_versions: Geschiedenis oudere versies
 blog:
   title: CrystalIDEA Blog - nieuws over producten, artikelen over Uninstall Tool, AnyToISO, Macs Fan Control
   subscribe: Inschrijven
@@ -621,9 +624,11 @@ privacy-policy-page:
   title: CrystalIDEA Privacy Overeenkomst
   description: Aangezien CrystalIDEA toegewijd is om uw privacy te beschermen, hoeft u zich geen zorgen te maken over de veiligheid van uw persoonlijke informatie
 restore-license-page:
-  title: Verloren Licentie Herstellen - CrystalIDEA
-  header: Verloren Licentie Herstellen
+  title: Licentie Herstellen - CrystalIDEA
+  header: Licentie Herstellen
   description: Herstel verloren licentie voor CrystalIDEA programma's, Uninstall Tool, AnyToISO, Macs Fan Control en andere
-  info_text_1: Van zodra u één van onze softwareproducten gekocht hebt, kunt u steeds een licentie herstellen indien deze verloren raakt. Om een licentie te herstellen, klik op onderstaande knop om ons een e-mail te sturen.
-  info_text_2: Gelieve het e-mailadres te gebruiken dat u gebruikte wanneer u het programma aankocht.
-  info_text_3: Indien u geen toegang hebt tot de oude e-mailaccount, typ dit e-mailadres en uw volledige naam.
+  info_text_1: Please tell us the email address used during the purchase. Your license will be sent to this email again.
+  info_text_2: If your email address has changed or you no longer have access to it, please let us know by [email](mailto:support@crystalidea.com).
+  message_sent: Your license information has been sent. If you do not receive it within an hour, please check your spam folder or contact us at support@crystalidea.com.
+  message_fail: Could not find any orders associated with $email
+  button_restore: Restore

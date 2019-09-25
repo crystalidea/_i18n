@@ -70,7 +70,7 @@ Press Shift+F10 to launch command prompt. Type the following commands:
 
 <pre>
     diskpart
-    disk list
+    list disk
 </pre>
 
 Now make sure to select the correct target drive number N (NOT your macOS disk), after that type:

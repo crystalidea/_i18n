@@ -542,8 +542,8 @@ macs-fan-control:
   stripe_1_header: Мониторинг и управление вентиляторами компьютеров Apple
   stripe_1_info_1: Слежение за скоростью вентиляторов и температурными датчиками, определение температуры замененных дисков HDD/SSD.
   stripe_1_info_2: Пользовательский контроль скорости вентилятора, поддержка вращения в зависимости от температуры.
-  stripe_1_info_3: Поддержка любых моделей компьютеров Apple, таких как iMac, MacBook (Pro/Air), Mac mini, Mac Pro.
-  stripe_1_info_4: Также работает в Windows 10/8/7/Vista/XP, установленной через Boot Camp. К сожалению, только на компьютерах без [чипа T2](/macs-fan-control/supported-models).
+  stripe_1_info_3: Создание пользовательских профилей управления вентиляторами для быстрого переключения между ними.
+  stripe_1_info_4: Также работает в Windows 10/8/7/Vista/XP, установленной через Boot Camp. Только на компьютерах без [чипа T2](/macs-fan-control/supported-models).
   stripe_2_slide_1_title: Простой и эффективный интерфейс
   stripe_2_slide_1_descr: "Две таблицы: одна со списком вентиляторов, вторая - с температурными датчиками."
   stripe_2_slide_2_title: Управление скоростью вращения
@@ -559,12 +559,15 @@ macs-fan-control:
   review_6: Прекрасно справилась с лишним шумом вентиляторов Mac Pro (системные настройки, на мой взгляд, чрезмерны).
   release_notes:
     title: История изменений Macs Fan Control
-  button_buy: Купить
+  button_buy: Купить Pro
   buy-page:
-    title: Поддержать разработку Macs Fan Control, Купить Macs Fan Control Pro
-    header: Поддержать разработку Macs Fan Control
-    info_text_1: Дорогой пользователь Macs Fan Control, если Вам программа, Вы можете поддержать её разработку. Когда/если мы выпустим платную версию программы, все, кто инвестировал эту небольшую сумму, получат её бесплатно.
-    personal_license: Поддержать Macs Fan Control
+    title: Купить Macs Fan Control Pro, поддержать разработку Macs Fan Control
+    header: Купить Macs Fan Control Pro
+    info_text_1: С Pro версией Вы получаете дополнительные функции (пользовательские профили), приоритетную поддержку и уверенность в будущих обновлениях и улучшениях программы.
+    personal_license: Pro версия на один компьютер
+    toolbox_info_1: Лицензия покупается отдельно на каждый компьютер. Количество компьютеров может быть указано как 'Количество' после нажатия кнопки 'Купить'.
+    toolbox_info_2: Лицензия работает macOS и Windows (Boot Camp). Windows версия программы работает только на компьютерах БЕЗ современного чипа T2. Вы можете посмотреть список [поддерживаемых моделей](/macs-fan-control/supported-models).
+    toolbox_info_3: Если Вы покупали программу ранее (донатили), пожалуйста, [восстановите свою лицензию](/restore-license).
   support-page:
     title: Macs Fan Control - Помощь и поддержка
   download-page:
@@ -627,7 +630,7 @@ changelog:
   new: Новое
   improved: Улучшено
   fixed: Исправлено
-  older_versions: "Более старые версии:"
+  older_versions: Более старые версии
 
 blog:
   title: Блог CrystalIDEA - новости о программах, статьи о Uninstall Tool, AnyToISO, Macs Fan Control
@@ -644,9 +647,11 @@ privacy-policy-page:
   description: Since CrystalIDEA is committed to protect your privacy, there is no need to worry about the security of your personal information
 
 restore-license-page:
-  title: Восстановить утерянную лицензию - CrystalIDEA
-  header: Восстановить утерянную лицензию
-  description: Восстановить утерянную лицензию для Uninstall Tool, AnyToISO, Macs Fan Control и других наших программ
-  info_text_1: "Если Вы однажды купили одну из наших программ, Вы всегда сможете восстановить утерянный по каким-либо причинам лицензионный ключ для нее. Для восстановления лицензии, нажмите на кнопку снизу, чтобы отправить нам запрос, при этом:"
-  info_text_2: Используйте именно тот адрес электронной почты, который Вы использовали при покупке.
-  info_text_3: Если у Вас больше нет доступа к этому ящику, укажите этот почтовый адрес и Ваше полное имя.
+  title: Восстановить лицензию - CrystalIDEA
+  header: Восстановить лицензию
+  description: Восстановить лицензию для Uninstall Tool, AnyToISO, Macs Fan Control и других наших программ
+  info_text_1: Пожалуйста, напишите Ваш адрес электронной почты, используемый при покупке и мы вышлем на него повторно утерянную лицензию.
+  info_text_2: Если Ваш адрес электронной почты изменился или вы более не имеете к нему доступа, [свяжитесь](mailto:support@crystalidea.com) с нами.
+  message_sent: Лицензионная информация отправлена. Если Вы не получили её в течении часа, пожалуйста, проверьте папку Спам или свяжитесь с нами на support@crystalidea.com.
+  message_fail: Не найдено покупок, ассоциированных с $email
+  button_restore: Восстановить

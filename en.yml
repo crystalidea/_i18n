@@ -542,8 +542,8 @@ macs-fan-control: # https://www.crystalidea.com/macs-fan-control
   stripe_1_header: Monitor and control fans on Apple computers
   stripe_1_info_1: Real-time monitoring of fan speed and temperature sensors including 3rd party HDD/SSD (using S.M.A.R.T.).
   stripe_1_info_2: Set custom RPM value (revolution per minute) or control fan speed in relation to a temperature sensor (e.g. 3rd party HDD).
-  stripe_1_info_3: Every model of iMac, MacBook (Pro/Air), Mac mini, Mac Pro is supported.
-  stripe_1_info_4: Also works on Windows 10/8/7/Vista/XP installed via Boot Camp. Unfortunately only on macs without the modern [T2 chip](/macs-fan-control/supported-models).
+  stripe_1_info_3: Create and save custom fan presets so you can quickly switch between them depending on your activity.
+  stripe_1_info_4: Also works on Windows 10/8/7/Vista/XP installed via Boot Camp. Only on macs without the modern [T2 chip](/macs-fan-control/supported-models).
   stripe_2_slide_1_title: Simple and efficient user interface
   stripe_2_slide_1_descr: "Two tables layout: with list of fans and list of temperature sensors."
   stripe_2_slide_2_title: Change fan speed
@@ -559,12 +559,15 @@ macs-fan-control: # https://www.crystalidea.com/macs-fan-control
   review_6: Great for quieting down a Mac Pro (Apple's automated routines can be a bit aggressive) and create custom fan curves.
   release_notes: # https://www.crystalidea.com/macs-fan-control/release-notes
     title: Macs Fan Control Release Notes
-  button_buy: Buy the app
+  button_buy: Buy Pro version
   buy-page: # https://www.crystalidea.com/macs-fan-control/buy
-    title: Support Macs Fan Control development, Buy Macs Fan Control Pro
-    header: Support Macs Fan Control development
-    info_text_1: Dear Macs Fan Control user, if you enjoy the app you can support its development (new features). Once/if we release a paid version of the app, everyone who invested this reasonable amount, will get it for FREE.
-    personal_license: Support Macs Fan Control
+    title: Buy Pro version, support Macs Fan Control development
+    header: Buy Macs Fan Control Pro
+    info_text_1: With Pro version you get extra features (custom fan presets), priority customer support and confidence in future updates and improvements.
+    personal_license: Pro License for 1 computer
+    toolbox_info_1: The license is on a per-PC basis. The number of computers can be specified as 'Quantity' after pressing the 'Buy Now' button.
+    toolbox_info_2: The license is valid for both macOS &amp; Windows (Boot Camp). Windows version works only on computers without the modern T2 chip. Please refer to the list of [supported Apple computers](/macs-fan-control/supported-models).
+    toolbox_info_3: If you already bought the app earlier (donated), please [restore your license](/restore-license).
   support-page: # https://www.crystalidea.com/macs-fan-control/support
     title: Macs Fan Control - Help & Support
   download-page: # https://www.crystalidea.com/macs-fan-control/download
@@ -627,7 +630,7 @@ changelog: # https://www.crystalidea.com/speedyfox/release-notes
   new: New
   improved: Improved
   fixed: Fixed
-  older_versions: "Older versions history:"
+  older_versions: Older versions history
 
 blog: # https://www.crystalidea.com/blog
   title: CrystalIDEA Blog - products news, articles about Uninstall Tool, AnyToISO, Macs Fan Control
@@ -643,10 +646,12 @@ privacy-policy-page: # https://www.crystalidea.com/privacy-policy
   title: CrystalIDEA Privacy Agreement
   description: Since CrystalIDEA is committed to protect your privacy, there is no need to worry about the security of your personal information
 
-restore-license-page: # https://www.crystalidea.com/restore-lost-license
-  title: Restore Lost License - CrystalIDEA
-  header: Restore Lost License
+restore-license-page: # https://www.crystalidea.com/restore-license
+  title: Restore License - CrystalIDEA
+  header: Restore License
   description: Restore lost license for CrystalIDEA programs, Uninstall Tool, AnyToISO, Macs Fan Control and others
-  info_text_1: Once you purchase one of our software products, you are always able to restore a license if it's lost. To restore a license, press the button below to send us an e-mail.
-  info_text_2: Please use the e-mail you used when buying the program.
-  info_text_3: If you don't have access to the old e-mail account, type this e-mail address and your full name.
+  info_text_1: Please tell us the email address used during the purchase. Your license will be sent to this email again.
+  info_text_2: If your email address has changed or you no longer have access to it, please let us know by [email](mailto:support@crystalidea.com).
+  message_sent: Your license information has been sent. If you do not receive it within an hour, please check your spam folder or contact us at support@crystalidea.com.
+  message_fail: Could not find any orders associated with $email
+  button_restore: Restore
