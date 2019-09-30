@@ -11,5 +11,3 @@ Current versions of [AnyToISO](/anytoiso) (3.6.3) and [Macs Fan Control](/macs-f
 Future versions of these programs will not support 10.6 (unfortunately) because it takes a lot of time for us to maintain 10.6 compatibility. Mentioned versions are the last to support 10.6, but one will always be able to download them from our website. 
 
 Any Intel Mac that was released after 2006 which CPU is at least "Intel Core 2 Duo " is eligible to install OS X 10.7 and later.
-
-[Discuss on our forum](http://forums.crystalidea.com/viewtopic.php?f=11&t=1230)

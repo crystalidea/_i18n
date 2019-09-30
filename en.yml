@@ -88,6 +88,8 @@ buy-page: # https://www.crystalidea.com/store
   toolbox_info_2: Personal License is on a per-user basis. The number of users can be specified as 'Quantity' after pressing the "Buy" button (discounts apply).
   toolbox_info_3: "[Portable license](/$app_id/portable-mode) is designed for use by a single user on multiple PCs. Portable mode doesn't require installing and activating the app on each computer, it can be started from a USB flash drive. Detailed instructions are sent straight after the purchase."
   toolbox_info_4: All minor updates are FREE. Major updates (2.x -> 3.x) come with 50% discount for existing customers.
+  quantity: Quantity
+  quantity_other: Other
   price: Price
   buy_button: Buy Now
   bundle_save: Save $!
@@ -564,9 +566,9 @@ macs-fan-control: # https://www.crystalidea.com/macs-fan-control
     title: Buy Pro version, support Macs Fan Control development
     header: Buy Macs Fan Control Pro
     info_text_1: With Pro version you get extra features (custom fan presets), priority customer support and confidence in future updates and improvements.
-    personal_license: Pro License for 1 computer
-    toolbox_info_1: The license is on a per-PC basis. The number of computers can be specified as 'Quantity' after pressing the 'Buy Now' button.
-    toolbox_info_2: The license is valid for both macOS &amp; Windows (Boot Camp). Windows version works only on computers without the modern T2 chip. Please refer to the list of [supported Apple computers](/macs-fan-control/supported-models).
+    pro_license: Pro License
+    toolbox_info_1: The Pro License is on a per-PC basis. Volume discounts apply when specifying multiple computers quantity.
+    toolbox_info_2: The Pro License is valid for both macOS &amp; Windows (Boot Camp). Windows version works only on computers without the modern T2 chip. Please refer to the list of [supported Apple computers](/macs-fan-control/supported-models).
     toolbox_info_3: If you already bought the app earlier (donated), please [restore your license](/restore-license).
   support-page: # https://www.crystalidea.com/macs-fan-control/support
     title: Macs Fan Control - Help & Support

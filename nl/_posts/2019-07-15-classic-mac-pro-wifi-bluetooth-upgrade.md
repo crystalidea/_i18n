@@ -24,6 +24,9 @@ The upgrade kit described here is 100% native, doesn't include any external card
 - Bluetooth antenna extension cable. [Ebay](https://www.ebay.com/itm/24-U-FL-IPX-Male-to-ipex-Female-Cable-Wifi-Antenna-Extension-Mini-PCI-Card/191422150400?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649)
 - JST GH 1.25MM 4Pin connectors (3). [Ebay](https://www.ebay.com/itm/10pcs-JST-GH-1-25MM-3-4Pin-Double-end-Female-Male-Connector-w-Wires-Cable/273191562853?ssPageName=STRK%3AMEBIDX%3AIT&var=572461669291&_trksid=p2057872.m2749.l2649)
 
+**UPDATE September 2019!** 
+There's a version of the mPCIe adapter that doesn't require soldering!  [Amazon](https://www.amazon.com/gp/product/B0762N451V), [Ebay](https://www.ebay.com/itm/Mini-PCI-E-52pin-Adapter-For-BCM94360CD-BCM94331CD/261598561965?epid=1631968703&hash=item3ce87d46ad:g:sXcAAOSwi8VZTLqm). In this case you can skip Step 1.
+
 <h2>1. Solder Bluetooth data cable to the mPCIe adapter</h2>
 
 The original Bluetooth card will be removed because the BCM94360CD has both Bluetooth and Wi-Fi on board. D+ and D- connectors on the mPCIe adapter must be connected to the motherboard instead of the old Bluetooth card.

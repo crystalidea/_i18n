@@ -77,6 +77,8 @@ buy-page:
   toolbox_info_2: Persoonlijke Licentie is gebaseerd per gebruiker. Het aantal gebruikers kan gespecificeerd worden als "Aantal" na het indrukken van de knop "Kopen" (kortingen zijn van toepassing).
   toolbox_info_3: "[Draagbare licentie](/$app_id/portable-mode) is ontworpen voor gebruik door een enkele gebruiker op meerdere PC's. Draagbare modus vereist geen installatie en activatie van de app op elke computer, het kan opgestart worden vanaf een USB flash drive. Gedetailleerde instructies worden meteen na de aankoop verzonden."
   toolbox_info_4: Alle kleine updates zijn GRATIS. Belangrijke updates (2.x -> 3.x) komen met 50% korting voor bestaande klanten.
+  quantity: Aantal
+  quantity_other: Ander
   price: Prijs
   buy_button: Nu Kopen
   bundle_save: Bespaar $!
@@ -546,9 +548,9 @@ macs-fan-control:
     title: Koop Macs Fan Control Pro, steun de ontwikkeling van Macs Fan Control
     header: Koop Macs Fan Control Pro
     info_text_1: With Pro version you get extra features (custom fan presets), priority customer support and confidence in future updates and improvements.
-    personal_license: Pro Licensie voor 1 computer
-    toolbox_info_1: The license is on a per-PC basis. The number of computers can be specified as 'Quantity' after pressing the 'Buy Now' button.
-    toolbox_info_2: The license is valid for both macOS &amp; Windows (Boot Camp). Windows version works only on computers without the modern T2 chip. Please refer to the list of [supported Apple computers](/macs-fan-control/supported-models).
+    pro_license: Pro Licensie
+    toolbox_info_1: The Pro License is on a per-PC basis. Volume discounts apply when specifying multiple computers quantity.
+    toolbox_info_2: The Pro License is valid for both macOS &amp; Windows (Boot Camp). Windows version works only on computers without the modern T2 chip. Please refer to the list of [supported Apple computers](/macs-fan-control/supported-models).
     toolbox_info_3: If you already bought the app earlier (donated), please [restore your license](/restore-license).
   support-page:
     title: Macs Fan Control - Help & Ondersteuning
