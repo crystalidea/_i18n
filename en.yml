@@ -85,7 +85,7 @@ store-page: # https://www.crystalidea.com/store
 buy-page: # https://www.crystalidea.com/store
   toolbox_header: Quick Facts
   toolbox_info_1: Each type of license is a one-time payment which includes life-time technical support.
-  toolbox_info_2: Personal License is on a per-user basis. The number of users can be specified as 'Quantity' after pressing the "Buy" button (discounts apply).
+  toolbox_info_2: Standard License is on a per-PC basis. Number of computers can be specified as 'Quantity' after pressing the "Buy Now" button (discounts apply).
   toolbox_info_3: "[Portable license](/$app_id/portable-mode) is designed for use by a single user on multiple PCs. Portable mode doesn't require installing and activating the app on each computer, it can be started from a USB flash drive. Detailed instructions are sent straight after the purchase."
   toolbox_info_4: All minor updates are FREE. Major updates (2.x -> 3.x) come with 50% discount for existing customers.
   quantity: Quantity
@@ -306,7 +306,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   buy-page: # https://www.crystalidea.com/uninstall-tool/buy
     title: Uninstall Tool Pricing & Buy
     header: Uninstall Tool Pricing & Buy
-    personal_license: Personal License
+    personal_license: Standard License
     portable_license: __Portable__ License
     upgrade_header: Upgrade from 2.x version
     upgrade_info: Existing customers of Uninstall Tool 2.x (any type of license, also bought in bundle) get 50% discount on Uninstall Tool 3. To apply a discount one should enter his e-mail (used with the previous purchase) as a coupon name on [this page](https://store.payproglobal.com/checkout?products&#91;1&#93;&#91;id&#93;=34958).
@@ -426,9 +426,9 @@ anytoiso: # https://www.crystalidea.com/anytoiso
   buy-page: # https://www.crystalidea.com/anytoiso/buy
     title: AnyToISO Pricing & Buy
     header: AnyToISO Pricing & Buy
-    license_win: Personal Pro License for Windows
-    license_mac: Personal Pro License for MacOS
-    license_both: Personal Pro License for 
+    license_win: Standard Pro License for Windows
+    license_mac: Standard Pro License for MacOS
+    license_both: Standard Pro License for 
     license_portable_win: __Portable__ Pro License for Windows
   support-page: # https://www.crystalidea.com/anytoiso/support
     title: AnyToISO - Support

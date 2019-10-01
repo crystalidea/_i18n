@@ -74,7 +74,7 @@ store-page:
 buy-page:
   toolbox_header: Korte Feiten
   toolbox_info_1: Elk type licentie is een eenmalige betaling met levenslange technische ondersteuning.
-  toolbox_info_2: Persoonlijke Licentie is gebaseerd per gebruiker. Het aantal gebruikers kan gespecificeerd worden als "Aantal" na het indrukken van de knop "Kopen" (kortingen zijn van toepassing).
+  toolbox_info_2: Standaard Licentie is gebaseerd per computer. Het aantal computers kan gespecificeerd worden als "Aantal" na het indrukken van de knop "Kopen" (kortingen zijn van toepassing).
   toolbox_info_3: "[Draagbare licentie](/$app_id/portable-mode) is ontworpen voor gebruik door een enkele gebruiker op meerdere PC's. Draagbare modus vereist geen installatie en activatie van de app op elke computer, het kan opgestart worden vanaf een USB flash drive. Gedetailleerde instructies worden meteen na de aankoop verzonden."
   toolbox_info_4: Alle kleine updates zijn GRATIS. Belangrijke updates (2.x -> 3.x) komen met 50% korting voor bestaande klanten.
   quantity: Aantal
@@ -290,7 +290,7 @@ uninstall-tool:
   buy-page:
     title: Uninstall Tool Prijzen & Kopen
     header: Uninstall Tool Prijzen & Kopen
-    personal_license: Persoonlijke Licentie
+    personal_license: Standaard Licentie
     portable_license: __Portable__ Licentie
     upgrade_header: Upgraden van versie 2.x
     upgrade_info: 'Bestaande klanten van Uninstall Tool 2.x (elk type licentie, ook aangekocht als bundel) ontvangt 50% korting op Uninstall Tool 3. Om een korting toe te passen dient men het e-mailadres in te voeren (gebruikt bij de vorige aankoop) als naam van de waardebon op [deze pagina](https://store.payproglobal.com/checkout?products&'
@@ -409,9 +409,9 @@ anytoiso:
   buy-page:
     title: AnyToISO Prijzen & Kopen
     header: AnyToISO Prijzen & Kopen
-    license_win: Persoonlijke Pro-Licentie voor Windows
-    license_mac: Persoonlijke Pro-Licentie voor MacOS
-    license_both: Persoonlijke Pro-Licentie voor
+    license_win: Standaard Pro-Licentie voor Windows
+    license_mac: Standaard Pro-Licentie voor MacOS
+    license_both: Standaard Pro-Licentie voor
     license_portable_win: __Portable__ Pro-Licentie voor Windows
   support-page:
     title: AnyToISO - Ondersteuning
