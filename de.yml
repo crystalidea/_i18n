@@ -16,10 +16,10 @@ main-page: # https://www.crystalidea.com/
   latest_blog_posts: Neueste Blog-Posts
   button_learn_more: Mehr erfahren
   button_free_download: Herunterladen
-  box_short_text_ut: Saubere Deinstallation von Programmen auf Ihrem PC.
+  box_short_text_ut: Saubere Deinstallation von Programmen von Ihrem PC.
   box_short_text_anytoiso: Extrahieren/konvertieren Sie jedes CD/DVD-Image in das ISO-Format.
   box_short_text_mfc: Softwaresteuerung für iMac, Macbook Pro/Air, Mac mini und Mac Pro Lüfter.
-  box_short_text_speedyfox: Arbeitet Ihr Firefox/Skype/Chrome/... zu langsam? Mit nur einem Klick beschleunigen!
+  box_short_text_speedyfox: Arbeitet Ihr Firefox/Skype/Chrome/... langsam? Mit einem Klick beschleunigen!
   about_info_1: CrystalIDEA Software wurde 2005 gegründet und ist ein privates Internetunternehmen, das an der professionellen Entwicklung von Windows & MacOS Software arbeitet. Die Kunden von CrystalIDEA sind Einzelpersonen, kommerzielle Unternehmen und staatliche Einrichtungen.
   about_info_2: Wir haben eine besondere Herangehensweise für Software hoher Qualität und veröffentlichen effektive und leistungsstarke Produkte für Endnutzer.
   about_info_3: Da wir auf unsere Softwareleistungen Stolz sind, streben wir auch in Zukunft danach unsere bestehenden Produkte zu verbessern und gleichzeitig neue Technologien zu erforschen und entwickeln. Das Unternehmen liefert immer professionelle, hilfreiche und zeitnahe Antworten auf Anfragen und softwarebezogene Schwierigkeiten jeder Art..
@@ -48,12 +48,12 @@ page-contact: # https://www.crystalidea.com/contact
 toolbox-contact: # https://www.crystalidea.com/privacy-policy
   title: Nehmen Sie mit uns Kontakt auf
   text: Bitte kontaktieren Sie uns, wenn Sie Fragen über CrystalIDEA oder einem unserer Produkte haben.
-  button: Kontakt aufnehmen
+  button: Kontakt
 
 common:
   products: Produkte
   contact: Kontakt aufnehmen
-  multilingual_interface: "$app_name Oberfläche ist in die meisten Sprachen übersetzt:"
+  multilingual_interface: "$app_name Oberfläche wurde in die meisten Sprachen übersetzt:"
 
 footer:
   subscribe: CrystalIDEA-News abonnieren
@@ -61,8 +61,8 @@ footer:
   connect_with_us: Schließen Sie sich uns an
   languages: Sprachen
   email_placeholder: Ihre E-mail-Adresse
-  try_ut: Testen Sie das Deinstallations-Tool
-  try_ut_more: Testen Sie das Deinstallations-Tool für 30 Tage kostenlos. Die Einrichtung dauert nur ein paar Sekunden.
+  try_ut: Testen Sie Uninstall Tool
+  try_ut_more: Testen Sie Uninstall Tool für 30 Tage kostenlos. Die Einrichtung dauert nur ein paar Sekunden.
   try_anytoiso: Testen Sie AnyToISO
   try_anytoiso_more: Testen Sie AnyToISO jetzt kostenlos. Die Einrichtung dauert nur ein paar Sekunden.
   try_mfc: Testen Sie die Mac Lüftersteuerung.
@@ -148,7 +148,7 @@ download-page: # https://www.crystalidea.com/uninstall-tool/download
 uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   title: Uninstall Tool - Einzigartiges und leistungsstarkes Deinstallationsprogramm, Software deinstallieren, Programme entfernen
   description: Deinstallationsprogramm, dass jedes Programm sauber von ihrem Computer entfernen kann. Installations-Tracing, Entfernung von übriggebliebenen Dateien. Arbeitet mit Lichtgeschwindigkeit und kontrolliert Apps, die beim Systemstart ausgeführt werden.
-  header: Schnelles und leistungsstarkes Deinstallationsprogramm <br>für die vollständige Entfernung von Programmen
+  header: Schneller und leistungsstarker Uninstaller zur Entfernung von Programmen
   header_feature_1: Durch die Entfernung von unerwünschten Apps
   header_feature_2: Installationsüberwachung in Echtzeit
   header_feature_3: Kontrolliert Apps, die beim Systemstart ausgeführt werden
@@ -167,7 +167,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   tour_feature_5: Startup-Manager
   tour_feature_5_text: Auffinden, Hinzufügen oder Entfernen von Apps die automatisch beim Windowsstart ausgeführt werden
   tour_feature_6: Portable Modus
-  tour_feature_6_text: Deinstallations-Tool von einem USB-Laufwerk aus auf mehreren PCs ausführen
+  tour_feature_6_text: Uninstall Tool von einem USB-Laufwerk aus auf mehreren PCs ausführen
   stripe_2_slide_1_title: Unglaublich schnelles und bequemes Deinstallationsprogramm
   stripe_2_slide_1_descr: Effektive, leistungsstarke App mit einem einfachen und intuitiven Interface.
   stripe_2_slide_2_title: Rest-Dateien aus Dateisystem und aus Ihren Registry-Einträgen entfernen
@@ -189,7 +189,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   stripe_3_cat_4: Apps aus dem Windows Store
   stripe_3_cat_4_info: Windows Store Apps auf Windows 8 und höher
   stripe_3_info_2: "Die Gruppe kann mit dem Button am Ende der Toolbar gewechselt werden:"
-  stripe_review_try: Testen Sie jetzt das Uninstall Tool
+  stripe_review_try: Uninstall Tool Testen
   review_1: Das Uninstall Tool kombiniert Benutzerfreundlichkeit mit erweiterten Funktionen, wie das Tracking von Neu-Installationen und der Verwaltung von Systemstart-Programmen.
   review_2: Wir lieben das Uninstall Tool. Diese Software ist sehr effektiv bei der Entfernung von Adware und unnötigen Dateien.
   review_3: Sehr zufrieden mit dem Uninstall Tool von CrystalIDEA. Entfernt alle Spuren, die manchmal störend sein können, und deinstalliert versteckte Apps.
@@ -218,7 +218,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
     stripe_2_info_4: Sobald der Uninstall Wizard den Scanprozess beendet, wird das letzte Fenster angezeigt, wo Sie alles überprüfen können und jegliche zurückgebliebenen Dateien auswählen können. Zusätzlich dazu können Sie die Daten als XML exportieren.
     stripe_3_header: Verzögerte Enfernung
     stripe_3_info_1: Wenn eine Datei oder ein Ordner gerade vom System verwendet wird, plant der Uninstall Wizard die Entfernung dieser Dateien beim nächsten Windows-Neustart.
-    stripe_4_header: Detektion und Beeindigung laufender Prozesse
+    stripe_4_header: Detektion und Beendigung laufender Prozesse
     stripe_4_info_1: Wenn Prozesse, die mit der zu entfernenden App im Zusammenhang stehen noch ausgeführt werden, bietet der Uninstall Wizard an diese Prozesse zu beenden, um eine korrekte Entfernung der App zu gewährleisten.
     stripe_5_header: Detailliertes Deinstallationsprotokoll
     stripe_5_info_1: Wenn der Uninstall Wizard seine Arbeit beendet hat, können Sie ein detailliertes Deinstallationsprotokoll abspeichern. Jeder Vorgang (z.B. Versuch eine Datei/Ordner/Registry-Schlüssel zu löschen oder Prozesse zu beenden/COM Objekte abzumelden, usw) wird protokolliert. Wenn ein Vorgang fehlgeschlagen ist, wird ein entsprechender Fehler-Code und eine Erklärung im Protokoll vermerkt.
@@ -457,7 +457,6 @@ anytoiso: # https://www.crystalidea.com/anytoiso
     table_cdi: CDI ist ein Disk-Image dass mit DiscJuggler erstellt wurde. Unterstützt von Padus DiscJuggler, EZB Systems UltraISO, IsoBuster, PowerISO.
     table_cpi: Linux CPIO Archive und deren komprimierte Varianten.
     table_daa: PowerISO komprimiertes Image. Das Format ist urheberrechtlich geschützt, das Image kann Passwort-geschützt werden (verschlüsselt) und in mehrere Volumes aufgeteilt werden(momentan nicht unterstützt von AnyToISO), komprimiertes Format.
-    table_deb: Debian (Ubuntu) Linux image, compressed format.
     table_dmg: Apple Macintosh OS X Disk Copy Disk Image-Datei, verwendet Komprimierung und Verschlüsselung. Bei der Konvertierung einiger DMG Dateien zu ISO beachten Sie bitte, dass das resultierende ISO ein HFS+ Dateisystem ist (Apple).
     table_gbi: gBurner komprimiertes Image. Das Format ist urheberrechtlich geschützt, das Image kann Passwort-geschützt (verschlüsselt) und in mehrer Volumen aufgeteilt werden.
     table_img: CloneCD CD/DVD Image-Datei; FAT32/FAT16 IMG Disk-Image (nur extrahieren).
@@ -471,7 +470,7 @@ anytoiso: # https://www.crystalidea.com/anytoiso
     table_rpm: Komprimiertes Linux Image (RedHat/Madriva/Fedora/Suse und andere).
     table_tar: Linux TAR und alle komprimierten Varianten.
     table_uif: UIF ist eine CD/DVD Datei, die mit MagicISO erzeugt wird. Dieses Format unterstützt Komprimierung und Passwortschutz.
-    table_xar: XAR Archiv, verwendet in macOS ab 10.5 für Software-Installations-Routinen.
+    table_xar: XAR Archiv, verwendet in MacOs ab 10.5 für Software-Installations-Routinen.
     table_zip: ZIP-Archiv, meist verbreitetes Format weltweil.
     info_text_3: Brauchen Sie Hilfe mit einem anderen Datei-Format? Bitte [kontaktieren Sie uns](/contact), wir werden es so schnell wie möglich hinzufügen.
   disk-to-iso-page: # https://www.crystalidea.com/anytoiso/create-iso-from-cd-dvd-mac-windows
