@@ -22,7 +22,7 @@ main-page: # https://www.crystalidea.com/
   box_short_text_speedyfox: Arbeitet Ihr Firefox/Skype/Chrome/... langsam? Mit einem Klick beschleunigen!
   about_info_1: CrystalIDEA Software wurde 2005 gegründet und ist ein privates Internetunternehmen, das an der professionellen Entwicklung von Windows & MacOS Software arbeitet. Die Kunden von CrystalIDEA sind Einzelpersonen, kommerzielle Unternehmen und staatliche Einrichtungen.
   about_info_2: Wir haben eine besondere Herangehensweise für Software hoher Qualität und veröffentlichen effektive und leistungsstarke Produkte für Endnutzer.
-  about_info_3: Da wir auf unsere Softwareleistungen Stolz sind, streben wir auch in Zukunft danach unsere bestehenden Produkte zu verbessern und gleichzeitig neue Technologien zu erforschen und entwickeln. Das Unternehmen liefert immer professionelle, hilfreiche und zeitnahe Antworten auf Anfragen und softwarebezogene Schwierigkeiten jeder Art..
+  about_info_3: Da wir auf unsere Softwareleistungen Stolz sind, streben wir auch in Zukunft danach unsere bestehenden Produkte zu verbessern und gleichzeitig neue Technologien zu erforschen und entwickeln. Das Unternehmen liefert immer professionelle, hilfreiche und zeitnahe Antworten auf Anfragen und softwarebezogene Schwierigkeiten jeder Art.
 
 page-contact: # https://www.crystalidea.com/contact
   title: CrystalIDEA kontaktieren
@@ -156,7 +156,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   header_button_1: Kostenlose Testversion
   header_button_2: Funktionen ansehen
   stripe_1_header: Entfernen Sie unerwünschte Software, machen Sie Ihren Computer noch schneller <br> mit einer effektiven, leistungsstarken und benutzerfreundlichen Windows-App
-  tour_feature_1: Deinstallationsassistent
+  tour_feature_1: Deinstallations-Assistent
   tour_feature_1_text: Entfernen Sie unerwünschte Software vollständig indem Sie übriggebliebene Systemdateien &  Registry-Einträge entfernen.
   tour_feature_2: Installations-Tracker
   tour_feature_2_text: Installieren Sie Apps mit Echtzeit-Tracking. Lassen Sie sich die erzeugten Dateien/Registry-Einträge anzeigen und protokollieren
