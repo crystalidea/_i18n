@@ -12,14 +12,14 @@ main-page: # https://www.crystalidea.com/
   title: CrystalIDEA - Uninstall Tool, Software deinstallieren, Programme entfernen, AnyToISO & Macs Fan Control
   description: Uninstall Tool - Deinstallationsprogramm, das Programme sauber von Ihrem PC entfernen kann. Macs Fan Control - Steuert Lüfter von Apple-Computern. AnyToISO - Öffnet/Extrahiert/Konvertiert zu ISO, Extrahiert ISO & Erzeugt ISO. Download für Windows & MacOS
   heading_one: Effiziente und leicht zu bedienende Apps
-  heading_two: Schönes Design für Windows & Mac
+  heading_two: Gut durchdachte Software für Windows & Mac
   latest_blog_posts: Neueste Blog-Posts
   button_learn_more: Mehr erfahren
   button_free_download: Herunterladen
   box_short_text_ut: Saubere Deinstallation von Programmen von Ihrem PC.
   box_short_text_anytoiso: Extrahieren/konvertieren Sie jedes CD/DVD-Image in das ISO-Format.
   box_short_text_mfc: Softwaresteuerung für iMac, Macbook Pro/Air, Mac mini und Mac Pro Lüfter.
-  box_short_text_speedyfox: Arbeitet Ihr Firefox/Skype/Chrome/... langsam? Mit einem Klick beschleunigen!
+  box_short_text_speedyfox: Arbeitet Ihr Firefox/Skype/Chrome/... langsam? Mit 1-Klick beschleunigen!
   about_info_1: CrystalIDEA Software wurde 2005 gegründet und ist ein privates Internetunternehmen, das an der professionellen Entwicklung von Windows & MacOS Software arbeitet. Die Kunden von CrystalIDEA sind Einzelpersonen, kommerzielle Unternehmen und öffentliche Einrichtungen.
   about_info_2: Wir haben eine besondere Herangehensweise für Software hoher Qualität und veröffentlichen effektive und leistungsstarke Produkte für Endnutzer.
   about_info_3: Da wir auf unsere Softwareleistungen Stolz sind, streben wir auch in Zukunft danach unsere bestehenden Produkte zu verbessern und gleichzeitig neue Technologien zu erforschen und entwickeln. Das Unternehmen liefert immer professionelle, hilfreiche und zeitnahe Antworten auf Anfragen und softwarebezogene Schwierigkeiten jeder Art.
@@ -65,15 +65,15 @@ footer:
   try_ut_more: Testen Sie Uninstall Tool für 30 Tage kostenlos. Die Einrichtung dauert nur ein paar Sekunden.
   try_anytoiso: Testen Sie AnyToISO
   try_anytoiso_more: Testen Sie AnyToISO jetzt kostenlos. Die Einrichtung dauert nur ein paar Sekunden.
-  try_mfc: Testen Sie die Mac Lüftersteuerung.
-  try_mfc_more: Testen Sie die Mac Lüftersteuerung. Die Einrichtung dauert nur ein paar Sekunden.
+  try_mfc: Testen Sie Macs Fan Control.
+  try_mfc_more: Testen Sie die Macs Fan Control. Die Einrichtung dauert nur ein paar Sekunden.
   try_download: Herunterladen
   privacy_policy: Datenschutzerklärung
 
 product-menu: # https://www.crystalidea.com/uninstall-tool
   overview: Übersicht
-  features: Feature
-  buy: Preise & Kaufen
+  features: Funktionen
+  buy: Preise & Kauf
   support: Support
   download: Herunterladen
 
@@ -147,9 +147,9 @@ download-page: # https://www.crystalidea.com/uninstall-tool/download
 
 uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   title: Uninstall Tool - Einzigartiges und leistungsstarkes Deinstallationsprogramm, Software deinstallieren, Programme entfernen
-  description: Deinstallationsprogramm, dass jedes Programm sauber von ihrem Computer entfernen kann. Installations-Tracing, Entfernung von übriggebliebenen Dateien. Arbeitet mit Lichtgeschwindigkeit und kontrolliert Apps, die beim Systemstart ausgeführt werden.
+  description: Deinstallationsprogramm, dass jedes Programm sauber von ihrem Computer entfernen kann. Installations-Tracing, Entfernung übriggebliebener Dateien. Arbeitet mit Lichtgeschwindigkeit und kontrolliert Apps, die beim Systemstart ausgeführt werden.
   header: Schneller und leistungsstarker Uninstaller zur Entfernung von Programmen
-  header_feature_1: Durch die Entfernung von unerwünschten Apps
+  header_feature_1: Entfernung unerwünschter Apps und Programme
   header_feature_2: Installationsüberwachung in Echtzeit
   header_feature_3: Kontrolliert Apps, die beim Systemstart ausgeführt werden
   header_feature_4: Portabel, mehrsprachig und mit wunderschönem Design
@@ -163,7 +163,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   tour_feature_3: Force Removal
   tour_feature_3_text: Entfernung von hartnäckigen Apps, die sich mit den Standard-Deinstallationsprogrammen nicht entfernen lassen
   tour_feature_4: Batch-Deinstallation
-  tour_feature_4_text: Deinstallation oder Durchführung eines "Force Removal" mehrerer ausgewählter Apps
+  tour_feature_4_text: Deinstallation oder erzwungene Entfernung mehrerer ausgewählter Apps
   tour_feature_5: Startup-Manager
   tour_feature_5_text: Auffinden, Hinzufügen oder Entfernen von Apps die automatisch beim Windowsstart ausgeführt werden
   tour_feature_6: Portable Modus
@@ -206,7 +206,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
     title: Uninstall Wizard, Complete Programs Removal - Uninstall Tool
     stripe_1_header: Vollständige Entfernung von unerwünschter Software <br> Restdateien in der Registry und im Dateisystem lokalisieren und entfernen
     feature_1: Durchführung einer gründlichen Suche nach unnötigen Datien auf Ihrem PC ohne sich auf den Standard-Uninstaller verlassen zu müssen, der vieles übersehen kann.
-    feature_2: Funktioniert perfekt zusammen mit und bereinigt alles, was von [Install Tracker](/uninstall-tool/install-tracker-installation-monitor) (installation monitor) getrackt wurde.
+    feature_2: Funktioniert perfekt zusammen mit [Install Tracker](/uninstall-tool/install-tracker-installation-monitor) und bereinigt alles, was von Installation Monitor getrackt wurde.
     feature_3: Wenn eine Datei oder ein Ordner gerade vom System verwendet wird, plant der Uninstall Wizard die Entfernung dieser Dateien beim nächsten Windows-Neustart.
     feature_4: Detektion und erzwungende Beendigung von laufenden Prozessen (die mit der zu entfernenden App zusammenhängen) vor der Deinstallation.
     feature_5: Detailliertes Deinstallationsprotokoll am Ende jeder Deinstallation.
@@ -219,7 +219,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
     stripe_3_header: Verzögerte Enfernung
     stripe_3_info_1: Wenn eine Datei oder ein Ordner gerade vom System verwendet wird, plant der Uninstall Wizard die Entfernung dieser Dateien beim nächsten Windows-Neustart.
     stripe_4_header: Detektion und Beendigung laufender Prozesse
-    stripe_4_info_1: Wenn Prozesse, die mit der zu entfernenden App im Zusammenhang stehen noch ausgeführt werden, bietet der Uninstall Wizard an diese Prozesse zu beenden, um eine korrekte Entfernung der App zu gewährleisten.
+    stripe_4_info_1: Wenn Prozesse, die mit der zu entfernenden App im Zusammenhang stehen, noch ausgeführt werden, bietet der Uninstall Wizard an diese Prozesse zu beenden, um eine korrekte Entfernung der App zu gewährleisten.
     stripe_5_header: Detailliertes Deinstallationsprotokoll
     stripe_5_info_1: Wenn der Uninstall Wizard seine Arbeit beendet hat, können Sie ein detailliertes Deinstallationsprotokoll abspeichern. Jeder Vorgang (z.B. Versuch eine Datei/Ordner/Registry-Schlüssel zu löschen oder Prozesse zu beenden/COM Objekte abzumelden, usw) wird protokolliert. Wenn ein Vorgang fehlgeschlagen ist, wird ein entsprechender Fehler-Code und eine Erklärung im Protokoll vermerkt.
   install_tracker: # https://www.crystalidea.com/uninstall-tool/install-tracker-installation-monitor  
@@ -231,8 +231,8 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
     stripe_1_info_3: Bei der Deinstallation einer getraceten App, entfernt der [Uninstall Wizard](/uninstall-tool/uninstall-wizard) jede Spur der App und hinterlässt Ihr Windows-System vollständig bereinigt.
     stripe_1_info_4: Echtzeit-Protokoll mit detaillierten Informationen über den Installationsprozess mit __Stop and Revert__ Funktion.
     stripe_2_header: Wie man eine Installation überwachen kann
-    stripe_2_info_1: "Kann auf drei verschiedene Arten geschehen:"
-    stripe_2_info_2: Normale Durchführung der Installation während Beobachtung durch das Uninstall Tool. Das Tracing wird automatisch beendet, wenn alle Prozesse abeschlossen wurden, ansonsten müssten Sie es manuell beenden, wenn die Installation abgeschlossen ist.
+    stripe_2_info_1: "Dies kann auf drei verschiedene Arten geschehen:"
+    stripe_2_info_2: Normale Durchführung der Installation während Monitoring durch das Uninstall Tool. Das Tracing wird automatisch beendet, wenn alle Prozesse abeschlossen wurden, ansonsten müssten Sie es manuell beenden, wenn die Installation abgeschlossen ist.
     stripe_2_info_3: "Nach erfolgreicher Installation erscheint das neue Programm in der Liste mit einer 'Traced' Markierung. Das bedeutet, dass alle getraceten Dateien von Ihrem PC entfernt werden (in [Uninstall Wizard](/uninstall-tool/uninstall-wizard)) während der Deinstallation nach der Durchführung des Standard-Deinstallationsprogramms (oder bei der Verwendung der [erzwungenen Entfernung](/uninstall-tool/force-removal) feature):"
     stripe_2_img_text_1: Über das Rechtsklick-Menü für eine Setup-Datei
     stripe_2_img_text_2: Über das Ende der Toolbar
@@ -251,18 +251,18 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
   force_removal: # https://www.crystalidea.com/uninstall-tool/force-removal
     title: Force Removal of Programs - Uninstall Tool
     stripe_1_header: Erzwungene Entfernung von Programmen
-    stripe_1_info_1: Durchgefüht mit dem [Uninstall Wizard](/uninstall-tool/uninstall-wizard) um übriggebliebene Dateien zu lokalisieren und entfernen ohne das entsprechende Standard-Deinstallationsprogramm zu nutzen.
+    stripe_1_info_1: Durchgeführung mit dem [Uninstall Wizard](/uninstall-tool/uninstall-wizard) um übriggebliebene Dateien zu lokalisieren und zu entfernen ohne das entsprechende Standard-Deinstallationsprogramm zu nutzen.
     stripe_1_info_2: Entfernen Sie Apps mit korrupten Installationen oder teilweise installierten/deinstallierten Apps.
-    stripe_1_info_3: Die besten Ergebnisse werden erzielt, wenn eine App zuvor mit dem [Install Tracker](/uninstall-tool/install-tracker-installation-monitor) (installation monitor) installiert wurde.
+    stripe_1_info_3: Die besten Ergebnisse werden erzielt, wenn eine App zuvor mit dem [Install Tracker](/uninstall-tool/install-tracker-installation-monitor) (Installation Monitor) installiert wurde.
     stripe_2_header: Funktionsweise
     stripe_2_text: "Der [Uninstall Wizard](/uninstall-tool/uninstall-wizard) führt einen gründlichen Scan der System Registry und des Dateisystems auf verbleibende Elemente durch. Es ist in der Lage, Spuren von Windows-Diensten (einschließlich Treibern), Dateizuordnungen, COM-Komponenten (einschließlich Shell-Erweiterungen), verschiedenen Komponenten des Windows Installers, Verknüpfungen und mehr zu finden und zu entfernen."
     stripe_2_info_1: Falls die Installation zuvor mit dem [Install Tracker](/uninstall-tool/install-tracker-installation-monitor) überwacht wurde, zeigt der Uninstall Wizard sofort eine Liste der überwachten verbleibenden Elemente an und garantiert eine 100% saubere Entfernung der Apps.
   batch_removal: # https://www.crystalidea.com/uninstall-tool/batch-uninstaller-batch-programs-removal
     title: Batch Uninstaller, Batch-Entfernung von Programmen - Uninstall Tool
     stripe_1_header: Batch-Entfernung von Programmen
-    stripe_1_info_1: Aktivieren Sie den Batch-Modus, indem Sie die Taste __Ctrl__ gedrückt halten und die gewünschten Apps auswählen, indem Sie diese nacheinander anklicken (oder halten Sie die Taste __Shift__ gedrückt und verwenden Sie die Auf/Ab-Tasten der Tastatur, um nebeneinanderstehende Elemente auszuwählen).
-    stripe_1_info_2: Batch Removal verwendet den leistungsstarken [Uninstall Wizard](/uninstall-tool/uninstall-wizard) tum verbleibende Elemente zu lokalisieren und zu entfernen.
-    stripe_1_info_3: Die funktioniert auch für [Startup-Programme](/uninstall-tool/startup-programs).
+    stripe_1_info_1: Aktivieren Sie den Batch-Modus, indem Sie die Taste __Strg__ gedrückt halten und die gewünschten Apps auswählen, indem Sie diese nacheinander anklicken (oder halten Sie die Taste __Shift__ gedrückt und verwenden Sie die Auf/Ab-Tasten der Tastatur, um nebeneinanderstehende Elemente auszuwählen).
+    stripe_1_info_2: Batch Removal verwendet den leistungsstarken [Uninstall Wizard](/uninstall-tool/uninstall-wizard) um verbleibende Elemente zu lokalisieren und zu entfernen.
+    stripe_1_info_3: Dies funktioniert auch für [Startup-Programme](/uninstall-tool/startup-programs).
     stripe_2_header: Funtionsweise
     stripe_2_info_1: "Sowohl das **Batch Force Removal** als auch das normale [Force Removal](/uninstall-tool/force-removal) führt keine zugehörigen Uninstaller aus und scannt das Dateisystem/Registry-Einträge nur für verbleibende Elemente und zeigt diese in einer zusammengefassten Liste an, die eine genaue Überprüfung erfordert."
     stripe_2_info_2: "**Batch Remove Entries** aus der Liste entfernt nur die ausgewählten Elemente aus der Windows Registry ohne andere Dateisysteme/Registry-Elemente die zu den ausgewählten Programmen gehören zu entfernen. Verdwenden Sie dies Funktion mit Vorsicht und nur für veraltete oder ungültige Listenelemente."
@@ -305,7 +305,7 @@ uninstall-tool: # https://www.crystalidea.com/uninstall-tool
     activate_info_4: "Beispiel:"
   buy-page: # https://www.crystalidea.com/uninstall-tool/buy
     title: Uninstall Tool Preise & Kauf
-    header: Uninstall Tool Preise & Bauf
+    header: Uninstall Tool Preise & Kauf
     personal_license: Standard-Lizenz
     portable_license: __Portable__ Lizenz
     upgrade_header: Upgrade von einer 2.x Version
