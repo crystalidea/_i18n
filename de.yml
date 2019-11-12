@@ -457,6 +457,7 @@ anytoiso: # https://www.crystalidea.com/anytoiso
     table_cdi: CDI ist ein Disk-Image dass mit DiscJuggler erstellt wurde. Unterstützt von Padus DiscJuggler, EZB Systems UltraISO, IsoBuster, PowerISO.
     table_cpi: Linux CPIO Archive und deren komprimierte Varianten.
     table_daa: PowerISO komprimiertes Image. Das Format ist urheberrechtlich geschützt, das Image kann Passwort-geschützt werden (verschlüsselt) und in mehrere Volumes aufgeteilt werden (momentan nicht unterstützt von AnyToISO), komprimiertes Format.
+    table_deb: Debian (Ubuntu) Linux image, compressed format.
     table_dmg: Apple Macintosh OS X Disk Copy Disk Image-Datei, verwendet Komprimierung und Verschlüsselung. Bei der Konvertierung einiger DMG Dateien zu ISO beachten Sie bitte, dass das resultierende ISO ein HFS+ Dateisystem ist (Apple).
     table_gbi: gBurner komprimiertes Image. Das Format ist urheberrechtlich geschützt, das Image kann Passwort-geschützt (verschlüsselt) und in mehrere Volumen aufgeteilt werden.
     table_img: CloneCD CD/DVD Image-Datei; FAT32/FAT16 IMG Disk-Image (nur extrahieren).
