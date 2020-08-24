@@ -41,7 +41,7 @@ Of cause, SATA II (up to 300MB/s) is a bottleneck for modern 2.5" SSDs (up to 55
 but real life experience shows that the difference is hardly noticable unless you deal 
 with lots of big files (e.g. >1GB where sequential read/write speeds matter) on your system drive.
 
-We didn't test using PCIe → SATA III adapter or PCIe → NVMe adapter for Windows partition. Many users people reported it was not possible in their case. If you successfully did it please let us know in the comments below or via e-mail.
+We didn't test using PCIe → SATA III adapter or PCIe → NVMe adapter for Windows partition. Many people reported it was not possible in their case. If you successfully did it please let us know in the comments below or via e-mail.
 
 <h3>Step 2: Create a bootable Windows 10 DVD disk</h3>
 
@@ -157,4 +157,4 @@ This guide is based on this [MacRumors thread][2]. Special thanks to **h9826790*
 [5]: https://github.com/timsutton/brigadier/releases/download/0.2.4/brigadier.exe
 [6]: https://support.apple.com/en-us/HT201624
 [7]: https://forums.macrumors.com/threads/mp5-1-what-you-have-to-do-to-upgrade-to-mojave-bootrom-upgrade-instructions.2142418/
-[8]: https://www.crystalidea.com/macs-fan-control
+[8]: https://crystalidea.com/macs-fan-control

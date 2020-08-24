@@ -1,18 +1,19 @@
 ---
 permalink: /blog/fan-control-on-apple-computers-with-t2-chip-on-windows-boot-camp
 layout: blog-post
-title: Fan control on Apple computers equipped with T2 chip on Windows (via Boot Camp)
+title: Lüftersteuerung unter Windows (via Boot Camp) auf Apple-Computern mit T2 Chip
 tags: [ "macs-fan-control"]
 image: /assets/images/blog/T2-chip.png
 ---
 
-For years our wonderful [Macs Fan Control](/macs-fan-control) app has been helping thousands of people to monitor temperatures and take control over fans on Apple computers. Additional possibility of running the app under Windows (installed via Boot Camp) has always been an extra cool thing. The introduction of the new [T2 security chip](https://support.apple.com/en-us/HT208862) makes it currently impossible for the app to work under Windows (iMac Pro and MacBook Pro 2018).
+**Update 2020**: Now you can control fans on Windows 10 with the latest version of [Macs Fan Control](/macs-fan-control). Enjoy!
+
+~~Jahrelang hat unsere wunderbare App [Macs Fan Control](/macs-fan-control) tausenden Menschen bei der Temperaturüberwachung und der Lüftersteuerung ihrer Apple-Computer geholfen. Die zusätzliche Verwendung der App unter Windows (installiert via Boot Camp) war außerdem immer ein cooles Feature. Die Einführung des neuen [T2 security chip](https://support.apple.com/en-us/HT208862) macht momentan die Verwendung der App unter Windows (iMac Pro und Macbook Pro 2018) unmöglich.~~
 
 <!--more-->
 
-Extra security is great (even we didn't ask for it) but ONLY when it's limitations are optional and an experienced user can turn them off. Unfortunately, this is not an Apple thing: its computers become more and move about restrictions and limitations, which is not good for experienced users and developers. It seems that the T2 chip blocks access to [SMC](https://en.wikipedia.org/wiki/System_Management_Controller) under Windows, while SMC is essential to get sensors values and fans info.
+~~Mehr Sicherheit ist immer toll (auch wenn keiner danach gefragt hat) - aber NUR wenn die dadurch entstehenden Einschränkungen optional sind und sie sich von erfahrenen Nutzern ausschalten lassen. Leider gehört das jedoch nicht zur Firmenphilosophie: Apple-Computer haben zunehmend mehr Einschränkungen und machen es dadurch für erfahrene Nutzer und Entwickler schwerer. Anscheinend blockiert der T2 Chip momentan den Zugriff auf [SMC](https://en.wikipedia.org/wiki/System_Management_Controller) unter Windows; SMC ist jedoch essentiell um Sensorwerte und Lüfterinformationen auszulesen.~~
 
-We confirmed the problem themselves on both iMac Pro and MacBook Pro 2018. Unfortunately, we believe it won't be solved in the future, though there's a [GitHub issue](https://github.com/crystalidea/macs-fan-control/issues/80).
+~~Wir konnten das Problem sowohl auf iMac Pro als auch auf MacBook Pro 2018 nachweisen. Leider müssen wir davon ausgehen, dass dieses Problem auch in Zukunft nicht gelöst wird, jedoch gibt es ein [GitHub issue](https://github.com/crystalidea/macs-fan-control/issues/80).~~
 
-PS. There's another restriction of the T2 chip not related to the app: it's currently not possible to install any 3rdParty operating system except Windows 10 on Apple computers equipped with T2 chip (earlier some enthusiasts installed Linux). The T2 chip makes it impossible to see the internal drive, Apple generously did an exception only for Windows 10 (but only if you install it via Boot Camp). A possible option could be Linux installed on a USB/Thunderbolt external drive, unfortunately we tried this only for Windows but it worked (though the internal drive was not visible).
-
+PS.: Es gibt eine weitere Einschränkungen durch den T2 Chip, die nichts mit der App zu tun hat: Es ist im Moment nicht möglich, 3rdParty Operating Systems mit Ausnahme von Windows 10 auf Apple Computern mit T2 Chip zu installieren (zuvor haben manche Enthusiasten Linux installiert). Der T2 Chip macht es unmöglich das interne Laufwerk zu sehen. Apple hat nur für Windows 10 eine großzügige Ausnahme eingeräumt (aber nur, wenn Sie es über Boot Camp installieren). Als mögliche Alternative könnte Linux auf einem externen USB/Thunderbolt Laufwerk installiert werden, leider konnten wir dies bisher nur für Windows ausprobieren, aber es hat funktioniert (obwohl das interne Laufwerk nicht sichtbar war).

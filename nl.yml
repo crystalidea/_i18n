@@ -1,10 +1,11 @@
----
+
 top_navigation:
   store: Winkel
   blog: Blog
   forum: Forums
   home: Home
-main-page:
+
+main-page: # https://crystalidea.com/nl/
   title: CrystalIDEA - Uninstall Tool, Verwijdersoftware, Verwijderprogramma's, AnyToISO & Macs Fan Control
   description: Uninstall Tool - verwijderprogramma dat elk programma schoon van uw PC verwijdert. Macs Fan Control - controleert koelers in Apple computers. AnyToISO - Openen/Uitpakken/Omzetten naar ISO, ISO Uitpakken & ISO Maken. Download voor Windows & macOS
   heading_one: Efficiënte en gebruiksvriendelijke apps
@@ -19,7 +20,8 @@ main-page:
   about_info_1: CrystalIDEA Software, opgericht in 2005, is een privaat Internetbedrijf dat werkt aan de professionele ontwikkeling van Windows & macOS software. De klanten van CrystalIDEA zijn particulieren, commerciële organisaties en staatsstructuren.
   about_info_2: We hebben een uitzonderlijke aanpak qua softwarekwaliteit en brengen effectieve en krachtige producten uit voor eindgebruikers.
   about_info_3: We zijn trots op de prestaties van onze software, en streven ernaar om onze bestaande producten te verbeteren, naast het onderzoek en de ontwikkeling van nieuwe technologieën. Het bedrijf biedt steeds professionele, behulpzame en responsieve antwoorden opvragen en alle software gerelateerde moeilijkheden.
-page-contact:
+
+page-contact: # https://crystalidea.com/nl/contact
   title: Contacteer CrystalIDEA
   description: Contacteer CrystalIDEA, ontvang ondersteuning over hoe CrystalIDEA apps te gebruiken. Zakelijke vragen, voorstellen
   requests_header: "Meest voorkomende ondersteuningsaanvragen:"
@@ -39,14 +41,17 @@ page-contact:
   button_email: E-mail ons
   button_forum: Vraag op het forum
   button_business: Zakelijk contact
-toolbox-contact:
+
+toolbox-contact: # https://crystalidea.com/nl/privacy-policy
   title: Contacteer Ons
   text: Gelieve ons te contacteren indien u vragen hebt over CrystalIDEA of één van onze producten
   button: Contact
+
 common:
   products: Producten
   contact: Contact
   multilingual_interface: "$app_name interface is in de meeste talen vertaald:"
+
 footer:
   subscribe: Schrijf in op CrystalIDEA nieuws
   subscribe_join: Maak deel uit van 14.000+ inschrijvers en ontvang productupdates en relevante software gerelateerde artikelen.
@@ -61,17 +66,20 @@ footer:
   try_mfc_more: Ga binnen enkele seconden aan de slag en probeer Macs Fan Control.
   try_download: Downloaden
   privacy_policy: Privacybeleid
-product-menu:
+
+product-menu: # https://crystalidea.com/nl/uninstall-tool
   overview: Overzicht
   features: Functies
   buy: Prijzen & Kopen
   support: Ondersteuning
   download: Download
-store-page:
+
+store-page: # https://crystalidea.com/nl/store
   title: CrystalIDEA Winkel, Veilig Online Aankopen
   header: CrystalIDEA Winkel
   description: CrystalIDEA Veilige Online Winkel. Onmiddellijke levering van registratiesleutel die software ontgrendelt, volumekortingen en bundelkortingen.
-buy-page:
+
+buy-page: # https://crystalidea.com/nl/store
   toolbox_header: Korte Feiten
   toolbox_info_1: Elk type licentie is een eenmalige betaling met levenslange technische ondersteuning.
   toolbox_info_2: Standaard Licentie is gebaseerd per computer. Het aantal computers kan gespecificeerd worden als "Aantal" na het indrukken van de knop "Kopen" (kortingen zijn van toepassing).
@@ -88,9 +96,10 @@ buy-page:
   info_switch: Geschatte prijzen weergeven in $curr
   info_switch_back: Prijzen weergeven in USD
   student_discount_header: Studentenkorting
-  student_discount_info: Indien u een student bent, gelieve [ons te e-mailen](/contact) met het e-mailadres van uw universiteit (gewoonlijk .edu TLD voor de VS).
-support-page:
-  banner_header: '$app_name Ondersteuning'
+  student_discount_info: Indien u een student bent, gelieve [een aanvraag](/request-educational-discount) in te vullen voor 30% korting.
+
+support-page: # https://crystalidea.com/nl/uninstall-tool/support
+  banner_header: $app_name Ondersteuning
   banner_info: Leer hoe u $app_name begint te gebruiken en vind de antwoorden op uw vragen.
   version: Nieuwste Versie
   button_upgrade: Nu Upgraden
@@ -109,27 +118,31 @@ support-page:
   contact_github: GitHub Issue Tracker
   support_pages: Ondersteuningspagina 's
   latest_blog_posts: "Nieuwste $app_name berichten van onze blog:"
-  box_user_guide_header: '$app_name Gebruikershandleiding'
+  box_user_guide_header: $app_name Gebruikershandleiding
   box_user_guide_text: Dit onderwerp is onderdeel van $app_name Ondersteuningsartikelen.
   box_user_guide_link: Terug naar de index
   box_contact_header: Vragen?
   box_contact_text: Aarzel niet om CrystalIDEA te contacteren indien u vragen hebt.
   box_contact_link: Ondersteuning Contacteren
-portable_mode:
+
+portable_mode: # https://crystalidea.com/nl/uninstall-tool/portable-mode
   stripe_1_info_1: U hoeft $app_name niet op elke PC te installeren om al zijn functies te gebruiken.
   stripe_1_info_2: Neem de app overal mee naartoe (op een USB flash drive) samen met de instellingen & licentie. Gebruik deze op elke Windows computer.
-  stripe_1_info_3: '$app_name Draagbaar kan op meerdere computers gebruikt worden door een enkele persoon.'
+  stripe_1_info_3: $app_name Draagbaar kan op meerdere computers gebruikt worden door een enkele persoon.
   download_link: Downloadlink draagbare versie
-faq-page:
+
+faq-page: # https://crystalidea.com/nl/uninstall-tool/faq
   header: Veelgestelde Vragen
-download-page:
+
+download-page: # https://crystalidea.com/nl/uninstall-tool/download
   version: Versie
   updated: Bijgewerkt
   download_win: Download voor Windows
   download_mac: Download voor MacOS
   download_mac_info: macOS 10.12 Sierra en later
   older_systems: "Downloads for older systems:"
-uninstall-tool:
+
+uninstall-tool: # https://crystalidea.com/nl/uninstall-tool
   title: Uninstall Tool - Unieke en Krachtige Verwijdertool, Verwijdersoftware, Programma's Verwijderen
   description: Verwijderprogramma dat elk programma op uw PC schoon verwijdert. Installatie opsporing, verwijdering van resten. Werkt bliksemsnel en controleert apps die uitgevoerd worden bij het opstarten van het systeem.
   header: Snel en Krachtig Verwijderprogramma <br>Volledige Verwijdering van Programma's
@@ -186,7 +199,7 @@ uninstall-tool:
   tour_try_text: Download nu de volledige versie om voordeel te halen uit alle functies. <br> Gratis 30 dagen proefperiode.
   release_notes:
     title: Release-Opmerkingen Uninstall Tool
-  uninstall_wizard:
+  uninstall_wizard: # https://crystalidea.com/nl/uninstall-tool/uninstall-wizard
     title: Verwijder Wizard, Volledige Verwijdering Programma's - Uninstall Tool
     stripe_1_header: Volledige Verwijdering van Ongewenste Software <br> Resten opsporen en opruimen in Register en Bestandssysteem
     feature_1: Voer een grondige zoektocht uit naar resten op uw PC zonder op de standaard verwijdertool te moeten rekenen, die heel wat kan achterlaten.
@@ -206,12 +219,12 @@ uninstall-tool:
     stripe_4_info_1: Wanneer sommige processen, verbonden aan de app die moet verwijderd worden, nog worden uitgevoerd. Verwijder Wizard biedt aan deze te beëindigen voor correcte verwijdering van de app.
     stripe_5_header: Gedetailleerde verwijderlog
     stripe_5_info_1: Wanneer Uninstall Wizard zijn taak beëindigt, kunt u een gedetailleerde verwijderlog bekijken/opslaan. Elke operatie (vb. poging om een bestand/map/registersleutel te verwijderen of poging om een proces te beëindigen/registratie COM-object ongedaan te maken, enz) wordt geregistreerd. Wanneer een operatie mislukt, worden de overeenkomstige foutcode en verklaring toegevoegd aan het logboek.
-  install_tracker:
+  install_tracker: # https://crystalidea.com/nl/uninstall-tool/install-tracker-installation-monitor  
     title: Installatie Tracker (Installatiemonitor) - Uninstall Tool
     stripe_1_header: Installatie Tracker (Installatiemonitor)
     stripe_1_header_2: Wanneer u een app installeert, spoort Installatie Tracker alle wijzigingen aan uw systeem op.
-    stripe_1_info_1: 'Real-time opsporing: geen nood om momentopnames van het systeem te maken voor en na installatie.'
-    stripe_1_info_2: 'Perfect nauwkeurig: de monitor gebruikt het kernelmodus stuurprogramma (dat enkel ''onze'' processen opspoort).'
+    stripe_1_info_1: "Real-time opsporing: geen nood om momentopnames van het systeem te maken voor en na installatie."
+    stripe_1_info_2: "Perfect nauwkeurig: de monitor gebruikt het kernelmodus stuurprogramma (dat enkel 'onze' processen opspoort)."
     stripe_1_info_3: Wanneer een opgespoorde app verwijderd wordt, verwijdert [Verwijder Wizard](/uninstall-tool/uninstall-wizard) elk apart spoor van de app zodat uw Windows volledig schoon blijft.
     stripe_1_info_4: Real-time logbestand met gedetailleerde informatie over voortgang van installaties met functie __Stoppen en Terugdraaien__.
     stripe_2_header: Hoe een installatie monitoren
@@ -226,13 +239,13 @@ uninstall-tool:
     stripe_3_info_2: "U kunt de opsporing van de installatie beëindigen met de optionele functie __Revert__:"
     stripe_3_img_text_1: Gedetailleerde real-time log
     stripe_4_header: Meerdere (ingesloten) installaties
-    stripe_4_info_1: 'Installaties kunnen vaak meer dan één programma tegelijk installeren. Installatie Tracker kan dergelijke situaties detecteren en behandelt ze op de volgende manier: wanneer de installatie voltooid is, geeft Installatie Tracker de lijst van geïnstalleerde apps weer, waarop de gebruiker het hoofdobject kan selecteren. Het hoofdobject wordt weergegeven in de lijst met Apps met een speciaal pictogram in de kolom ''Opgespoord'', andere programma''s worden behandeld als afhankelijk. Wanneer met een opgespoorde app met afhankelijke items verwijdert, verwijdert [Verwijder Wizard](/uninstall-tool/uninstall-wizard) ook alle opgespoorde gegevens van elk afhankelijk item. Indien nodig wordt er een speciaal waarschuwingsbericht weergegeven.'
+    stripe_4_info_1: "Installaties kunnen vaak meer dan één programma tegelijk installeren. Installatie Tracker kan dergelijke situaties detecteren en behandelt ze op de volgende manier: wanneer de installatie voltooid is, geeft Installatie Tracker de lijst van geïnstalleerde apps weer, waarop de gebruiker het hoofdobject kan selecteren. Het hoofdobject wordt weergegeven in de lijst met Apps met een speciaal pictogram in de kolom 'Opgespoord', andere programma's worden behandeld als afhankelijk. Wanneer met een opgespoorde app met afhankelijke items verwijdert, verwijdert [Verwijder Wizard](/uninstall-tool/uninstall-wizard) ook alle opgespoorde gegevens van elk afhankelijk item. Indien nodig wordt er een speciaal waarschuwingsbericht weergegeven."
     stripe_5_header: Toegevoegde gegevens aan reeds opgespoorde installaties
     stripe_5_info_1: "Toevoegen van opgespoorde gegevens voor een reeds opgespoord programma wordt uitgevoerd via het contextmenu **Opgespoorde Gegevens**. Gegevens toevoegen kan gebeuren wanneer u:"
     stripe_5_info_2: Het uitvoerbaar bestand van de app moet uitvoeren dat net geïnstalleerd werd met Installatie Tracker om het zich te laten configureren en zoveel mogelijk sporen na te laten.
     stripe_5_info_3: Een bestaande opgespoorde app moet bijwerken met een nieuwere versie.
-    stripe_5_info_4: "Na het specificeren van een uitvoerbaar bestand zet Installatie Tracker het opsporen en toevoegen van alle nieuwe gegevens verder nadat het geselecteerde uitvoerbare bestand zijn taak voltooid heeft."
-  force_removal:
+    stripe_5_info_4: Na het specificeren van een uitvoerbaar bestand zet Installatie Tracker het opsporen en toevoegen van alle nieuwe gegevens verder nadat het geselecteerde uitvoerbare bestand zijn taak voltooid heeft.
+  force_removal: # https://crystalidea.com/nl/uninstall-tool/force-removal
     title: Geforceerd Verwijderen van Programma's - Uninstall Tool
     stripe_1_header: Geforceerd Verwijderen van Programma's
     stripe_1_info_1: Uitgevoerd met [Verwijder Wizard](/uninstall-tool/uninstall-wizard) om resten te vinden en te verwijderen zonder het standaard verbonden verwijderprogramma uit te voeren.
@@ -241,7 +254,7 @@ uninstall-tool:
     stripe_2_header: Hoe werkt het
     stripe_2_text: "[Verwijder Wizard](/uninstall-tool/uninstall-wizard) voert een diepe scan uit op het systeemregister en bestandssysteem voor resterende items. Het kan sporen van Windows Services (inclusief Stuurprogramma's), bestandskoppelingen, COM-componenten (inclusief Shell-Uitbreidingen), verschillende Windows Installer gerelateerde componenten, snelkoppelingen en meer vinden en verwijderen."
     stripe_2_info_1: Indien de installatie voordien gemonitord werd met [Installatie Tracker](/uninstall-tool/install-tracker-installation-monitor), geeft Verwijder Wizard meteen de lijst weer van gemonitorde resten, en garandeert deze een 100% schone verwijdering van de app.
-  batch_removal:
+  batch_removal: # https://crystalidea.com/nl/uninstall-tool/batch-uninstaller-batch-programs-removal
     title: Batch Verwijdertool, Programma's Verwijderen in Batches - Uninstall Tool
     stripe_1_header: Batch Verwijderen van Programma's
     stripe_1_info_1: Activeer batchmodus door de __Ctrl-toets__ ingedrukt te houden en de vereiste apps te selecteren door er één voor één op te klikken (of houd de __Shift-toets__ ingedrukt en gebruik de pijltjestoetsen Omhoog/Omlaag om items naast elkaar te selecteren).
@@ -251,7 +264,7 @@ uninstall-tool:
     stripe_2_info_1: "**Geforceerd Verwijderen Batch**, evenals gewoon [Geforceerd Verwijderen](/uninstall-tool/force-removal), voert geen verbonden verwijderprogramma's uit, maar scant enkel voor resterende items in het bestandssysteem/register, en geeft deze weer in een samengevoegde lijst die een nauwkeurige beoordeling vereist."
     stripe_2_info_2: "**Batch Verwijder Ingaves** van de lijst verwijdert enkel geselecteerde items van Windows Registry zonder enige items uit het bestandssysteem/register te verwijderen die tot de geselecteerde programma's behoren. Gebruik deze functie zorgvuldig en enkel voor verouderde of ongeldige lijstwaarden."
     stripe_2_info_3: "**Batch Verwijderen** is momenteel beperkt tot het verwijderen van Windows Store Apps."
-  startup_programs:
+  startup_programs: # https://crystalidea.com/nl/uninstall-tool/startup-programs
     title: Beheer Opstartprogramma's in Windows - Uninstall Tool
     stripe_1_header: Beheer Opstartprogramma's in Windows
     stripe_1_info_1: "Met Uninstall Tool kunt u:"
@@ -276,25 +289,25 @@ uninstall-tool:
     stripe_3_info_3: "**Pad naar Uitvoerbaar Bestand** - volledig pad naar uitvoerbaar bestand dat bij het programma dat u wenst te starten hoort"
     stripe_3_info_4: "**Argumenten** (optioneel) - lijst van opdrachtregel argumenten die u wenst te specificeren aan het programma"
     stripe_3_info_5: "** Uitvoeren taak met hoogste voorrechten ** - (alleen beschikbaar voor een Windows Taak) is speciaal ontworpen om een programma automatisch te starten als administrator."
-  portable_mode:
+  portable_mode: # https://crystalidea.com/nl/uninstall-tool/portable-mode
     title: Draagbare Modus - Uninstall Tool
     stripe_1_header: Draagbare Modus
     stripe_1_info_1: Programma cache en gegevens opsporing installatie bevinden zich nog steeds op de lokale computer.
     stripe_2_header: Draagbare modus en Installatie Tracker
-    stripe_2_info_1: '[Installatie Tracker](/uninstall-tool/install-tracker-installation-monitor) (Installatiemonitor) is volledig functioneel in draagbare modus met één uitzondering: installeren van apps met Installatie Tracker kan enkel uitgevoerd worden met de knop ''Installeer en Monitor'' (en niet via het snelmenu in Windows Verkenner aangezien de draagbare versie geen shell-uitbreidingen installeert):'
+    stripe_2_info_1: "[Installatie Tracker](/uninstall-tool/install-tracker-installation-monitor) (Installatiemonitor) is volledig functioneel in draagbare modus met één uitzondering: installeren van apps met Installatie Tracker kan enkel uitgevoerd worden met de knop 'Installeer en Monitor' (en niet via het snelmenu in Windows Verkenner aangezien de draagbare versie geen shell-uitbreidingen installeert):"
     stripe_3_header: Licentie activeren voor Draagbare modus
     activate_info_1: "Registratiegegevens dienen opgeslagen te worden in het tekstbestand '**license.dat**', dat in de programmamap geplaatst moet worden. Inhoud van het bestand:"
     activate_info_2: De eerste regel - registratienaam
     activate_info_3: De tweede regel - registratiecode
     activate_info_4: "Voorbeeld:"
-  buy-page:
+  buy-page: # https://crystalidea.com/nl/uninstall-tool/buy
     title: Uninstall Tool Prijzen & Kopen
     header: Uninstall Tool Prijzen & Kopen
     personal_license: Standaard Licentie
     portable_license: __Portable__ Licentie
     upgrade_header: Upgraden van versie 2.x
-    upgrade_info: 'Bestaande klanten van Uninstall Tool 2.x (elk type licentie, ook aangekocht als bundel) ontvangt 50% korting op Uninstall Tool 3. Om een korting toe te passen dient men het e-mailadres in te voeren (gebruikt bij de vorige aankoop) als naam van de waardebon op [deze pagina](https://store.payproglobal.com/checkout?products&'
-  support-page:
+    upgrade_info: Bestaande klanten van Uninstall Tool 2.x (elk type licentie, ook aangekocht als bundel) ontvangt 50% korting op Uninstall Tool 3. Om een korting toe te passen dient men het e-mailadres in te voeren (gebruikt bij de vorige aankoop) als naam van de waardebon op [deze pagina](https://store.payproglobal.com/checkout?products&
+  support-page: # https://crystalidea.com/nl/uninstall-tool/support
     title: Uninstall Tool - Ondersteuning
     requirements_info: Ondersteunt 64/32-bit Windows standaard, vereist beheerdersbevoegdheden.
     support_basics: Basis
@@ -306,7 +319,7 @@ uninstall-tool:
     support_uninstaller: Uninstaller
     support_uninstaller_1: Lijst Programma's
     support_uninstaller_2: Slim Zoeken
-  download-page:
+  download-page: # https://crystalidea.com/nl/uninstall-tool/download
     title: Uninstall Tool - Download
     header: Download Uninstall Tool
     header_info: De Verwijdertool voor volledige en snelle verwijdering van ongewenste apps.
@@ -315,8 +328,8 @@ uninstall-tool:
     info_text_1: U kunt Uninstall Tool volledig gratis downloaden en uitproberen om al zijn functies te evalueren. Indien u enige problemen ondervindt bij het downloaden van de app, gelieve [ons te contacteren](/contact).
     info_text_2: "[Draagbare versie](/downloads/uninstalltool_portable.zip) (geen proefperiode, vereist speciale licentie en instructies voor activatie). [Meer info](/uninstall-tool/portable-mode)"
     info_text_3: Bekijk gedetailleerde informatie over wat er nieuw is in de [Release-Opmerkingen](/uninstall-tool/release-notes).
-    info_text_4: '[Gebruikersovereenkomst](/uninstall-tool/eula)'
-  help-shortcuts-page:
+    info_text_4: "[Gebruikersovereenkomst](/uninstall-tool/eula)"
+  help-shortcuts-page: # https://crystalidea.com/nl/uninstall-tool/keyboard-shortcuts
     title: Uninstall Tool Sneltoetsen
     header: Uninstall Tool Sneltoetsen
     info_1: In Uninstall Tool zijn er vele nuttige sneltoetsen gedefinieerd die uw werk met het programma kunnen versnellen. U vindt alle functies in het menu, samen met de verbonden sneltoetsen, zodat u de sneltoetsen al doende leert kennen. Bekijk deze lijst als een overzicht van alle sneltoetsen, niet als iets dat u moet kennen om Uninstall Tool efficiënt te gebruiken.
@@ -339,19 +352,19 @@ uninstall-tool:
     group_3_key_2: "**Ctrl+G** - Geselecteerde programma zoeken in Google"
     group_3_key_3: "**Ctrl+R** - Naar de bron van het geselecteerde item springen. Afhankelijk van de bron van het item, opent deze actie Windows register-editor, de map van het Startmenu of Windows Taakbeheer"
     group_3_key_4: "**Ctrl+E** - De installatiemap openen van het geselecteerde item (indien beschikbaar)"
-  help-smart-search-page:
+  help-smart-search-page: # https://crystalidea.com/nl/uninstall-tool/smart-search
     title: Uninstall Tool Smart Search
     header: Uninstall Tool Smart Search
     info_1: Uninstall Tool **Smart Search ™** is de snelste manier om elke app te vinden die op uw PC geïnstalleerd is. Typ gewoon elk gekend deel van de app die u wenst te verwijderen - Uninstall Tool toont **onmiddellijk** alle overeenkomstige programma's!
     info_2: "U kunt beginnen typen na het opstarten van Uninstall Tool, en Smart Search filtert de lijst met overeenkomstige apps terwijl u typt:"
-  help-activate-page:
+  help-activate-page: # https://crystalidea.com/nl/uninstall-tool/activate-after-purchase
     title: Hoe Uninstall Tool registreren
     header: Activeer/Registreer Uninstall Tool na aankoop
     text_info_1: "Na het [buying](/uninstall-tool/buy) van de app ontvangt de klant een registratie e-mail met de registratiecode. Ga nadien naar het menu **Help->Registreren**:"
     text_info_2: "of vanuit het dialoogvenster met de herinnering:"
     text_info_3: "Voer de registratienaam en -code in van de registratie e-mail:"
     text_info_4: en druk op de knop OK. Start het programma opnieuw op.
-  faq-page:
+  faq-page: # https://crystalidea.com/nl/uninstall-tool/faq
     title: Uninstall Tool FAQ
     q1_q: Is de licentie voor levenslang? Moet ik betalen voor de upgrade?
     q1_a: De licentie vervalt nooit en is voor het leven. Alle updates, behalve belangrijke versie-updates, zijn GRATIS. Belangrijke updates (vb. update van 2.x versie naar 3.x) worden aangeboden met 50% korting.
@@ -360,14 +373,15 @@ uninstall-tool:
     q3_q: Hoe moet ik Uninstall Tool bijwerken als er een nieuwe versie (nieuwe build) wordt vrijgegeven?
     q3_a: Als u al een eerdere versie van Uninstall Tool geïnstalleerd hebt, kunt u het installatieprogramma uw bestaande installatie laten upgraden (overschrijven). De installatie vraagt u om uw computer opnieuw op te starten indien nodig.
     q4_q: Waarom moet ik mijn telefoonnummer opgeven bij aankoop?
-    q4_a: 'Onze partner voor betalingsverwerking vraagt soms om het telefoonnummer op te geven om het risico op [Creditcardfraude](http://en.wikipedia.org/wiki/Credit_card_fraud) te minimaliseren.'
-  customers-page:
+    q4_a: Onze partner voor betalingsverwerking vraagt soms om het telefoonnummer op te geven om het risico op [Creditcardfraude](http://en.wikipedia.org/wiki/Credit_card_fraud) te minimaliseren.
+  customers-page: # https://crystalidea.com/nl/uninstall-tool/customers
     title: Uninstall Tool Klanten en Getuigenissen
     description: Duizenden mensen en honderden organisaties kiezen Uninstall Tool als PC-redder in nood.
     header: U bent in goed gezelschap
     header_info: Uninstall Tool wordt vertrouwd door vele van 's werelds meest gerenommeerde bedrijven
     text_try: Ga binnen enkele seconden aan de slag met Uninstall Tool<br> en probeer Uninstall Tool gratis voor 30 dagen!
-anytoiso:
+
+anytoiso: # https://crystalidea.com/nl/anytoiso
   title: AnyToISO - Openen/Uitpakken/Omzetten naar ISO, ISO Uitpakken, ISO Maken
   description: Bestand Uitpakken/Omzetten Naar ISO op Windows & macOS, CD/DVD/Blu-ray schijf naar ISO, Map naar ISO
   header: Elke image Uitpakken/Omzetten naar ISO <br> Maak ISO van CD/DVD/Blu-ray schijven en mappen
@@ -401,24 +415,24 @@ anytoiso:
   stripe_review_try: Probeer AnyToISO Nu
   review_1: Indien u moeite had om een formaat naar ISO om te zetten, dan biedt AnyToISO Converter een simpele, maar effectieve oplossing.
   review_2: AnyToISO is een simpele en gebruiksvriendelijke tool om met ISO-bestanden om te gaan.
-  review_3: 'Het biedt veel, zoals het soort gebruikersinterface waar we van houden: gewoon proper, simpel en efficiënt. AnyToISO gebruiken kan niet eenvoudiger.'
+  review_3: "Het biedt veel, zoals het soort gebruikersinterface waar we van houden: gewoon proper, simpel en efficiënt. AnyToISO gebruiken kan niet eenvoudiger."
   review_4: Het werkt gewoon. Deze app is essentieel voor iedereen die met ISO-images werkt en niet graag de terminal gebruikt. Om een bizarre reden laat Apple gebruikers niet toe om ISO-images te maken in de GUI.
   review_5: AnyToISO is voor mij al jaren een steunpilaar. Het heeft alles geslikt, stil en zonder klagen. Het is gemakkelijk te vergeten dat het een product is met ontwikkelaars die hard werk leveren om een goed product te bieden. Er zijn vast vele mensen die zich niet bewust zijn van het bestaan van een dergelijk hulpprogramma met de unieke functionaliteit.
-  release_notes:
+  release_notes: # https://crystalidea.com/nl/anytoiso/release-notes
     title: AnyToISO Release-Opmerkingen
-  buy-page:
+  buy-page: # https://crystalidea.com/nl/anytoiso/buy
     title: AnyToISO Prijzen & Kopen
     header: AnyToISO Prijzen & Kopen
     license_win: Standaard Pro-Licentie voor Windows
     license_mac: Standaard Pro-Licentie voor MacOS
     license_both: Standaard Pro-Licentie voor
     license_portable_win: __Portable__ Pro-Licentie voor Windows
-  support-page:
+  support-page: # https://crystalidea.com/nl/anytoiso/support
     title: AnyToISO - Ondersteuning
     support_page_1: Hoe de Pro-versie activeren
     support_page_2: AnyToISO vertalen in andere talen
-    support_page_3: 'Video: AnyToISO gebruiken op Mac (in Duits)'
-  download-page:
+    support_page_3: "Video: AnyToISO gebruiken op Mac (in Duits)"
+  download-page: # https://crystalidea.com/nl/anytoiso/download
     title: AnyToISO - Download
     header: Download AnyToISO
     header_info: Ultieme Optische Schijf Imaging Hulpprogramma / Extractor / ISO Maker.
@@ -426,10 +440,10 @@ anytoiso:
     info_text_2: Lite-versie is volledig GRATIS, maar werkt enkel met bestanden die niet groter zijn dan een standaard CD-formaat (870 MB).
     info_text_3: "[Draagbare versie](/downloads/anytoiso_portable.zip) (vereist speciale licentie en instructies voor activatie). [Meer info](/anytoiso/portable-mode)"
     info_text_4: Bekijk gedetailleerde informatie over wat er nieuw is in de [Release-Opmerkingen](/anytoiso/release-notes).
-  file-to-iso-page:
+  file-to-iso-page: # https://crystalidea.com/nl/anytoiso/file-extract-convert-to-iso
     title: Bestand Uitpakken/Omzetten naar ISO - AnyToISO
     header: Bestand Uitpakken/Omzetten naar ISO op Windows & macOS
-    info_text_1: 'Een CD/DVD-image of archief gedownload in een ongekend formaat? U hoeft niet te zoeken en commerciële software te kopen die deze indeling ondersteunt: één app AnyToISO ondersteunt alle formaten, inclusief **7Z, BIN, DAA, DEB, DMG, IMG, ISO, ISZ, MDF, NRG, PKG, RAR, TAR.GZ, TAR.BZ2, XAR, ZIP...** bestanden (voor de volledige lijst, bekijk hieronder de sectie ''Ondersteunde Bestandstypen'').'
+    info_text_1: "Een CD/DVD-image of archief gedownload in een ongekend formaat? U hoeft niet te zoeken en commerciële software te kopen die deze indeling ondersteunt: één app AnyToISO ondersteunt alle formaten, inclusief **7Z, BIN, DAA, DEB, DMG, IMG, ISO, ISZ, MDF, NRG, PKG, RAR, TAR.GZ, TAR.BZ2, XAR, ZIP...** bestanden (voor de volledige lijst, bekijk hieronder de sectie 'Ondersteunde Bestandstypen')."
     info_header_2: Ondersteunde Bestandstypen
     info_text_2: De volgende tabel bevat de lijst van alle CD/DVD en archief imageformaten die uitgepakt of omgezet naar ISO kunnen worden met AnyToISO.
     table_header_1: Bestandsindeling (extensie)
@@ -457,33 +471,33 @@ anytoiso:
     table_xar: XAR-archief gebruikt in macOS vanaf 10.5 voor installatieroutines van software.
     table_zip: ZIP-archief, de populairste archiefindeling in de wereld.
     info_text_3: Ondersteuning nodig voor een andere bestandsindeling? Gelieve [ons te contacteren](/contact), en we voegen het zo snel mogelijk toe.
-  disk-to-iso-page:
+  disk-to-iso-page: # https://crystalidea.com/nl/anytoiso/create-iso-from-cd-dvd-mac-windows
     title: Maak ISO van CD/DVD/Blu-ray schijf op Windows & macOS - AnyToISO
     header: Maak ISO van CD/DVD/Blu-ray schijf (Windows & macOS)
-    info_text_1: "Selecteer de tab **CD/DVD disk naar ISO image** in AnyToISO, selecteer een CD/DVD-station uit de lijst en druk op de knop **Creëer ISO image**. De optie **Creëer BIN/CUE image** helpt om een RAW image te maken met meerdere nummers (vb. van Audio-CD). In Windows kan men een ISO creëren rechtstreeks vanuit Windows Verkenner via het contextmenu voor een optische schijf."
+    info_text_1: Selecteer de tab **CD/DVD disk naar ISO image** in AnyToISO, selecteer een CD/DVD-station uit de lijst en druk op de knop **Creëer ISO image**. De optie **Creëer BIN/CUE image** helpt om een RAW image te maken met meerdere nummers (vb. van Audio-CD). In Windows kan men een ISO creëren rechtstreeks vanuit Windows Verkenner via het contextmenu voor een optische schijf.
     info_text_2: De resulterende ISO image bevat hetzelfde bestandssysteem zoals het verschijnt op de bronschijf. Vaak bevinden er zich meerdere bestandssystemen op een schijf, zoals ISO 9660 en UDF, en ook een HFS+ bestandssysteem (macOS bestandssysteem) kan op schijven gevonden worden. Opstartinformatie (indien aanwezig) worden ook in de ISO opgeslagen. De uiteindelijke ISO image kan steeds uitgepakt worden met AnyToISO of op een andere schijf gebrand worden.
     info_header_3: Ondersteuning BIN/CUE images
     info_text_3: BIN/CUE images zij CD(DVD) images die met zowel een .bin- als een .cue-bestand komen. Het .cue-bestand (cue sheet) bevat de informatie over de nummerindeling en het .bin-bestand bevat de feitelijke gegevens (in raw-modus). BIN/CUE bestanden met gegevens kunnen omgezet worden naar ISO, Audio-CD images kunnen uitgepakt worden als aparte .WAV-bestanden.
-    info_text_4: 'Opmerking: u kunt geen kopieën creëren van auteursrechtelijk beschermde DVD/Blu-ray schijven.'
-  folder-to-iso-page:
+    info_text_4: "Opmerking: u kunt geen kopieën creëren van auteursrechtelijk beschermde DVD/Blu-ray schijven."
+  folder-to-iso-page: # https://crystalidea.com/nl/anytoiso/folder-to-iso-files-to-iso-create-iso-from-folder
     title: Maak ISO van een map op Windows & macOS - AnyToISO
     header: Maak ISO van een map op Windows & macOS
     info_text_1: AnyToISO kan ISO images maken van bestanden en mappen die zich op uw lokale schijf bevinden. Hiervoor dient men een map te hebben die alle bestanden/mappen bevat voor de gewenste ISO image. Selecteer vervolgens de map in de app onder de tab 'Map naar ISO image' (in Windows kan men gewoon met de rechtermuisknop op de map klikken in Verkenner). Het is aan te raden het gewenste volume label te kiezen. De uiteindelijke ISO image is compatibel met Windows/macOS/Linux en kan door elk programma (dat ISO images ondersteunt) gelezen worden. Uiteraard kan deze ook op optische media zoals CD/DVD/Blu-ray schijf gebrand worden.
     info_text_2: Standaard bestandssystemen zijn ISO 9660, Joliet (ISO 9660 extensie om kleine letters en lange bestandennamen te ondersteunen) en UDF. Het configureren van bestandssystemen en hun parameters kan uitgevoerd worden in het speciale dialoogvenster nadat u op de knop Instellingen klikt.
-  integration-explorer-page:
+  integration-explorer-page: # https://crystalidea.com/nl/anytoiso/integration-explorer
     title: AnyToISO Integratie Met Windows Verkenner
     header: AnyToISO Integratie Met Windows Verkenner
     info_text_1: AnyToISO integreert transparant met Windows Verkenner door contextmenu's aan [ondersteunde bestanden](/anytoiso/file-extract-convert-to-iso), optische CD/DVD/Blu-ray schijven en normale mappen toe te voegen.
-    info_header_1: 'Bestanden: Omzetten naar ISO of Uitpakken'
-    info_header_2: 'Stations: Creëer ISO van CD/DVD/Blu-ray schijven'
-    info_header_3: 'Mappen: Creëer ISO van lokale mappen'
-  integration-finder-page:
+    info_header_1: "Bestanden: Omzetten naar ISO of Uitpakken"
+    info_header_2: "Stations: Creëer ISO van CD/DVD/Blu-ray schijven"
+    info_header_3: "Mappen: Creëer ISO van lokale mappen"
+  integration-finder-page: # https://crystalidea.com/nl/anytoiso/integration-finder
     title: AnyToISO Integratie Met Apple Finder
     info_text_1: AnyToISO integreert transparant met Apple Finder door zichzelf aan het menu 'Openen Met' toe te voegen voor [ondersteunde bestanden](/anytoiso/file-extract-convert-to-iso). De gebruiker kan kiezen om het gewenste bestand om te zetten of uit te pakken.
-  portable_mode_page:
+  portable_mode_page: # https://crystalidea.com/nl/anytoiso/portable-mode
     title: AnyToISO Draagbare Modus
     header: AnyToISO Draagbare Modus
-  command-line-page:
+  command-line-page: # https://crystalidea.com/nl/anytoiso/command-line
     title: AnyToISO Opdrachtregel
     info_1_header: Zet een image/archief om naar ISO-bestand
     info_2_header: Pak een image/archiefbestand uit
@@ -494,7 +508,7 @@ anytoiso:
     info_5_header: Voorbeeld van gebruik opdrachtregels op macOS
     info_6_header: Voorbeeld batchbewerking op Windows
     info_7_header: Help weergeven bij gebruik van opdrachtregels
-  activate-page:
+  activate-page: # https://crystalidea.com/nl/anytoiso/activate-pro-version
     title: Upgraden naar Pro-versie - AnyToISO
     header_1: Hoe de Pro-versie activeren
     info_1: "Upgraden naar AnyToISO Professional biedt u:"
@@ -506,7 +520,7 @@ anytoiso:
     header_3: De registratiecode invoeren
     info_6: "Onmiddellijk na uw aankoop ontvangt u een e-mail met de registratiesleutel die ingevoerd moet worden in AnyToISO om de Lite-versie te upgraden naar Pro. De sleutel moet ingegeven worden in het menu 'Voer Registratie Code in':"
     header_portable: Draagbare licentie activeren (Windows)
-  faq-page:
+  faq-page: # https://crystalidea.com/nl/anytoiso/faq
     title: AnyToISO FAQ
     q1_q: Ondersteuning Audio-CD Images
     q1_a: Sommige programma's bieden ondersteuning voor het creëren van een image of Audio-CD (NRG, BIN/CUE indeling of PDI indeling). Deze Audio-CD images kunnen niet omgezet worden naar ISO-formaat vanwege de beperkingen van het ISO-formaat. NRG en BIN/CUE images kunnen met AnyToISO uitgepakt worden in aparte WAV-bestanden. Het creëren van een ISO image van een Audio-CD is onmogelijk vanwege de beperkingen van het ISO-formaat, gebruik [BIN/CUE image in de plaats daarvan](/anytoiso/create-iso-from-cd-dvd-mac-windows).
@@ -514,7 +528,8 @@ anytoiso:
     q2_a: Gelieve te garanderen dat het bestand dat u wenst om te zetten exact in één van de ondersteunde indelingen is. Het gebeurt vaak dat een bestand een ondersteunde extensie heeft, maar in de realiteit over een volledig andere indeling beschikt (.bin kan bijvoorbeeld bijna elk bestand zijn, terwijl AnyToISO enkel BIN images ondersteunt die gecreëerd zijn met software zoals Roxio Toast, NTI Dragon Burn, Roxio Easy Media Creator, Golden Hawk Technology CDRWin, Daemon Tools, IsoBuster, EZB Systems UltraISO, en enkele andere.).
     q3_q: Biedt u in sommige gevallen een terugbetaling?
     q3_a: Ja. Indien het programma niet werkt zoals geadverteerd, gelieve ons van bewijs hiervan te voorzien (een link, torrent, ftp link, e-mail, enz. naar de image die u niet kunt omzetten met de PRO-versie van het programma). Indien het bestand één van de [ondersteunde indelingen](/anytoiso/file-extract-convert-to-iso) heeft, wordt er meteen een volledige terugbetaling verwerkt.
-macs-fan-control:
+
+macs-fan-control: # https://crystalidea.com/nl/macs-fan-control
   title: Macs Fan Control - controleer koelers in Apple computers, ook op Windows via Boot Camp
   description: Controleer koelers in Apple computers, ook op Windows via Boot Camp. Monitoring van snelheid koelers en temperatuursensoren. Los geluidsproblemen van koelers en problemen met oververhitting op. iMac HDD vervanging
   header: Controleer koelers in Apple computers
@@ -526,46 +541,57 @@ macs-fan-control:
   stripe_1_header: Monitor en controleer koelers in Apple computers
   stripe_1_info_1: Real-time monitoring van snelheid koelers en temperatuursensoren inclusief HDD/SDD van derden (met S.M.A.R.T.).
   stripe_1_info_2: Stel aangepaste toerental (omwentelingen per minuut) in of controleer de snelheid van koelers in verhouding tot een temperatuursensor (vb. HDD van derden).
-  stripe_1_info_3: Create and save custom fan presets so you can quickly switch between them depending on your activity.
+  stripe_1_info_3: Create and save custom [fan presets](/macs-fan-control/fan-presets) so you can quickly switch between them depending on your activity.
   stripe_1_info_4: Werkt ook op Windows 10/8/7/Vista/XP, geïnstalleerd via Boot Camp, met dezelfde gebruiksvriendelijke interface.
   stripe_2_slide_1_title: Simpele en efficiënte gebruikersinterface
-  stripe_2_slide_1_descr: 'Indeling met twee tabellen: met lijst van koelers en lijst van temperatuursensoren.'
+  stripe_2_slide_1_descr: "Indeling met twee tabellen: met lijst van koelers en lijst van temperatuursensoren."
   stripe_2_slide_2_title: Wijzig snelheid koelers
   stripe_2_slide_2_descr: Stel aangepaste toerental in of controleer de snelheid van koelers in verhouding tot een temperatuursensor.
   stripe_2_slide_3_title: Instelbare weergave menubalk
   stripe_2_slide_3_descr: Opties om snelheid koelers en sensortemperatuur weer te geven (weergegeven in het pictogram in het systeemvak onder Windows).
+  stripe_3_header: Fan control and presets
+  stripe_3_info_1: Fan control for your fan(s) on an Apple computer can be either
+  stripe_3_info_2: "**Auto**: a fan is controlled by the system automatically (Apple's default scenario). When all fans are controlled automatically by the system the app works in monitoring-only mode."
+  stripe_3_info_3: "**Custom**: a fan is controlled by the app. Can be either some constant RPM value (e.g. 1500 RPM) or sensor-based control (e.g. in relation to CPU PECI sensor)."
+  stripe_3_info_4: For convenience the app features [fan presets](/macs-fan-control/fan-presets) that let you quickly put your fan(s) to either **Auto** or some **Custom** mode depending on your activity. You can read more about fan presets [here](/macs-fan-control/fan-presets).
+  stripe_3_info_5: When Macs Fan Control quits, it always restores all fans back to **Auto** (Automatic preset).
   stripe_review_try: Probeer Macs Fan Control Nu
   review_1: Werkt zo goed op mijn oude macbook pro...waarom maakte het Apple team deze geweldige tool niet? Heeft meer instellingen dan dat ik ooit kan gebruiken. Bedankt aan de ontwikkelaar om de app te maken.
-  review_2: If you have concerns about the long term health of any machine that's running hot enough, use Macs Fan Control to bump up your fan speed. 
+  review_2: If you have concerns about the long term health of any machine that's running hot enough, use Macs Fan Control to bump up your fan speed.
   review_3: Het is een geweldig stukje software, ideaal om de cpu temps in het oog te houden wanneer je meer cpu-belastende taken uitvoert.
   review_4: Deed wonderen op mijn Windows 10 partitie, zorgde ervoor dat ik zware programma's kon draaien zonder zorgen dat mijn laptop oververhit!
   review_5: Goed geïmplementeerde app die je helpt de temperaturen van je mac componenten in het oog te houden.
   review_6: Geweldig om een Mac Pro stiller te doen werken (de geautomatiseerde routines van Apple kunnen een beetje agressief zijn) en aangepaste koelerbewegingen te maken.
-  release_notes:
+  release_notes: # https://crystalidea.com/nl/macs-fan-control/release-notes
     title: Macs Fan Control Release-Opmerkingen
   button_buy: Pro versie kopen
-  buy-page:
+  buy-page: # https://crystalidea.com/nl/macs-fan-control/buy
     title: Koop Macs Fan Control Pro, steun de ontwikkeling van Macs Fan Control
     header: Koop Macs Fan Control Pro
-    info_text_1: With Pro version you get extra features (custom fan presets), priority customer support and confidence in future updates and improvements.
-    pro_license: Pro Licensie
+    info_text_1: With Pro version you get extra features (custom ([fan presets](/macs-fan-control/fan-presets)), priority customer support and confidence in future updates and improvements.
+    pro_license: Pro Licensie voor macOS
+    pro_license_bundle: Pro Licensie voor macOS &amp; Windows
     toolbox_info_1: The Pro License is on a per-PC basis. Volume discounts apply when specifying multiple computers quantity.
-    toolbox_info_2: The Pro License is valid for both macOS &amp; Windows (Boot Camp). Windows version works only on computers without the modern T2 chip. Please refer to the list of [supported Apple computers](/macs-fan-control/supported-models).
+    toolbox_info_2: When buying the Pro License for both macOS &amp; Windows you can also control fans under Windows installed via Boot Camp. Even on modern Apple computers with the T2 security chip.
     toolbox_info_3: If you already bought the app earlier (donated), please [restore your license](/restore-license).
-  support-page:
+  support-page: # https://crystalidea.com/nl/macs-fan-control/support
     title: Macs Fan Control - Help & Ondersteuning
-  download-page:
+    support_page_activate: How to activate Pro version
+    support_page_models: Supported Mac computer models
+    support_page_sensors: Supported temperature sensors and their meaning
+    support_page_cmdline: Command Line
+    support_page_presets: Fan Presets
+  download-page: # https://crystalidea.com/nl/macs-fan-control/download
     title: Macs Fan Control Download voor macOS & Windows (Boot Camp)
     header: Download Macs Fan Control
     header_info: Monitor en controleer de koelers van uw computer
     info_text_1: U kunt Macs Fan Control volledig gratis downloaden en gebruiken. Indien u enige problemen ondervindt bij het downloaden van de app, gelieve [ons te contacteren](/contact).
     info_text_2: Dit programma is voor ervaren gebruikers die weten hoe het te gebruiken zonder schade aan te richten aan hun macs. De auteurs zijn niet aansprakelijk voor verlies van gegevens, schade, verlies van winst en andere soorten verlies verbonden aan het gebruik of misbruik van het programma.
-    info_text_3: "Bekijk gedetailleerde informatie over wat er nieuw is in de [Release-Opmerkingen](/macs-fan-control/release-notes). Vind [hier](https://github.com/crystalidea/macs-fan-control/releases) oudere versies."
-    info_text_4: "* When running on Windows, the app only works on mac models that are not equipped with the modern [T2 chip](/macs-fan-control/supported-models)."
-  faq-page:
+    info_text_3: Bekijk gedetailleerde informatie over wat er nieuw is in de [Release-Opmerkingen](/macs-fan-control/release-notes). Vind [hier](https://github.com/crystalidea/macs-fan-control/releases) oudere versies.
+  faq-page: # https://crystalidea.com/nl/macs-fan-control/faq
     title: Macs Fan Control FAQ
     q1_q: Wat zijn optimale instellingen voor de koelers van mij MacBook/iMac/..?
-    q1_a: 'Het korte antwoord is: experimenteer! Bekijk eerst hoe temperatuursensoren zich gedragen onder automatische controle van de koelers. Probeer vervolgens enkele aangepaste instellingen voor de koelers te gebruiken. Leer [here](/macs-fan-control/temperature-sensors) meer over temperatuursensoren.'
+    q1_a: "Het korte antwoord is: experimenteer! Bekijk eerst hoe temperatuursensoren zich gedragen onder automatische controle van de koelers. Probeer vervolgens enkele aangepaste instellingen voor de koelers te gebruiken. Leer [here](/macs-fan-control/temperature-sensors) meer over temperatuursensoren."
     q2_q: Waarom rapporteert Macs Fan Control 0tpm voor één van mijn koelers?
     q2_a: Het is ok als u MacBook Pro 13 inch 2015/2016 hebt, deze modellen schakelen de koeler uit wanneer de temperatuur van de CPU laag genoeg is. Als u een ander model hebt, betekent dit wellicht dat de koeler geen gegevens rapporteerde aan MFC. Het is mogelijk dat één van uw koelers dood is (fysieke schade aan de koeler of de kabel ervan). Gelieve uw computer te controleren met de Apple Hardware Test (dit vindt u op de DVD die met uw computer meegeleverd wordt) en kijk of het een defect aan één van uw koelers rapporteert.
     q3_q: De app vraagt om een wachtwoord. Welk wachtwoord is dit?
@@ -578,7 +604,15 @@ macs-fan-control:
     q6_a: Op macOS sluit u de app simpelweg, en sleept u deze van de toepassingsmap naar de prullenbak. Op Windows dient u het verwijderprogramma uit te voeren. [Uninstall Tool](/uninstall-tool) kan hier van pas komen.
     q7_q: Why do I have high CPU usage by kernel_task when using Macs Fan Control?
     q7_a: Thermal issues are causing kernel task to preemptively use up CPU to prevent overheating. Try putting fan(s) back to auto and if it doesn't help, try to [reset the SMC](https://support.apple.com/en-us/HT201295).
-speedyfox:
+  activate-page:
+    title: Activate Pro version of Macs Fan Control
+    enter_key_info: "Once you [purchased](/macs-fan-control/buy) a license and received the license key, click on the 'More' -> 'Upgrade to Pro version' menu as seen below:"
+    enter_key_info_2: "Then press the 'Enter License' button:"
+    enter_key_info_3: Enter your email and the code and press the 'Unlock' button. When a license is for multiple computers, the code must be entered on each one.
+  presets-page:
+    title: Fan Presets in Macs Fan Control
+    
+speedyfox: # https://crystalidea.com/nl/speedyfox
   title: SpeedyFox - Boost Firefox, Skype, Chrome, Thunderbird met een Enkele Klik!
   description: Optimaliseer prestatie van Firefox, Chrome, Skype, Opera, Chromium en vele anderen
   header: Boost Firefox, Skype, Chrome, Thunderbird met een Enkele Klik!
@@ -602,18 +636,20 @@ speedyfox:
   stripe_4_header: Gebruik opdrachtregels
   stripe_4_info_1: optimaliseer een bepaald profiel (u kunt de naam vinden in de profielboom van SpeedyFox)
   stripe_4_info_2: optimaliseer aangepast profiel van program_name op profile_path (vb. voor draagbare versies van ondersteunde programma's)
-  release_notes:
+  release_notes: # https://crystalidea.com/nl/speedyfox/release-notes
     title: SpeedyFox Release-Opmerkingen (Windows)
-changelog:
+
+changelog: # https://crystalidea.com/nl/speedyfox/release-notes
   version: Versie
   released_on: Uitgebracht op
   release_notes: Release-Opmerkingen
-  more_link: Download from GitHub
+  github_download: Download from GitHub
   new: Nieuw
   improved: Verbeterd
   fixed: Hersteld
   older_versions: Geschiedenis oudere versies
-blog:
+
+blog: # https://crystalidea.com/nl/blog
   title: CrystalIDEA Blog - nieuws over producten, artikelen over Uninstall Tool, AnyToISO, Macs Fan Control
   subscribe: Inschrijven
   join_us: Word lid van onze gemeenschap. <br> Ontvang nuttige tips en updatemeldingen van zodra ze beschikbaar zijn.
@@ -622,10 +658,12 @@ blog:
   related_posts: Gerelateerde Berichten
   next_page: Volgende Pagina
   previous_page: Vorige Pagina
-privacy-policy-page:
+
+privacy-policy-page: # https://crystalidea.com/nl/privacy-policy
   title: CrystalIDEA Privacy Overeenkomst
   description: Aangezien CrystalIDEA toegewijd is om uw privacy te beschermen, hoeft u zich geen zorgen te maken over de veiligheid van uw persoonlijke informatie
-restore-license-page:
+
+restore-license-page: # https://crystalidea.com/nl/restore-license
   title: Licentie Herstellen - CrystalIDEA
   header: Licentie Herstellen
   description: Herstel verloren licentie voor CrystalIDEA programma's, Uninstall Tool, AnyToISO, Macs Fan Control en andere

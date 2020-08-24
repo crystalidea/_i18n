@@ -1,25 +1,25 @@
 ---
 permalink: /blog/fix-bootcamp-control-panel-startup-disk
 layout: blog-post
-title: Fix Boot Camp Control panel doesn't see macOS drive/partition
+title: Boot Camp-Systemsteuerung zeigt kein MacOS Laufwerk/Partition
 image: /assets/images/blog/boot-camp-control-panel.png
 tags: [ "bootcamp"]
 ---
 
-**Problem**: Boot Camp Control panel on Windows 10 doesn't display macOS drive/partition which you could select to boot into.
+**Problem**: Die Boot Camp-Systemsteuerung auf Windows 10 zeigt kein MaccOS Laufwerk/Partition an, das man zum Booten auswählen könnte.
 
 <!--more-->
 
-**Cause**: The Boot Camp utility is not able to read APFS drive/partitions. The most recent Boot Camp version is currently available only for iMacPro1,1.
+**Ursache**: Die Boot Camp Utility kann keine APFS Laufwerke/Partitionen lesen. Die aktuellste Boot Camp Version ist momentan nur für iMacPro1,1 verfügbar.
 
-**Solution**: Basically you need to update to **Boot Camp 6.1** or later. 
+**Lösung**: Sie müssen ein Update auf **Boot Camp 6.1** oder auf neuere Versionen durchführen.
 
-1. Install [7Zip][1]
-2. Install and run [Brigadier][2] it using the --model parameter:
+1. [7Zip][1] installieren
+2. [Brigadier][2] installieren und mit den --model-Parametern ausführen:
 <pre>
  brigadier.exe --model iMacPro1,1
 </pre>
- and run the Boot Camp installer manually:
+ und den Boot Camp Installer manuell ausführen:
  <pre>
  msiexec /i BootCamp-041-55643\BootCamp\Drivers\Apple\BootCamp.msi
 </pre>

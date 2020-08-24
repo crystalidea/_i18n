@@ -1,35 +1,35 @@
 ---
 permalink: /blog/bootcamp-and-windows-10-1903-may-update
 layout: blog-post
-title: Boot Camp and Windows 10 1903 (May Update)
+title: Boot Camp und Windows 10 1903 (Mai-Update)
 image: /assets/images/blog/bsod.png
 tags: [ "bootcamp"]
 ---
 
-**Problem**: the latest Windows 10 update 1903 runs into BSOD (Blue screen of death) with error message WDF_VIOLATION on some mac models (MacBook Pro 2010/2011, MacBook Air 2011, Mac Mini 2012, iMac 2010/2011 and some others). This fatal failure occurs when Windows is already loaded and system tries to start Apple Boot Camp Utility (BootCamp.exe). This tool is responsible for controlling screen brightness, volume, functional keys, backlit, etc with Apple keyboard. On some machines crash happens only if you try to start our [Macs Fan Control](/macs-fan-control) app.
+**Problem**: Das neueste Windows 10 Update 1903 löst einen Blue Screen aus (BSOD, blue screen of death) mit der Fehlermeldung WDF_VIOLATION auf einigen MacBook Modellen (MacBook Pro 2010/2011, MacBook Air 2011, Mac Mini 2012, iMac 2010/2011 und ein paar weitere). Dieser schwerwiegende Fehler taucht auf, wenn Windows bereits geladen wurde und das System versucht das Apple Boot Camp Utility (BootCamp.exe) auszuführen. Dieses Tool ist verantwortlich für die Steuerung der Bildschirmhelligkeit, Lautstärke, Funktionstasten, Hintergrundbeleuchtung, usw. über die Apple Tastatur. Bei manchen Geräten passiert dieser Crash nur, wenn Sie versuchen unsere [Macs Fan Control](/macs-fan-control) App zu starten.
 
 <!--more-->
 
-**Cause**: older versions of the MacHALDriver.sys driver supplied with the Boot Camp Utility are not compatible with Windows 10 1903.
+**Ursache**: Ältere Versionen der MacHALDriver.sys Treiber, die mit der Boot Camp Utility geliefert werden sind nicht kompatibel mit Windows 10 1903.
 
-**Solution**: Basically you need to update to **Boot Camp 6** or later. 
+**Lösung**: Sie müssen nur ein Update auf **Boot Camp 6** oder eine neuere Version durchführen.
 
-First you need to disable the old driver to allow Windows to boot normally. The driver file located at c:\windows\system32\MacHALDriver.sys must be renamed, e.g. to "MacHALDriver.sys.old". There're 2 options here:
-   - (from Windows) Boot up in safe mode (holding the F8 key) and rename the file.
-   - (from macOS) Install [Tuxera NTFS][3] or [Paragon NTFS for Mac][4] to allow write access to Windows drive/partition and rename the driver file. Both apps are commercial but have a trial period.
+Zuerst müssen Sie die alten Treiber deaktivieren, um einen normalen Windows-Start ausführen zu können. Die Treiberdateien unter c:\windows\system32\MacHALDriver.sys müssen umbenannt werden, z.B. in "MacHALDriver.sys.old". Es gibt zwei Möglichkeiten:
+   - (unter Windows) Starten Sie im sicheren Modus (F8 gedrückt halten) und benennen Sie die Datei um.
+   - (unter MacOS) Installieren Sie [Tuxera NTFS][3] oder [Paragon NTFS for Mac][4] um Schreibzugang auf das Windows-Laufwerk/Partition zu gewähren und die Treiberdateien umzubenennen. Beide Apps sind kommerziell aber haben eine begrenzte Probelaufzeit.
 
-   After that you can boot Windows 10, but Apple Boot Camp Utility won't work. Macs Fan Control is able to work without the Boot Camp driver but _slowly_. 
+   Anschließend können Sie Windows 10 booten, aber die Apple Boot Camp Utility wird nicht funktionieren. Macs Fan Control kann ohne den Boot Camp Treiber arbeiten, aber nur sehr _langsam_.
 
-Install [7Zip][1] and [Brigadier][2]. Run the latter to download and install the latest official Boot Camp from Apple for your machine. Sometimes it may still download a faulty old version (e.g. for mid-2010 iMac), in this case we recommend downloading Boot Camp for another model using the --model parameter:
+Installieren Sie [7Zip][1] und [Brigadier][2]. Führen Sie letztgenannten aus um die neueste offizielle Version des Boot Camp von Apple herunterzuladen und auf Ihrem Gerät zu installieren. Manchmal lädt es trotzdem eine fehlerhafte alte Version (z.B. für iMac Mitte 2010) herunter. In diesem Fall empfehlen wir das Boot Camp mit Hilfe des --model Parameters für ein anderes Model herunterzuladen:
 <pre>
  brigadier.exe --model iMacPro1,1
 </pre>
- and run the Boot Camp installer manually (run your command prompt as administrator):
+ und führen Sie den Boot Camp Installer manuell aus (führen Sie die Eingabeaufforderung als Administrator aus):
  <pre>
  msiexec /i BootCamp-041-55643\BootCamp\Drivers\Apple\BootCamp.msi
 </pre>
 
-**Tip**: to avoid this problem, we highly recommend updating your Boot Camp using the Brigadier app _before_ updating Windows to 1903.
+**Tipp**: Um dieses Problem zu vermeiden, empfehlen wir Ihnen dringend, Ihr Boot Camp mit Hilfe Brigadier App zu aktualisieren, _bevor_ Sie das Windows 1903 Update durchführen.
 
 [1]: https://www.7-zip.org/
 [2]: https://github.com/timsutton/brigadier/releases

@@ -1,12 +1,12 @@
 ---
 permalink: /blog/fan-control-imac-pro
 layout: blog-post
-title: Fan control in the new iMac Pro
+title: Lüftersteuerung des neuen iMac Pro
 tags: [ "macs-fan-control"]
 image: /assets/images/blog/imac_pro_dual_fan.png
 ---
 
-Good news for happy owners of Apple iMac Pro! Thе current version of [Macs Fan Control](/de/macs-fan-control/download) (1.4.10) supports the new iMac Pro and correctly controls its enormous dual-fan cooler (both fans are synchronized). The app displays all available temperature sensors along with new twin SSDs.
+Gute Neuigkeiten für glückliche Besitzer des Apple iMac Pro! Die aktuelle Version des [Macs Fan Control](/de/macs-fan-control/download) (1.4.10) unterstützt den neuen iMac Pro und steuert das große Dual-Fan Kühlsystem richtig (beide Lüfter werden synchronisiert). Die Anwendung zeigt alle mit den neuen Twin-SSD verfügbaren Temperatursensoren an.
 
 <!--more-->
 
@@ -14,4 +14,4 @@ Good news for happy owners of Apple iMac Pro! Thе current version of [Macs Fan 
 	<img src="/assets/images/blog/imac_pro_mfc.png" class="product-screenshot" data-rjs="2">
 </p>
 
-Unfortunately, the app currently doesn't work on Windows (Boot Camp). We found no way to access SMC under Windows on this machine at the moment. SMC is now being controlled by the T2 chip. [More info](/blog/de/fan-control-on-apple-computers-with-t2-chip-on-windows-boot-camp)
+Update: starting from version 1.5.6, the app also works under Windows as well. [Mehr](/blog/fan-control-windows-t2-now-possible).

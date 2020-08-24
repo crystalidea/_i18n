@@ -1,5 +1,5 @@
 # Translated by Denis Mikhailov (deniska3552@yandex.ru)
-# Файл содержит все русские строчки с сайта CrystalIDEA (https://www.crystalidea.com)
+# Файл содержит все русские строчки с сайта CrystalIDEA (https://crystalidea.com)
 # Посты блога переводятся отдельно как .md файлы
 
 top_navigation:
@@ -8,7 +8,7 @@ top_navigation:
   forum: Форум
   home: Главная
 
-main-page:
+main-page: # https://crystalidea.com/ru/
   title: CrystalIDEA - Uninstall Tool, Деинсталлятор, Удаление программ, AnyToISO, Macs Fan Control
   description: Uninstall Tool - деинсталлятор для полного удаления любой программы с Вашего ПК. Macs Fan Control - управление вентиляторами ПК Apple. AnyToISO - конвертирует в ISO другие форматы. Создание ISO. Скачать для Windows и macOS
   heading_one: Эффективные и удобные программы
@@ -24,7 +24,7 @@ main-page:
   about_info_2: Мы используем исключительный подход к качеству нашего ПО, поэтому мы выпускаем невероятно эффективные и удобные программы для конечный пользователей.
   about_info_3: Мы гордимся своими достижениями в создание ПО, компания прилагает все усилия на то, чтобы улучшать наши продукты, а также создавать новые. Мы всегда рады сотрудничеству, а также обеспечиваем профессиональную поддержку нашим пользователям по любым вопросам, касающихся наших программ.
 
-page-contact:
+page-contact: # https://crystalidea.com/ru/contact
   title: Связаться с CrystalIDEA
   description: Связаться с CrystalIDEA, получить техническую поддержку по программам CrystalIDEA. Бизнес предложения, сотрудничество
   requests_header: "Наиболее популярные вопросы:"
@@ -45,7 +45,7 @@ page-contact:
   button_forum: Задать вопрос на форуме
   button_business: Бизнес контакт
 
-toolbox-contact:
+toolbox-contact: # https://crystalidea.com/ru/privacy-policy
   title: Связаться с CrystalIDEA
   text: Свяжитесь, пожалуйста, с нами, если у вас возникли какие-либо вопросы.
   button: Связаться
@@ -70,19 +70,19 @@ footer:
   try_download: Скачать
   privacy_policy: Конфиденциальность
 
-product-menu:
+product-menu: # https://crystalidea.com/ru/uninstall-tool
   overview: Обзор
   features: Возможности
   buy: Цены и Купить
   support: Поддержка
   download: Скачать
 
-store-page:
+store-page: # https://crystalidea.com/ru/store
   title: Магазин CrystalIDEA, безопасная онлайн покупка
   header: Магазин CrystalIDEA
   description: Магазин CrystalIDEA, безопасная онлайн покупка Uninstall Tool, AnyToISO, Macs Fan Control. Мгновенная доставка лицензионных ключей, скидки.
 
-buy-page:
+buy-page: # https://crystalidea.com/ru/store
   toolbox_header: Основные факты
   toolbox_info_1: Любая лицензия приобретается единожды и на всю жизнь и включает в себя пожизненную техническую поддержку.
   toolbox_info_2: Стандартная лицензия выписывается на один компьютер. Количество компьютеров может быть указано в поле 'Количество' на странице покупки (предоставляется скидка).
@@ -99,9 +99,9 @@ buy-page:
   info_switch: Отобразить ожидаемые цены в $curr
   info_switch_back: Отобразить цены в долларах США
   student_discount_header: Скидка для студентов
-  student_discount_info: Если Вы студент, пожалуйста, [напишите нам](/contact), используя свой унивеситетский e-mail для предоставления скидки.
+  student_discount_info: Если Вы студент, Вы можете [сделать запрос](/request-educational-discount) для предоставление 30% скидки.
 
-support-page:
+support-page: # https://crystalidea.com/ru/uninstall-tool/support
   banner_header: Поддержка $app_name
   banner_info: Узнайте, как начать работу с $app_name и получите ответы на вопросы.
   version: Последняя версия
@@ -128,16 +128,16 @@ support-page:
   box_contact_text: Если у Вас остались вопросы, свяжитесь с нами, пожалуйста.
   box_contact_link: Связаться
 
-portable_mode:
-    stripe_1_info_1: Нет необходимости устанавливать $app_name на каждый компьютер.
-    stripe_1_info_2: Возьмите программу вместе с ее настройками/лицензией с собой (на флешке) и используйте на любом Windows компьютере.
-    stripe_1_info_3: $app_name Portable может быть использована на многих компьютерах, но только одним человеком.
-    download_link: Скачать портативную версию
+portable_mode: # https://crystalidea.com/ru/uninstall-tool/portable-mode
+  stripe_1_info_1: Нет необходимости устанавливать $app_name на каждый компьютер.
+  stripe_1_info_2: Возьмите программу вместе с ее настройками/лицензией с собой (на флешке) и используйте на любом Windows компьютере.
+  stripe_1_info_3: $app_name Portable может быть использована на многих компьютерах, но только одним человеком.
+  download_link: Скачать портативную версию
 
-faq-page:
-    header: Часто задаваемые вопросы
+faq-page: # https://crystalidea.com/ru/uninstall-tool/faq
+  header: Часто задаваемые вопросы
 
-download-page:
+download-page: # https://crystalidea.com/ru/uninstall-tool/download
   version: Версия
   updated: Обновлено
   download_win: Скачать для Windows
@@ -145,7 +145,7 @@ download-page:
   download_mac_info: macOS 10.12 Sierra и выше
   older_systems: "Версии для более старых систем:"
 
-uninstall-tool:
+uninstall-tool: # https://crystalidea.com/ru/uninstall-tool
   title: Uninstall Tool - Чистое удаление программ
   description: Деинсталлятор для чистого удаления любой программы с Вашего ПК. Мониторинг установки ПО, удаление остатков программ. Работает невероятно быстро, контроль приложений, запускаемых автоматически при запуске Windows.
   header: Быстрый и мощный деинсталлятор <br> для полного удаления программ
@@ -202,7 +202,7 @@ uninstall-tool:
   tour_try_text: Скачайте полнофункциональную версию сейчас.<br> Бесплатный испытательный период 30 дней.
   release_notes:
     title: История изменений Uninstall Tool
-  uninstall_wizard:
+  uninstall_wizard: # https://crystalidea.com/ru/uninstall-tool/uninstall-wizard
     title: Мастер Удаления, Полное удаление программ - Uninstall Tool
     stripe_1_header: Полное удаление нежелательных программ <br> Находит и удаляет все остатки в реестре и на диске
     feature_1: Тщательный поиск и удаление остатков без необходимости полагаться на штатный деинсталлятор, оставляющий остатки ПО.
@@ -222,7 +222,7 @@ uninstall-tool:
     stripe_4_info_1: Если процессы, принадлежащие удаляемой программе, по какой-то причине всё еще запущены, Мастер Удаления сообщит Вам об этом, отобразит эти процессы и предложит их принудительно завершить для корректного удаления программы.
     stripe_5_header: Детальный лог удаления
     stripe_5_info_1: Мастер удаления контроллирует удаления каждого элемента, в конце его работы пользователь может просмотреть/сохранить лог удаления, тем самым еще раз увидеть, что удалялось, были ли какие-нибудь ошибки и т.п. Каждая операция удаления файла/папки/элементов реестра протоколируется в лог.
-  install_tracker:
+  install_tracker: # https://crystalidea.com/ru/uninstall-tool/install-tracker-installation-monitor  
     title: Монитор Установки Программ - Uninstall Tool
     stripe_1_header: Монитор Установки Программ
     stripe_1_header_2: Во время установки программы, Монитор Установки следит за всеми изменениями в Вашей системе.
@@ -247,8 +247,8 @@ uninstall-tool:
     stripe_5_info_1: "Используйте пункт контекстного меню **Отслеженные данные** для уже отслеженной программы. Добавление данных к уже отслеженным программам полезно, когда:"
     stripe_5_info_2: Вам нужно запустить вручную исполняемый файл отслеженной программы, чтобы она себя настроила и внесла необходимые ей изменения в Вашу системе.
     stripe_5_info_3: Вам нужно обновить уже отслеженную программы на более новую версию (раньше нужно было деинсталлировать отслеженную программу и снова запускать отслеживание установки).
-    stripe_5_info_4: "После указания исполняемого файла, Монитор Установки начнет отслеживание и добавит новые данные после окончания работы."
-  force_removal:
+    stripe_5_info_4: После указания исполняемого файла, Монитор Установки начнет отслеживание и добавит новые данные после окончания работы.
+  force_removal: # https://crystalidea.com/ru/uninstall-tool/force-removal
     title: Принудительное удаление программ - Uninstall Tool
     stripe_1_header: Принудительное удаление программ
     stripe_1_info_1: Осуществляется [Мастером Удаления](/uninstall-tool/uninstall-wizard) с целью найти и удалить все принадлежащие программе остатки без запуска штатного деинсталлятора.
@@ -257,7 +257,7 @@ uninstall-tool:
     stripe_2_header: Как это работает
     stripe_2_text: "[Мастер удаления](/uninstall-tool/uninstall-wizard) выполняет полное сканирование файловой системы и реестра, чтобы найти и удалить остатки программы, в том числе такие, как следы сервисов Windows (включая драйвера), файловые ассоциации, COM компоненты (например, расширения оболочки), различные остатки Windows Installer, ярлыки и многое другое."
     stripe_2_info_1: Если программа была установлена с помощью [Монитора Установки ПО](/uninstall-tool/install-tracker-installation-monitor), то Мастер удаления практически мгновенно отобразит все принадлежащие программе остатки и гарантирует 100% чистое удаление приложения.
-  batch_removal:
+  batch_removal: # https://crystalidea.com/ru/uninstall-tool/batch-uninstaller-batch-programs-removal
     title: Пакетное Удаление программ - Uninstall Tool
     stripe_1_header: Пакетное Удаление программ
     stripe_1_info_1: Для активации этого режима, нажмите и удерживайте клавишу __Ctrl__ и поочередно выделяйте кликом нужные программы (либо можно удерживать клавишу __Shift__ и использовать стрелки вверх/вниз для выделения рядом стоящих элементов).
@@ -266,8 +266,8 @@ uninstall-tool:
     stripe_2_header: Как это работает
     stripe_2_info_1: "**Пакетное принудительно удаление** - также как и обычное [Принудительное удаление](/uninstall-tool/force-removal) не будет запускать деинсталляторов по умолчанию для выбранных элементов. Вместо этого будет только произведен поиск на компьютере установленных частей программы - файлов/папок/элементов реестра. Для всех программ они будут показаны обшим списком в конце. Будьте крайне внимательно при удалении элементов этого списка."
     stripe_2_info_2: "**Пакетное удаление записей из списка** В этом режиме будет произведено удаление записей из реестра Windows без удаления каких-либо частей программ. Удалять рекомендуется только устаревшие или ошибочные записи."
-    stripe_2_info_3: "**Пакетная деинсталляция** на данный момент ограничена использованием для Windows Store Apps."  
-  startup_programs:
+    stripe_2_info_3: "**Пакетная деинсталляция** на данный момент ограничена использованием для Windows Store Apps."
+  startup_programs: # https://crystalidea.com/ru/uninstall-tool/startup-programs
     title: Программы, запускаемые при старте Windows - Uninstall Tool
     stripe_1_header: Программы, запускаемые при старте Windows
     stripe_1_info_1: "С помощью Uninstall Tool Вы можете:"
@@ -287,12 +287,12 @@ uninstall-tool:
     stripe_2_info_7: "**StartMenu CU** - Главное Меню/Автозагрузка для текущего пользователя"
     stripe_2_info_8: "**Windows Task** - Задание планировщика Windows, запланированное на вход пользователя. Вы также можете создать новое задание"
     stripe_3_header: Добавление новой программы в автозапуск
-    stripe_3_info_1: "С помощью Uninstall Tool Вы можете добавлять новую программу, которая будет запускаться при запуске Windows. Вы можете указать один из типов запуска указанных выше ('Источник (тип запуска) программы')."
+    stripe_3_info_1: С помощью Uninstall Tool Вы можете добавлять новую программу, которая будет запускаться при запуске Windows. Вы можете указать один из типов запуска указанных выше ('Источник (тип запуска) программы').
     stripe_3_info_2: "**Типа запуска** - тип запуска программы (источник). См раздел **Источник (тип запуска)** выше"
     stripe_3_info_3: "**Путь к исполняемому файлу** - полный путь к исполняемому файлу программы, которую Вы хотите запускать"
     stripe_3_info_4: "**Аргументы** (не обязательно) - аргументы командной строки, которые Вы хотите передать программе"
     stripe_3_info_5: "**Запускать задачу с наивысшими правами** - (доступно только для задания планировщика) запуск под администратором. Очень полезно для автозапуска программы, требующей права администратора в Windows 8/10."
-  portable_mode:
+  portable_mode: # https://crystalidea.com/ru/uninstall-tool/portable-mode
     title: Портативный режим - Uninstall Tool
     stripe_1_header: Портативный режим
     stripe_1_info_1: Кеш программы и данные об отслеженных приложениях остаётся храниться на локальном компьютере (там, где испльзуется программа).
@@ -300,17 +300,17 @@ uninstall-tool:
     stripe_2_info_1: "[Монитор Установки ПО](/uninstall-tool/install-tracker-installation-monitor) полностью функционален в портативной версии за единственным исключением: установка приложений может производиться только из самой программы (не из контекстного меню для .exe/.msi файлов):"
     stripe_3_header: Активация портативной лицензии
     activate_info_1: "Для регистрации портативной версии данные для регистрации должны быть сохранены в текстовый файл '**license.dat**', который нужно поместить в папку с программой. Файл должен состоять их двух строчек, где:"
-    activate_info_2: первая строка - регистрационное имя   
+    activate_info_2: первая строка - регистрационное имя
     activate_info_3: вторая строка - регистрационный код
     activate_info_4: "Например:"
-  buy-page:
+  buy-page: # https://crystalidea.com/ru/uninstall-tool/buy
     title: Купить Uninstall Tool, безопасная онлайн покупка
     header: Купить Uninstall Tool, безопасная онлайн покупка
     personal_license: Стандартная лицензия
     portable_license: __Портативная__ лицензия
     upgrade_header: Апгрейд с версий 2.x
     upgrade_info: Владельцы лицензии для Uninstall Tool 2.x (любого типа лицензии) получают 50% скидку на покупку Uninstall Tool 3. Для применения скидки, введите Ваш e-mail (тот, который использовался при покупке ранее!) как купон на [этой странице](https://store.payproglobal.com/checkout?products&#91;1&#93;&#91;id&#93;=34958).
-  support-page:
+  support-page: # https://crystalidea.com/ru/uninstall-tool/support
     title: Uninstall Tool - Поддержка
     requirements_info: Поддерживаются 64/32-битные Windows, требуются права администратора.
     support_basics: Основные
@@ -322,7 +322,7 @@ uninstall-tool:
     support_uninstaller: Деинсталлятор
     support_uninstaller_1: Список программ
     support_uninstaller_2: Умный поиск программы
-  download-page:
+  download-page: # https://crystalidea.com/ru/uninstall-tool/download
     title: Uninstall Tool - Скачать
     header: Скачать Uninstall Tool
     header_info: Деинсталлятор для полного, удобного и быстрого удаления программ.
@@ -331,8 +331,8 @@ uninstall-tool:
     info_text_1: Вы можете бесплатно скачать и использовать Uninstall Tool без каких-либо ограничений в течение 30 дней. Если у Вас возникли проблемы со скачиванием программы, [свяжитесь с нами](/contact), пожалуйста.
     info_text_2: "[Портативная версия](/downloads/uninstalltool_portable.zip) (испытательного периода нет, требуется специальная лицензия и особый способ активациии). [Подробнее](/uninstall-tool/portable-mode)"
     info_text_3: Подробная информация о том, что нового в программе на [странице с историей изменений](/uninstall-tool/release-notes).
-    info_text_4: '[Лицензионное соглашение](/uninstall-tool/eula)'
-  help-shortcuts-page:
+    info_text_4: "[Лицензионное соглашение](/uninstall-tool/eula)"
+  help-shortcuts-page: # https://crystalidea.com/ru/uninstall-tool/keyboard-shortcuts
     title: Горячие клавиши в Uninstall Tool
     header: Горячие клавиши в Uninstall Tool
     info_1: Существует ряд полезных горячих клавиш в Uninstall Tool, которые смогут сделать работу с программой более эффективной. Вы можете найти все функции программы в меню вместе соответствующим к ним горячими клавишами, таким образом можно узнать о горячих клавишах прямо в программе. Этот список не стоит воспринимать как нечто обязательное к изучению, а просто обзор всех возможных сочетаний клавиш Uninstall Tool.
@@ -355,19 +355,19 @@ uninstall-tool:
     group_3_key_2: "**Ctrl+G** - Искать выбранный элемент в Google"
     group_3_key_3: "**Ctrl+R** - Перейти к источнику запуска выбранной программы. В зависимости от источника, эта команда может открыть Редактор Реестра либо папку в Стартовом меню либо менеджер задач Windows"
     group_3_key_4: "**Ctrl+E** - Открыть папку выбранной программы (если такая имеется)"
-  help-smart-search-page:
+  help-smart-search-page: # https://crystalidea.com/ru/uninstall-tool/smart-search
     title: Умный, быстрый поиск программы в Uninstall Tool
     header: Умный, быстрый поиск программы в Uninstall Tool
-    info_1: Uninstall Tool впервые (еще в далеком 2005 году) представила возможность быстрого поиска программы в списке. Поиск ведется по вхождению строки поиска в любую из частей имени программы. 
+    info_1: Uninstall Tool впервые (еще в далеком 2005 году) представила возможность быстрого поиска программы в списке. Поиск ведется по вхождению строки поиска в любую из частей имени программы.
     info_2: "Поиск можно начинать сразу после запуска программы без каких-любо дополнительных действий. Просто введите любую известную часть имени, и **моментально** увидите результат:"
-  help-activate-page:
+  help-activate-page: # https://crystalidea.com/ru/uninstall-tool/activate-after-purchase
     title: Регистрация Uninstall Tool после покупки
     header: Регистрация Uninstall Tool после покупки
     text_info_1: "После [покупки программы](/uninstall-tool/buy) пользователю отправляется регистрационный e-mail с лицензионной информацией. После этого выберите меню **Помощь->Ввести ключ**:"
     text_info_2: "либо из диалога напоминания:"
     text_info_3: "Введите имя и код в точности, как указано в регистрационном e-mail:"
     text_info_4: нажмите кнопку OK, перезапустите программу.
-  faq-page:
+  faq-page: # https://crystalidea.com/ru/uninstall-tool/faq
     title: Вопросы по Uninstall Tool
     q1_q: Это пожизненная лицензия, должен ли я платить за обновления?
     q1_a: Лицензия пожизненная и не имеет сроков годности. Все обновления за исключением мажорных бесплатны. Мажорные обновления (например, с версий 2.x до 3.x) можно купить со скидкой 50%.
@@ -377,14 +377,14 @@ uninstall-tool:
     q3_a: Если у Вас уже установлена Uninstall Tool ранней версии, Вы можете устанавливать программу поверх. Установщик может попросить перезагрузить компьютер, если это потребуется.
     q4_q: Почему я должен указывать мой номер телефона при покупке?
     q4_a: Наш партнер FastSpring настаивает на этом как на способе уменьшить риск [Кардинга](http://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B4%D0%B8%D0%BD%D0%B3). Также вы можете купить наши программы используя PayPro (ссылки доступны на странице покупки).
-  customers-page:
+  customers-page: # https://crystalidea.com/ru/uninstall-tool/customers
     title: Что говорят пользователи Uninstall Tool о программе
     description: Тысячи пользователей и сотни организаций выбирают Uninstall Tool как лучший деинсталлятор для чистого удаления программ.
     header: Вы в хорошей компании
     header_info: Uninstall Tool доверяют крупнейшие мировые IT компании
     text_try: Попробуйте Uninstall Tool прямо сейчас, <br>Вы сразу оцените её преимущества.
 
-anytoiso:
+anytoiso: # https://crystalidea.com/ru/anytoiso
   title: AnyToISO - Создание ISO из других форматов/дисков/папок
   description: Конвертирование в ISO на Windows и macOS, Создание ISO с CD/DVD дисков, Создание ISO из папок
   header: Конвертирует в ISO другие форматы <br> Создает ISO с CD/DVD/Blu-ray дисков или папок. Распаковка любых образов
@@ -421,21 +421,21 @@ anytoiso:
   review_3: "Мы обожаем интерфейс программы: чистый, простой и эффективный. Нет ничего проще, чем использовать AnyToISO."
   review_4: Она просто работает! Необходима всем, кто работает с ISO образами, но не любит Терминал. По странной причине, Apple не даёт возможности нам создавать ISO образы.
   review_5: AnyToISO всегда со мной уже несколько лет. Она справляется с любым файлом, спокойно, без суеты. Довольно легко забыть, как много сил потребовалось разработчикам, чтобы написать такую хорошую программу. Многие люди не знают об этой замечательной утилите, и зря, ведь ее функционал уникален.
-  release_notes:
+  release_notes: # https://crystalidea.com/ru/anytoiso/release-notes
     title: История изменений AnyToISO
-  buy-page:
+  buy-page: # https://crystalidea.com/ru/anytoiso/buy
     title: Купить AnyToISO, безопасная онлайн покупка
     header: Купить AnyToISO, безопасная онлайн покупка
     license_win: Стандартная Pro версия для Windows
     license_mac: Стандартная Pro версия для MacOS
     license_both: Стандартная Pro версия для
     license_portable_win: __Портативная__ Pro версия для Windows
-  support-page:
+  support-page: # https://crystalidea.com/ru/anytoiso/support
     title: AnyToISO - Поддержка
     support_page_1: Активация Pro версии
     support_page_2: Перевод AnyToISO на другие языки
     support_page_3: "Видео: использование AnyToISO на Mac (по-немецки)"
-  download-page:
+  download-page: # https://crystalidea.com/ru/anytoiso/download
     title: AnyToISO - Скачать
     header: Скачать AnyToISO
     header_info: Универсальная утилита создания ISO из дисков, папок и других образов/архивов
@@ -443,10 +443,7 @@ anytoiso:
     info_text_2: Lite версия бесплатна, но работает только с файлами, не превышающих размер обычного CD (870 Мб).
     info_text_3: "[Портативная версия](/downloads/anytoiso_portable.zip) (требуется специальная лицензия и особый способ активациии). [Подробнее](/anytoiso/portable-mode)"
     info_text_4: Подробная информация о том, что нового в программе на [странице с историей изменений](/anytoiso/release-notes).
-  portable_mode_page:
-    title: AnyToISO - Портативный режим
-    header: Портативный режим AnyToISO
-  file-to-iso-page:
+  file-to-iso-page: # https://crystalidea.com/ru/anytoiso/file-extract-convert-to-iso
     title: Сконвертировать в ISO или извлечь образ/архив - AnyToISO
     header: Сконвертировать в ISO или извлечь файл/архив
     info_text_1: "Скачали образ CD/DVD или архив в неизвестном формате? Теперь нет нужды искать и покупать дорогое коммерческое ПО, которое работает с этим форматом: одна утилита AnyToISO поддерживает все форматы, включая **7Z, BIN, DAA, DEB, DMG, IMG, ISO, ISZ, MDF, NRG, PKG, RAR, TAR.GZ, TAR.BZ2, XAR, ZIP...** (полный список доступен в разделе 'Список поддерживаемых форматов' ниже)."
@@ -477,30 +474,44 @@ anytoiso:
     table_xar: Архив XAR, используемый в macOS начиная с версии 10.5. Используется для инсталляционных пакетов.
     table_zip: Архив ZIP, наиболее популярный формат архиве в мире.
     info_text_3: Необходима поддержка другого формата? [Свяжитесь](/contact) с нами и мы сделаем всё возможное, чтобы его добавить.
-  disk-to-iso-page:
+  disk-to-iso-page: # https://crystalidea.com/ru/anytoiso/create-iso-from-cd-dvd-mac-windows
     title: Создание ISO из CD/DVD/Blue-ray диска на Windows и macOS - AnyToISO
     header: Создание ISO из CD/DVD/Blue-ray (Windows & macOS)
-    info_text_1: "Выберите **CD/DVD to ISO** вкладку в программе, затем выберите необходимый дисковод из списка и нажмите кнопку **Создать ISO**. Опция **Создать BIN/CUE образ** создаст образ диска, на котором более одной дорожки (например, AudioCD диск). Используя Windows Вы можете создавать ISO из диска прямо в Проводнике используя контекстное меню для оптического диска."
+    info_text_1: Выберите **CD/DVD to ISO** вкладку в программе, затем выберите необходимый дисковод из списка и нажмите кнопку **Создать ISO**. Опция **Создать BIN/CUE образ** создаст образ диска, на котором более одной дорожки (например, AudioCD диск). Используя Windows Вы можете создавать ISO из диска прямо в Проводнике используя контекстное меню для оптического диска.
     info_text_2: Конечный ISO образ будет содержать в точности теже файловые системы, которые были на исходном диске. Зачастую на дисках встречаются несколько файловых систем, например ISO 9660 и UDF. Файловая система HFS+ (macOS) также встречается на дисках. Загрузочная информация (если таковая имеется) также сохраняется в ISO файл. Конечный ISO образ может быть всегда извлечен с помощью AnyToISO либо записан на другой оптический диск.
     info_header_3: Поддержка образов BIN/CUE
     info_text_3: BIN/CUE образ CD(DVD) диск состоит из пары .bin и .cue файлов. Файл с расширением .cue содержит в себе информацию о дорожках диска, а .bin файл содержит фактические данные диска (в так называемом 'сыром' виде). BIN/CUE образ может быть также сконвертирован в ISO образ, а образы дисков AudioCD могут быть извлечены как отдельные .WAV файлы.
     info_text_4: "Важно: Вы не можете создавать копию дисков DVD/Blue-Ray, защищенных авторским правом."
-  folder-to-iso-page:
+  folder-to-iso-page: # https://crystalidea.com/ru/anytoiso/folder-to-iso-files-to-iso-create-iso-from-folder
     title: Создание ISO из папки на Windows и macOS - AnyToISO
     header: Создание ISO из папки на Windows и macOS
     info_text_1: AnyToISO может создавать ISO образы из файлов и папок на вашем локальном диске. Для этого Вам необходимо иметь папку с полным содержимым желаемого ISO образа. После этого выберите эту папку в закладке 'Папка в ISO' (на Windows можно просто совершить правый щелчок мышки на желаемой папке сразу в Проводнике). Рекомендуется всегда указывать уникальную метку для тома ISO образа. Конечный ISO файл совместим с Windows/macOS/Linux и может быть прочитан любой программой (умеющей работать с ISO образами). Разумеется, образ всегда может быть записан на оптический диск CD/DVD/Blue-ray.
     info_text_2: "По умолчанию, программа создаёт в ISO следущие файловые системы: ISO 9660, Joliet (расширение ISO 9660 для поддержки имен файлов в нижнем регистре и длинных имен), а также UDF. Вы можете настроить эти параметры в дополнительном окне после нажатия кнопки Настройки."
-  integration-explorer-page:
+  integration-explorer-page: # https://crystalidea.com/ru/anytoiso/integration-explorer
     title: Интеграция AnyToISO с Проводником Windows
     header: Интеграция AnyToISO с Проводником Windows
     info_text_1: Программа прозрачно и удобно интегрируется в Проводник, добавляя свои команды в контекстное меню для [поддерживаемых файлов](/anytoiso/file-extract-convert-to-iso), оптических дисков CD/DVD/Blue-ray, а также обычных папок.
     info_header_1: "Файлы: конвертирует в ISO или извлекает"
     info_header_2: "Диски: создаёт ISO из оптических CD/DVD/Blue-ray дисков"
     info_header_3: "Папки: создаёт ISO из содержимого локальной папки"
-  integration-finder-page:
+  integration-finder-page: # https://crystalidea.com/ru/anytoiso/integration-finder
     title: Интеграция AnyToISO с Apple Finder
     info_text_1: Программа прозрачно и удобно интегрируется в стандартный файловый менеджер Apple, добавляя себя в меню 'Открыть c помощью' для [поддерживаемых файлов](/anytoiso/file-extract-convert-to-iso). Пользователь выбирает конвертирование либо извлечение для выбранного файла уже в самой программе.
-  activate-page:
+  portable_mode_page: # https://crystalidea.com/ru/anytoiso/portable-mode
+    title: AnyToISO - Портативный режим
+    header: Портативный режим AnyToISO
+  command-line-page: # https://crystalidea.com/ru/anytoiso/command-line
+    title: Командная строка для AnyToISO
+    info_1_header: Конвертировать образ/архив в формат ISO
+    info_2_header: Извлечь образ/архив в папку
+    info_2_text: "При извлечении ISO образа, который содержит несколько файловых систем, AnyToISO по умолчанию использует UDF (если таковая имеется). Пользователь может указать какую файловую систему использовать в последнем опциональном параметре /fs. Возможные значения для параметра: iso9660, udf, xbox и hfs."
+    info_3_header: Создание ISO из оптического CD/DVD/Blue-ray диска
+    info_4_header: Создание ISO из локальной папки
+    info_4_text: "Желательно всегда указывать метку для тома в конечном ISO файле. Также можно указать файловые системы внутри ISO образа используя /fs параметр (по умолчанию AnyToISO создаёт 3 файловые системы iso9660+joliet+udf). Возможные значения для параметра: iso9660, joliet and udf."
+    info_5_header: Пример использования командной строки на macOS
+    info_6_header: Пример пакетных операций на Windows
+    info_7_header: Отобразить справку по использованию командной строки
+  activate-page: # https://crystalidea.com/ru/anytoiso/activate-pro-version
     title: Активация Pro версии - AnyToISO
     header_1: Активация Pro версии AnyToISO
     info_1: "Апргрейд до профессиональной версии AnyToISO даёт:"
@@ -512,18 +523,7 @@ anytoiso:
     header_3: Ввод регистрационного ключа
     info_6: "Сразу после покупки Вы получите письмо по электронной почте с регистрационным ключом, который должен быть введен в AnyToISO, чтобы сделать апргрейд Lite версии до Pro. Ключ должен быть введен в меню 'Помощь->Ввести регистрационный ключ':"
     header_portable: Активация портативной версии (Windows)
-  command-line-page:
-    title: Командная строка для AnyToISO
-    info_1_header: Конвертировать образ/архив в формат ISO
-    info_2_header: Извлечь образ/архив в папку
-    info_2_text: "При извлечении ISO образа, который содержит несколько файловых систем, AnyToISO по умолчанию использует UDF (если таковая имеется). Пользователь может указать какую файловую систему использовать в последнем опциональном параметре /fs. Возможные значения для параметра: iso9660, udf, xbox и hfs."
-    info_3_header: Создание ISO из оптического CD/DVD/Blue-ray диска
-    info_4_header: Создание ISO из локальной папки
-    info_4_text: "Желательно всегда указывать метку для тома в конечном ISO файле. Также можно указать файловые системы внутри ISO образа используя /fs параметр (по умолчанию AnyToISO создаёт 3 файловые системы iso9660+joliet+udf). Возможные значения для параметра: iso9660, joliet and udf."
-    info_5_header: Пример использования командной строки на macOS
-    info_6_header: Пример пакетных операций на Windows
-    info_7_header: Отобразить справку по использованию командной строки
-  faq-page:
+  faq-page: # https://crystalidea.com/ru/anytoiso/faq
     title: Часто задаваемые вопросы по AnyToISO
     q1_q: Audio CD Images support
     q1_a: Some programs have support of creating an image of Audio CD (NRG, BIN/CUE format or PDI format). These Audio CD images cannot be converted to ISO format due to the ISO format restrictions. NRG and BIN/CUE images can be extracted to individual WAV files using AnyToISO. Creation of ISO image from an AudioCD is impossible due to ISO format restrictions, use [BIN/CUE image instead](/anytoiso/create-iso-from-cd-dvd-mac-windows).
@@ -532,7 +532,7 @@ anytoiso:
     q3_q: Do you provide refund in some cases?
     q3_a: Yes. If the program does not work as advertised, please provide us a proof of that (a link, torrent, ftp link, e-mail, etc. to the image that you can not convert with PRO version of the program). If the file is one of [supported formats](/anytoiso/file-extract-convert-to-iso), the refund will be processed in full immediately.
 
-macs-fan-control:
+macs-fan-control: # https://crystalidea.com/ru/macs-fan-control
   title: Macs Fan Control - управление вентиляторами компьютеров Apple, работает на macOS и Windows (Boot Camp)
   description: Управление вентиляторами компьютеров Apple на macOS и Windows (Boot Camp). Мониторинг и управление вентиляторами компьютеров Apple. Решение проблем перегрева, шума вентиляторов iMac, MacBook (Pro/Air), Mac mini, Mac Pro, замена диска iMac
   header: Управление вентиляторами ПК Apple
@@ -544,48 +544,59 @@ macs-fan-control:
   stripe_1_header: Мониторинг и управление вентиляторами компьютеров Apple
   stripe_1_info_1: Слежение за скоростью вентиляторов и температурными датчиками, определение температуры замененных дисков HDD/SSD.
   stripe_1_info_2: Пользовательский контроль скорости вентилятора, поддержка вращения в зависимости от температуры.
-  stripe_1_info_3: Создание пользовательских профилей управления вентиляторами для быстрого переключения между ними.
-  stripe_1_info_4: Также работает в Windows 10/8/7/Vista/XP, установленной через Boot Camp. Только на компьютерах без [чипа T2](/macs-fan-control/supported-models).
+  stripe_1_info_3: Создание [пользовательских профилей](/macs-fan-control/fan-presets) управления вентиляторами для быстрого переключения между ними.
+  stripe_1_info_4: Также работает в Windows 10/8/7/Vista/XP, установленной через Boot Camp. Даже на современных моделях оборудованных чипом T2.
   stripe_2_slide_1_title: Простой и эффективный интерфейс
   stripe_2_slide_1_descr: "Две таблицы: одна со списком вентиляторов, вторая - с температурными датчиками."
   stripe_2_slide_2_title: Управление скоростью вращения
   stripe_2_slide_2_descr: Установка пользовательского значения оборотов вентилятора, либо контроль в зависимости от датчика.
   stripe_2_slide_3_title: Настраиваемое отображение в строке меню (трее)
   stripe_2_slide_3_descr: Отображение скорости вентилятора и/или температуры. Также отображается в панели задач Windows.
+  stripe_3_header: Управление вентиляторами и профили
+  stripe_3_info_1: Управление одним или несколькими вентиляторами на компьютерах Apple может быть
+  stripe_3_info_2: "**Автоматическим**: когда вентилятор управляется системой (режим, предусмотренный Apple по умолчанию). Когда все доступные вентиляторы управляются системой, программа работает в режиме мониторинга, не меняя ничего на вашем компьютере."
+  stripe_3_info_3: "**Пользовательским**: вентилятор управляется программой. Это может некоторое постоянное значение оборотов (например, 1500 оборотов/мин) или динамическое значение, зависящее от выбранного сенсора (например, в соответствии с температурой датчика CPU PECI)."
+  stripe_3_info_4: Для удобства программа умеет работать с [профилями вентиляторов](/macs-fan-control/fan-presets), которые пользователяют быстро переключать режимы работы ваших вентиляторов на **Автоматический** или заданный **Пользовательский**, в зависимости от Вашей активности на компьютере. Вы можете почитать подробнее о профилях вентиляторов и как они работают [здесь](/macs-fan-control/fan-presets).
+  stripe_3_info_5: При выходе из программы, Macs Fan Control всегда восстанавливает все вентиляторы в **автоматический** режим (профиль Автоматический).
   stripe_review_try: Скачать Macs Fan Control
   review_1: Работает замечательно на моём старом macbook pro... почему Apple не сделала эту классную утилиту? Настроек хватат, спасибо разработчикам за то, что сделали эту программу.
-  review_2: If you have concerns about the long term health of any machine that's running hot enough, use Macs Fan Control to bump up your fan speed. 
+  review_2: Если вы заботитесь о долговременном здоровье вашего компьютера Apple, который перегревается, используйте Macs Fan Control чтобы повысить скорость вентиляторов охлаждения.
   review_3: Чудесная программа, отлично справляется с контролем температуры процессора, когда я выполняю ресурсоёмкие задачи.
   review_4: Благодаря этой программе мой лэптоп больше не перегревается в Windows 10, когда я запускаю 'тяжелые' приложения!
   review_5: Эта качественно разработанная утилита помогает мне приглядывать за температурами внутри моего mac.
   review_6: Прекрасно справилась с лишним шумом вентиляторов Mac Pro (системные настройки, на мой взгляд, чрезмерны).
-  release_notes:
+  release_notes: # https://crystalidea.com/ru/macs-fan-control/release-notes
     title: История изменений Macs Fan Control
   button_buy: Купить Pro
-  buy-page:
+  buy-page: # https://crystalidea.com/ru/macs-fan-control/buy
     title: Купить Macs Fan Control Pro, поддержать разработку Macs Fan Control
     header: Купить Macs Fan Control Pro
-    info_text_1: С Pro версией Вы получаете дополнительные функции (пользовательские профили), приоритетную поддержку и уверенность в будущих обновлениях и улучшениях программы.
-    pro_license: Pro версия
+    info_text_1: С Pro версией Вы получаете дополнительные функции ([пользовательские профили](/macs-fan-control/fan-presets)), приоритетную поддержку и уверенность в будущих обновлениях и улучшениях программы.
+    pro_license: Pro версия для macOS
+    pro_license_bundle: Pro версия для macOS &amp; Windows
     toolbox_info_1: Pro лицензия покупается отдельно на каждый компьютер. При указании большего количества компьютеров действуют скидки.
-    toolbox_info_2: Pro лицензия работает macOS и Windows (Boot Camp). Windows версия программы работает только на компьютерах БЕЗ современного чипа T2. Вы можете посмотреть список [поддерживаемых моделей](/macs-fan-control/supported-models).
+    toolbox_info_2: При покупке Pro лицензии для macOS и Windows, Вы также можете управлять вентиляторами в среде Windows, установленной через Boot Camp. Даже на современных Apple компьютерах, оснащённых чипом безопасности T2.
     toolbox_info_3: Если Вы покупали программу ранее (донатили), пожалуйста, [восстановите свою лицензию](/restore-license).
-  support-page:
+  support-page: # https://crystalidea.com/ru/macs-fan-control/support
     title: Macs Fan Control - Помощь и поддержка
-  download-page:
+    support_page_activate: Как активировать Pro версию
+    support_page_models: Поддерживаемые модели Mac компьютеров
+    support_page_sensors: Поддерживаемые температурные датчики и их смысл
+    support_page_cmdline: Командная строка
+    support_page_presets: Профили вентиляторов
+  download-page: # https://crystalidea.com/ru/macs-fan-control/download
     title: Скачать Macs Fan Control для macOS и Windows (Boot Camp)
     header: Скачать Macs Fan Control
     header_info: Мониторинг температур и управление вентиляторами компьютеров Apple
     info_text_1: Вы можете скачать и использовать Macs Fan Control абсолютно бесплатно. Если у Вас возникли проблемы со скачиванием программы, пожалуйста, [свяжитесь с нами](/contact).
     info_text_2: Эта программа для продвинутых пользователей, которые понимают, как её использовать не причиняя вреда их mac. Авторы не несут ответственности за потерю данных, порчу оборудования или любые другие потери связанные с использованием программы.
-    info_text_3: "Подробная информация о том, что нового в программе на [странице с историей изменений](/macs-fan-control/release-notes). Архив старых версий [тут](https://github.com/crystalidea/macs-fan-control/releases)."
-    info_text_4: "* На Windows программа работает только на моделях маков, которые не оборудованы [чипом T2](/macs-fan-control/supported-models)."
-  faq-page:
+    info_text_3: Подробная информация о том, что нового в программе на [странице с историей изменений](/macs-fan-control/release-notes). Архив старых версий [тут](https://github.com/crystalidea/macs-fan-control/releases).
+  faq-page: # https://crystalidea.com/ru/macs-fan-control/faq
     title: Часто задаваемые вопросы по Macs Fan Control
     q1_q: Каковы оптимальные настройки для моего MacBook/iMac/..?
     q1_a: "Короткий ответ: экспериментируйте! Сначала понаблюдайте за поведением температурных датчиков с различными оборотами вентиляторов. Вы можете узнать подробнее о различных температурных датчиках [на этой странице](/macs-fan-control/temperature-sensors)."
     q2_q: Почему Macs Fan Control показывает нулевые обороты у моего вентилятора?
-    q2_a: Это нормально, если у вас - 13 дюймовый MacBook Pro 13 2015/2016 года, эти модели выключают вентилятор при низкой температуре процессора. Однако, если у вас другая модель компьютера, это означает, что вентилятор не сообщает никаких данных. Возможно, вентилятор сломан либо существует повреждение кабеля. В этом случае рекомендуется проверить компьютер с помощью Apple Hardware Test (он поставлялся на DVD диске с компьютером) и посмотреть, не сообщает ли тест каких-либо ошибок.
+    q2_a: Это нормально, если у вас - 13 дюймовый MacBook Pro 13 2015/2016 года и старше, эти модели выключают вентилятор при низкой температуре процессора. Однако, если у вас другая модель компьютера, это означает, что вентилятор не сообщает никаких данных. Возможно, вентилятор сломан либо существует повреждение кабеля. В этом случае рекомендуется проверить компьютер с помощью Apple Hardware Test (он поставлялся на DVD диске с компьютером) и посмотреть, не сообщает ли тест каких-либо ошибок.
     q3_q: Что за пароль небходим программе для работы?
     q3_a: Macs Fan Control спрашивает пароль администратора macOS, если вы решили изменить режим работы вентилятора. Это необходимо сделать лишь один раз, а также при выходе новой версии программы. Пожалуйста, не спрашивайте нас о том, какой пароль у ВАШЕГО компьютера.
     q4_q: Работает ли Macs Fan Control в виртуальной машине (VirtualBox, Vmware, Parallels)?
@@ -596,8 +607,15 @@ macs-fan-control:
     q6_a: На macOS просто выйдите из программы и переместите её из папки с программами в корзину. На Windows необходимо удалить программу через панель управления. Однако, гораздо эффективней для удаления любых программ использовать наш деинсталлятор [Uninstall Tool](/uninstall-tool).
     q7_q: В диспетчере задач kernel_task потребляет слишком много ресурсов процессора, почему?
     q7_a: Система охлаждения заставляет ядро съедать ресурсы процессора, чтобы предупредить перегрев компьютера. Если Вы изменили настройки вентилятора(ов), попробуйте вернуть автоматический режим. Если это не помогло, [сбросьте SMC](https://support.apple.com/en-us/HT201295) вашего компьютера.
-
-speedyfox:
+  activate-page:
+    title: Активация Pro версии Macs Fan Control
+    enter_key_info: "После [покупки](/macs-fan-control/buy) лицензии и получении лицензионного ключа, кликните меню 'Ещё' -> 'Апгрейд до Pro версии' как показано ниже:"
+    enter_key_info_2: Затем нажмите кнопку 'Ввод лицензии'.
+    enter_key_info_3: Введите свою электронную почту, используемую при регистрации и лицензионный ключ, затем нажмите кнопку 'Разблокировать'. Если лицензия выдана на несколько компьютеров, код должен быть введен на каждом их них.
+  presets-page:
+    title: Профили вентиляторов в Macs Fan Control
+    
+speedyfox: # https://crystalidea.com/ru/speedyfox
   title: SpeedyFox - ускорьте ваш Firefox/Skype/Chrome/Thunderbird!
   description: Оптимизация скорости работы Firefox, Chrome, Skype, Opera, Chromium и многих других. Оптимизация браузеров.
   header: SpeedyFox - ускорьте ваш Firefox/Skype/Chrome/Thunderbird!
@@ -621,20 +639,20 @@ speedyfox:
   stripe_4_header: Командная строка
   stripe_4_info_1: оптимизация выбранного профиля (вы можете найти имя профиля в списке профилей)
   stripe_4_info_2: оптимизация профиля программы program_name, располагаемого по пути profile_path (например, для портативных версий поддерживаемых программ)
-  release_notes:
+  release_notes: # https://crystalidea.com/ru/speedyfox/release-notes
     title: История изменений Speedyfox (для Windows)
 
-changelog:
+changelog: # https://crystalidea.com/ru/speedyfox/release-notes
   version: Версия
   released_on: Выпущено
   release_notes: История изменений
-  more_link: Скачать с GitHub
+  github_download: Скачать с GitHub
   new: Новое
   improved: Улучшено
   fixed: Исправлено
   older_versions: Более старые версии
 
-blog:
+blog: # https://crystalidea.com/ru/blog
   title: Блог CrystalIDEA - новости о программах, статьи о Uninstall Tool, AnyToISO, Macs Fan Control
   subscribe: Подписаться
   join_us: Присоединяйтесь к сообществу. <br> Получайте уведомления о новых статьях и новостях о программах.
@@ -644,11 +662,11 @@ blog:
   next_page: Следущая страница
   previous_page: Предыдущая страница
 
-privacy-policy-page:
+privacy-policy-page: # https://crystalidea.com/ru/privacy-policy
   title: Политика конфиденциальности CrystalIDEA
   description: Since CrystalIDEA is committed to protect your privacy, there is no need to worry about the security of your personal information
 
-restore-license-page:
+restore-license-page: # https://crystalidea.com/ru/restore-license
   title: Восстановить лицензию - CrystalIDEA
   header: Восстановить лицензию
   description: Восстановить лицензию для Uninstall Tool, AnyToISO, Macs Fan Control и других наших программ

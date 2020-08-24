@@ -14,4 +14,4 @@ Good news for happy owners of Apple iMac Pro! Thе current version of [Macs Fan 
 	<img src="/assets/images/blog/imac_pro_mfc.png" class="product-screenshot" data-rjs="2">
 </p>
 
-Unfortunately, the app currently doesn't work on Windows (Boot Camp). We found no way to access SMC under Windows on this machine at the moment. SMC is now being controlled by the T2 chip. [More info](/blog/fan-control-on-apple-computers-with-t2-chip-on-windows-boot-camp)
+Update: starting from version 1.5.6, the app also works under Windows as well. [More info](/blog/fan-control-windows-t2-now-possible).

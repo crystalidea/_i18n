@@ -59,7 +59,7 @@ The new preferences dialog now also looks better:
 
 __macOS__:
 
-The app is still compatible with macOS 10.7 and later but comes as two separate downloads: one for [macOS 10.14 Mojave+](/downloads/macsfancontrol.zip) and the second for [macOS 10.7 Lion - 10.13 High Sierra](/downloads/legacy/macsfancontrol.zip).
+The app is still compatible with macOS 10.7 and later but comes as two separate downloads: one for [macOS 10.12 Sierra+](/downloads/macsfancontrol.zip) and the second for [macOS 10.7 Lion - 10.11 El Capitan](/downloads/legacy/macsfancontrol.zip).
 
 __Windows__:
 

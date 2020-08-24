@@ -1,66 +1,66 @@
 ---
 permalink: /blog/macs-fan-control-pro
 layout: blog-post
-title: Macs Fan Control 1.5, introducing Pro version
+title: Macs Fan Control 1.5, Vorstellung der Pro Version
 image: /assets/images/blog/mfc_update_15.png
 tags: [ "macs-fan-control"]
 ---
 
-Our extremely popular [Macs Fan Control](/macs-fan-control) app now gets even better: Pro version with presets for advanced users, major UI improvements and more stability.
+Unser extrem beliebte [Macs Fan Control](/macs-fan-control) App wird jetzt noch besser: Es gibt jetzt eine Pro Version mit Voreinstellungen für erfahrene Benutzer, bedeutende UI Verbesserungen und mehr Stabilität.
 
 <!--more-->
 
-<h2>Presets and Pro version</h2>
+<h2>Voreinstellungen und Pro Version</h2>
 
-The app remains free but advanced users can get extra features by upgrading to the Pro version. Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity. Additionally you get priority customer support and confidence in future updates and improvements.
+Die App bleibt nach wie vor kostenlos, aber erfahrene Nutzer können nun zusätzliche Funktionen erhalten, indem Sie ein auf Upgrade auf die Pro Version durchführen. Mit der Pro Version kann man jetzt benutzerdefinierte Lüftervoreinstellungen erstellen und abspeichern - damit lässt sich je nach Aktivität schnell zwischen verschiedenen Einstellungen umschalten. Außerdem erhalten Sie Priorität im Kunden-Support und Vertrauen in zukünftige Updates und Verbesserungen.
 
 <p class="text-center">
     <img src="/assets/images/blog/mfc_update_15_presets.png" class="product-screenshot" data-rjs="2">
 </p>
 
-Free version has only 3 presets:
+Die kostenlose Version hat nur 3 Voreinstellungen:
 
-- **Automatic**, all fans are set to Auto and controlled by the system
-- **Full blast**, all fans are spinning at maximum RPM
-- **Custom***, when you override fan control your way. This preset is saved between app launches (if you quit the app while the preset is active) and it gets lost when you switch back to **Auto** or **Full blast**. Basically it's the same behaviour you had with previous versions of the app.
+- **Automatisch**, alle Lüfter sind auf Automatisch gesetzt und werden vom System gesteuert
+- **Volle Leistung**, alle Lüfter laufen mit maximaler Leistung (UPM)
+- **Benutzerdefiniert***, wenn Sie die Lüftersteuerung selbst anpassen. Diese Voreinstellungen wird zwischen dem Starten der App gespeichert (wenn Sie die App schließen während die Voreinstellung aktiv ist) und geht verloren, wenn Sie zurück auf **Automatisch** oder **Volle Leistung** wechseln. Im Prinzip verhält die Appn sich gleich, wie bei vorherigen Versionen der App.
 
 <p class="text-center">
     <img src="/assets/images/blog/mfc_update_15_presets_free.png" class="product-screenshot" data-rjs="2">
 </p>
 
-<h2>NVMe drives support</h2>
+<h2>NVMe Treiber-Support</h2>
 
-For already a while all modern macs are equipped with NVMe blade drives instead of traditional SATA. In both Windows and macOS the app now displays those drives and their temperatures. New option in preferences lets you control whether you'd want to read drives temperatures (SMART and/or NVMe) or not. It can be quite useful for those who would like to optimize CPU usage and those who encounter issues with connected RAID and audio peripherals.
+Bereits seit einiger Zeit sind alle modernen Macs mit NVMe Blade anstelle der traditionellen SATA Laufwerken ausgestattet. Sowohl unter Windows als auch unter MacOS zeigt die App jetzt diese Laufwerke und ihre Temperaturen an. Eine neue Option in den Einstellungen ermöglicht es Ihnen auszusuchen, ob Sie lieber die Laufwerktemperaturen (SMART und/oder NVMe) auslesen wollen oder nicht. Dies kann für Nutzer, die Ihre CPU-Auslastung optimieren wollen, oder Nutzer, die Probleme mit verbundenen RAID und Audio-Peripheriegeräten haben, nützlich sein.
 
-<h2>New helper tool</h2>
+<h2>Neues Helper-Tool</h2>
 
-Macs Fan Control requires a helper tool to be installed for fan control. The old helper tool had many issues which are gone now, in the new version of the tool:
+Für die Lüftersteuerung mit Macs Fan Control muss ein Helper-Tool installiert sein. Das alte Helper-Tool hatte zu viele Probleme, die nun mit der neuen Version des Tools beseitigt wurden:
 
-- Less CPU usage, less energy impact
-- Better stability of the app (no random crashes, no high number of open mach ports) 
+- weniger CPU-Last, geringerer Energieverbrauch
+- höhere Stabilität der App (kein zufälliger Crash, keine hohe Anzahl offener Mach Ports)
 
-If you don't plan to override fan control, you're able to skip installing the tool and use the app in read-only mode. If you decide someday to override the default fan control, you'll be asked again to install the tool.
+Falls Sie nicht planen, die Lüftersteuerung zu verändern, können Sie die Installation des Tools überspringen und die App im schreibgeschützten Lese-Modus ausführen. Falls Sie sich in Zukunft dafür entscheiden, die Standard-Einstellungen zu verändern, werden Sie erneut dazu aufgefordert das Tool zu installieren.
 
-<h2>Improved User Interface</h2>
+<h2>Verbesserte Nutzeroberfläche (UI)</h2>
 
-Finally the app gets support of the dark mode in macOS Mojave and Catalina:
+Endlich unterstützt die App den Dark Mode unter macOS Mojave und Catalina:
 
 <p class="text-center">
     <img src="/assets/images/blog/mfc_update_15_dark_mode.png" class="product-screenshot" data-rjs="2">
 </p>
 
-The new preferences dialog now also looks better:
+Der neue Einstellungs-Dialog sieht jetzt auch besser aus:
 
 <p class="text-center">
     <img src="/assets/images/blog/mfc_update_15_preferences.png" class="product-screenshot" data-rjs="2">
 </p>
 
-<h2>Compatibility</h2>
+<h2>Kompatibilität</h2>
 
 __macOS__:
 
-The app is still compatible with macOS 10.7 and later but comes as two separate downloads: one for [macOS 10.14 Mojave+](/downloads/macsfancontrol.zip) and the second for [macOS 10.7 Lion - 10.13 High Sierra](/downloads/legacy/macsfancontrol.zip).
+Die App ist immer noch kompatibel mit MacOS 10.7 und neueren Versionen, es gibt sie jetzt jedoch in zwei unterschiedlichen Downloads: Eine für [macOS 10.12 Sierra+](/downloads/macsfancontrol.zip) und die zweite für [macOS 10.7 Lion - 10.11 El Capitan](/downloads/legacy/macsfancontrol.zip).
 
 __Windows__:
 
-Windows XP and later but only on mac models that are not equipped with the modern [T2 chip](/macs-fan-control/supported-models).
+Windows XP und neuere Versionen, aber nur auf Mac Modellen, die nicht mit dem modernen [T2 chip](/macs-fan-control/supported-models) ausgestattet sind.

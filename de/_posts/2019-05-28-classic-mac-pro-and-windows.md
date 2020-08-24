@@ -1,79 +1,73 @@
 ---
 permalink: /blog/classic-mac-pro-and-windows
 layout: blog-post
-title: "Classic Mac Pro (5,1): installing Windows 10, switching between macOS Mojave &amp; Windows without boot screen"
+title: "Classic Mac Pro (5,1): Installation von Windows 10, Wechsel zwischen MacOS Mojave &amp; Windows ohne Startbildschirm"
 image: /assets/images/blog/classic-mac-pro.png
 tags: [ "macpro", "bootcamp"]
 ---
 
-Classic Mac Pro 5,1 (or simply cMP, also 4,1 upgraded to 5,1) is now considered by Apple as [vintage][6]. It's pretty 
-disappointing considering how capable and upgradable these machines still are. Installing Windows is no longer officially 
-supported, but it's completely possible though not quite easy. 
+Classic Mac Pro 5,1 (kurz cMP oder auch 4,1 mit Upgrade auf 5,1) wird von Apple jetzt als [vintage][6] betrachtet. Das ist ziemlich enttäuschend, wenn man bedenkt, wie leistungsstark und upgrade-bar diese Geräte heute noch sind. Windows-Installationen werden offiziell nicht mehr unterstützt, sind aber mit etwas Aufwand immer noch möglich.
 
-Another challenge is that macOS Mojave 10.14 now implies using Metal-capable GPU while most of them are not able to 
-display Apple boot menu (which you normally see holding the Option key) required to boot into Windows. Basicaly your screen
-remains black until macOS is loaded. Well, some EFI bootable cards that support boot menu exist but they are released almost 
-10 years ago and are really outdated. What is more, none of them supports displaying of boot menu with 4k 60hz monitor connected.
+Eine weitere Herausforderung ist, dass MacOS Mojave 10.14 jetzt die Verwendung von Metal-capable GPUs impliziert während die meisten nicht in der Lage sind, das Apple Boot-Menü anzuzeigen (das man normalerweise durch Halten der Wahltaste anzeigen kann), das für den Boot mit Windows notwendig ist. Der Bildschirm bleibt praktisch schwarz bis MacOs geladen wurde. Es gibt ein paar bootfähige EFI-Karten, die das Boot-Menü unterstützen, aber sie wurden vor fast 10 Jahren veröffentlicht und sind sehr veraltet. Außerdem unterstütz keine dieser Karten das Boot-Menü wenn ein 4k 60Hz Bildschirm angeschlossen ist.
 
-This guide is for those who want macOS Mojave + Windows 10 + modern GPU (in our case Sapphire Radeon Pulse RX 580 8GB).
+Dieser Guide ist für alle, die macOS Mojave + Windows 10 + moderner GPU wollen (in unserem Fall Sapphire Radeon Pulse RX 580 8GB).
 
 <!--more-->
 
 <p class="font-gray font-xs text-right">Updated 28 May 2019</p>
 
-<h2>Installing Windows 10 in 5 steps</h2>
+<h2>Windows 10 in 5 Schritten installieren</h2>
 
-It's supposed that you have the latest Boot ROM version **144.0.0.0.0**. If not, please [update][7] first.
+Sie benötigen die neueste Boot ROM Version **144.0.0.0.0**. Falls Sie diese nicht besitzen, führen Sie bitte zuerst ein [update][7] aus.
 
 <p class="text-center">
 	<img src="/assets/images/blog/classic-mac-pro-firmware.png">
 </p>
 
-<h3>Step 1: Use separate drive for Windows</h3>
+<h3>Schritt 1: Separates Laufwerk für Windows verwenden</h3>
 
-Boot Camp Assistant no longer supports cMP and doesn't allow creating a separate partition for Windows.
-Windows has to be installed on a separate drive, which is good actually to avoid messing with partitions in future.
+Der Boot Camp Assistant unterstützt cMP nicht mehr und erlaubt die Erstellung einer separaten Partition für Windows nicht.
+Windows muss auf einem separaten Laufwerk installiert werden. Tatsächlich hat das Vorteile, da so künftige Partitions-Probleme vermieden werden.
 
-We recommend using the internal SATA II connector in one of four drive bays or alternatively one of two SATA II connectors in the optical drive area. 
-Using the [HP 654540-001 3.5" → 2.5" adapter][1] (7$) to place 2.5" SSD in a drive bay can be quite convenient.
+Wir empfehlen die Verwendung des internen SATA II Connector in einem der vier Festplattenschächte oder alternativ einen der zwei SATA II Connector im Bereich der optischen Laufwerke.
+Die Verwendung der [HP 654540-001 3.5" → 2.5" adapter][1] (7$) um eine 2.5" SSD in ein Festplattenschacht einzubauen macht das ganze etwas bequemer.
 
-Of cause, SATA II (up to 300MB/s) is a bottleneck for modern 2.5" SSDs (up to 550 MB/s where SATA III is preferable) 
-but real life experience shows that the difference is hardly noticable unless you deal 
-with lots of big files (e.g. >1GB where sequential read/write speeds matter) on your system drive.
+Natürlich ist SATA II (bis zu 300MB/s) ein Bottleneck für moderne 2.5" SSDs (bis zu 550 MB/s bei SATA III Vorzug)
+aber die Erfahrung zeigt, dass dieser Unterschied kaum spürbar ist, außer wenn Sie mit vielen großen Dateien (z.B. >1GB bei denen aufeinanderfolgende read/write Geschwindigkeiten wichtig sind) auf Ihrem Systemlaufwerk arbeite.
 
-We didn't test using PCIe → SATA III adapter or PCIe → NVMe adapter for Windows partition. Many users people reported it was not possible in their case. If you successfully did it please let us know in the comments below or via e-mail.
+Wir haben die Verwendung PCIe → SATA III Adapter oder PCIe → NVMe Adapter für die Windows-Partition nicht getestet. Viele Nutzer haben berichtet, dass es in Ihren Fällen nicht funktioniert hat. Falls Sie dies erfolgreich geschafft haben, lassen Sie es uns bitte in den Kommentaren oder per E-Mail wissen.
 
-<h3>Step 2: Create a bootable Windows 10 DVD disk</h3>
+<h3>Schritt 2: Erstellung einer bootfähigen Windows 10 DVD </h3>
 
-**<span style="color:red">Warning</span>**: DO NOT install Windows from a USB flash drive. It has been discovered that Windows when installed in EFI mode is corrupting the Mac Pro’s firmware by signing it with multiple Secure Boot (X.509) certificates. Also, you wouldn't be able to boot into Windows after selecting its drive as bootable in macOS Preferences → Startup disk. Therefore Windows should only be installed in Legacy BIOS mode **from an optical drive**.
+**<span style="color:red">Warnung</span>**: Installieren Sie Windows NICHT von einem USB-Flash-Laufwerk. Es hat sich herausgestellt, dass Windows die Mac Pro Firmware beschädigt, wenn es im EFI Modus installiert wird, indem es sich mit mehreren Secure Boot (X.509) Zertifikaten anmeldet. Außerdem wären Sie nicht in der Lage in Windows zu booten, nachdem Sie das Laufwerk als bootfähig ausgewählt haben unter MacOs Einstellungen → Startlaufwerk. Daher sollte Windows nur im Legacy BIOS Modus **von einem optischen Laufwerk** aus installiert werden.
 
-Make sure that your Windows 10 ISO file fits on the DVD disk, in our case we had to burn Windows 10 1803 ISO (64-bit) to a single-layer DVD+R disc 4.7GB. 
+Stellen Sie sicher, dass ihre Windows 10 ISO-Datei auf die DVD passt. In unserem Fall mussten wir Windows 10 1803 ISO (64-bit) auf eine Single-Layer DVD+R 4.7GB brennen.
 
-Burning a DVD disk under macOS can be done with the following Terminal command:
+DVDs können unter MacOS mit dem folgenden Befehl ausgeführt werden:
 
 <pre>drutil burn %path_to_iso_file%</pre>
 
-On Windows we recommend using the free [ImgBurn][3] app.
+Unter Windows empfehlen wir die Verwendung der kostenlosen [ImgBurn][3] App.
 
-<h3>Step 3: Boot from your Windows 10 DVD disk</h3>
+<h3>Schritt 3: Boot von Ihrer Windows 10 DVD</h3>
 
-Turn on your mac while holding the "C" key to boot from the optical disk (if you have PCIe drives installed and can't boot from the disc, remove those PCIe adapters).
-Proceed with installation normally until you see the "Where do you want to install Windows" drive selection screen.
+Fahren Sie Ihren Mac hoch während Sie die „C“-Taste gedrückt halten, um von einem optischen Datenträger zu booten (wenn Sie PCIe Treiber installiert haben und nicht von einer DVD booten können, entfernen Sie die diese PCIe Adapter).
+Fahren Sie mit der Installation wie gewohnt fort bis Sie zum Fenster „Wo wollen Sie Windows installieren“ gelangen.
 
 <p class="text-center">
 	<img src="/assets/images/blog/classic-mac-pro-windows-drive-selection-1.png">
 </p>
 
-<h3>Step 4: Format the target drive</h3>
+<h3>Schritt 4: Formatieren des Ziellaufwerks</h3>
 
-Press Shift+F10 to launch command prompt. Type the following commands:
+Drücken Sie Shift+F10 um die Eingabeaufforderung zu öffnen. Tippen Sie die folgenden Befehle ein:
 
 <pre>
     diskpart
     list disk
 </pre>
 
-Now make sure to select the correct target drive number N (NOT your macOS disk), after that type:
+Stellen Sie sicher, dass Sie das richtige Nummer N des Ziellaufwerks auswählen (NICHT ihr MacOs Laufwerk), tippen Sie anschließend:
 
 <pre>
     select disk N
@@ -82,73 +76,72 @@ Now make sure to select the correct target drive number N (NOT your macOS disk),
     exit
 </pre>
 
-You should now see your drive as Unallocated space.
+Sie sollten nun ihr Laufwerk als nicht zugeordneten Speicher.
 
 <p class="text-center">
 	<img src="/assets/images/blog/classic-mac-pro-windows-drive-selection.png">
 </p>
 
-Press the "New" button to create necessary partitions. There should be only two partitions (for legacy installation, EFI mode creates four) automatically created:
+Klicken Sie auf „Neu“, um notwendige Partitionen zu erstellen. Es sollten nur zwei Partitionen (für die Legacy Installation, EFI Modus erstellt vier) automatisch erstellt werden:
 
 <p class="text-center">
 	<img src="/assets/images/blog/classic-mac-pro-windows-drive-selection-2.png">
 </p>
 
-Select the newly created partition 2 and continue with installation normally. Your mac will be rebooted twice.
-Every reboot do not forget entering the boot menu (by holding the Option key) and selecting 'Windows' boot drive there. When finished, boot into Windows. 
+Wählen Sie die neu erstellten Partition 2 aus und fahren Sie mit der Installation fort. Ihr Mac wird zweimal neu booten. Vergessen Sie nicht bei jedem Reboot das Boot-Menü zu öffnen (indem Sie die Option Taste gedrückt halten) und „Windows“ als Boot-Laufwerk auszuwählen. Wenn dies abgeschlossen wurde, booten Sie Windows.
 
-<h3>Step 5: Install Windows drivers and Boot Camp utility</h3>
+<h3>Schritt 5: Windows-Treiber und Boot Camp Utility installieren</h3>
 
-Windows 10 installs all necessary drivers automatically except Bluetooth and internal speaker. 
-These need to be installed from the original Boot Camp package for MacPro5,1.
-Download and install [7zip][4], download [Brigadier 0.2.4][5] app, open Windows command prompt where Brigadier is located and type:
+Windows 10 installiert alle notwendigen Treiber automatisch mit Ausnahme von Bluetooth- und internen Lautsprechern.
+Diese müssen über das originale Boot Camp Package für MacPro5,1 installiert werden.
+Laden Sie [7zip][4] herunter und installieren Sie es, laden Sie die [Brigadier 0.2.4][5] App herunter, öffnen Sie in der Windows-Eingabeaufforderung den Ordner in dem Brigadier befindet und tippen Sie:
 
 <pre>
 	brigadier -m MacPro5,1
 </pre>
 
-When finished, it will create a folder **BootCamp-031-11269**, you need to install these for Bluetooth and internal speaker correspondingly, make sure you run the command prompt as administrator: 
+Anschließend wird ein Ordner **BootCamp-031-11269** erstellt. Diese müssen Sie für Bluetooth- und interne Lautsprecher entsprechend installieren. Stellen Sie sicher, dass Sie die Eingabeaufforderung als Administrator ausführen:
 
 <pre>
 	BootCamp-031-11269\Drivers\Apple\x64\AppleBluetoothBroadcomInstaller64.exe
 	BootCamp-031-11269\Drivers\RealTek\RealtekSetup.exe
 </pre>
 
-Now we need newer BootCamp drivers intended for iMacPro1,1:
+Jetzt benötigen wir die neueren Boot Camp Treiber für iMacPro1,1:
 
 <pre>
 	brigadier -m iMacPro1,1
 </pre>
 
-When finished, it will create a folder **BootCamp-041-55643**, you need to run this command: 
+Dies erstellt den Ordner **BootCamp-041-55643**. Führen Sie nun den folgenden Befehl aus:
 
 <pre>
-	msiexec /i BootCamp-041-55643\Bootcamp\Drivers\Apple\bootcamp.msi 
+	msiexec /i BootCamp-041-55643\Bootcamp\Drivers\Apple\bootcamp.msi
 </pre>
 
-When finished, reboot. We also recommend running Apple Software Update to update Wifi drivers:
+Anschließend neu starten. Wir empfehlen ein Apple Software Update durchzuführen, um die W-Lan-Treiber zu aktualisieren:
 
 <p class="text-center">
 	<img src="/assets/images/blog/classic-mac-pro-windows-wifi-update.png">
 </p>
 
-You probably don't want to forget installing our awesome [Macs Fan Control][8] app, do you? :)
+Sie wollen wahrscheinlich auch nicht verpassen, die wahnsinnig tolle [Macs Fan Control][8] App zu installieren, oder? :)
 
-<h2>Switching between macOS Mojave &amp; Windows</h2>
+<h2>Wechsel zwischen MacOS Mojave &amp; Windows</h2>
 
-When you're in macOS, use Preferences → Startup disk to select a boot drive:
+In MacOs können Sie unter Einstellungen → Startlaufwerk das Startlaufwerk auswählen:
 
 <p class="text-center">
 	<img src="/assets/images/blog/classic-mac-pro-mac-boot-menu.png">
 </p>
 
-When you're in Windows, use the Boot Camp Control Panel from your Windows tray to select a boot drive:
+Wenn Sie in Windows sind, können Sie das Boot Camp Control Panel über das Windows System-Tray öffnen, um ein Boot-Laufwerk auszuwählen:
 
 <p class="text-center">
 	<img src="/assets/images/blog/classic-mac-pro-windows-boot-menu.png">
 </p>
 
-This guide is based on this [MacRumors thread][2]. Special thanks to **h9826790** for sharing his useful experience. Any comments are welcome.
+Dieser Guide basiert auf dem [MacRumors thread][2]. Besonderen Dank an **h9826790** für das Mitteilen seiner nützlichen Erfahrungen. Alle Kommentare sind herzlich willkommen.
 
 [1]: https://www.ebay.com/itm/new-hp-654540-001-2-5-to-3-5-Drive-Adapter-tray-for-hp-g9-g8-N54L-651314-001/152919595060?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649
 [2]: https://forums.macrumors.com/threads/how-to-boot-camp-without-a-boot-screen.2114788/
@@ -157,4 +150,4 @@ This guide is based on this [MacRumors thread][2]. Special thanks to **h9826790*
 [5]: https://github.com/timsutton/brigadier/releases/download/0.2.4/brigadier.exe
 [6]: https://support.apple.com/en-us/HT201624
 [7]: https://forums.macrumors.com/threads/mp5-1-what-you-have-to-do-to-upgrade-to-mojave-bootrom-upgrade-instructions.2142418/
-[8]: https://www.crystalidea.com/macs-fan-control
+[8]: https://crystalidea.com/macs-fan-control

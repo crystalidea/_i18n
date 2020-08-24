@@ -3,7 +3,7 @@ permalink: /blog/classic-mac-pro-wifi-bluetooth-upgrade
 layout: blog-post
 title: "Classic Mac Pro (5,1): Upgrade Wi-Fi to 802.11ac and Bluetooth to 4.0"
 image: /assets/images/blog/classic-mac-pro-broadcom-wifi-bluetooth-module.png
-tags: [ "macpro"]
+tags: [ "macpro", "hardware"]
 ---
 
 Classic Mac Pro 5,1 (also 4,1 upgraded to 5,1) features only Wi-Fi 802.11n and Bluetooth 2.1. Here're main reasons why you want to upgrade Wi-Fi to 802.11ac and Bluetooth to 4.0:
