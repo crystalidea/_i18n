@@ -54,6 +54,7 @@ common:
   products: Produkte
   contact: Kontakt aufnehmen
   multilingual_interface: "$app_name Oberfläche wurde in die meisten Sprachen übersetzt:"
+  related_pages: Related pages
 
 footer:
   subscribe: CrystalIDEA-News abonnieren
@@ -142,7 +143,7 @@ download-page: # https://crystalidea.com/de/uninstall-tool/download
   updated: Aktualisiert
   download_win: Downloads für Windows
   download_mac: Downloads für MacOS
-  download_mac_info: MacOS 10.12 Sierra und höher
+  download_mac_info: macOS 10.13 High Sierra und höher
   older_systems: "Downloads für ältere Systems:"
 
 uninstall-tool: # https://crystalidea.com/de/uninstall-tool
@@ -581,6 +582,7 @@ macs-fan-control: # https://crystalidea.com/de/macs-fan-control
     title: Macs Fan Control - Hilfe & Support
     support_page_activate: How to activate Pro version
     support_page_models: Supported Mac computer models
+    support_page_systems: Supported Operating Systems
     support_page_sensors: Supported temperature sensors and their meaning
     support_page_cmdline: Command Line
     support_page_presets: Fan Presets
@@ -591,6 +593,25 @@ macs-fan-control: # https://crystalidea.com/de/macs-fan-control
     info_text_1: Sie können Macs Fan Control komplett kostenlos herunterladen und verwenden. Falls Probleme beim herunterladen der App auftreten sollten, nehmen Sie bitte mit uns [Kontakt](/contact) auf.
     info_text_2: Dieses Programm ist für erfahrene Nutzer gedacht, die wissen, wie sie es einsetzen können, ohne Schaden an Ihren Macs anzurichten. Die Autoren übernehmen keine Haftung für Datenverlust, Schäden, Gewinnausfälle oder andere Verluste, die mit der Nutzung oder der falschen Anwendung des Programmes in Verbindung stehen.
     info_text_3: Detaillierte Informationen über die Neuerungen finden Sie in den [Versionshinweisen](/macs-fan-control/release-notes). Ältere Versionen finden Sie [hier](https://github.com/crystalidea/macs-fan-control/releases).
+  supported-os-page: # https://crystalidea.com/de/macs-fan-control/supported-operating-systems
+    title: Поддерживаемые операционные системы в Macs Fan Control
+    info_text_1: "The latest version of the app works on all macOS systems starting with 10.7 (Lion). You should only consider that depending on your macOS version you should choose one of two downloads:"
+    info_text_1_main: Main
+    info_text_1_main_desc: macOS 10.13 (High Sierra) and higher
+    info_text_1_second: Secondary
+    info_text_1_second_desc: macOS 10.7 (Lion) through macOS 10.12 (Sierra)
+    info_text_2: "While the secondary download is always an option, please consider updating your macOS to 10.13 High Sierra if possible. macOS 10.13 can be officially installed on:"
+    info_text_2_pc1: MacBook Pro (Mid 2010 or newer)
+    info_text_2_pc2: MacBook Air (Late 2010 or newer)
+    info_text_2_pc3: MacBook (Late 2009 or newer)
+    info_text_2_pc4: iMac (Late 2009 or newer)
+    info_text_2_pc5: Mac mini (Mid 2010 or newer)
+    info_text_2_pc6: Mac Pro (Mid 2010 or newer)
+    info_text_3: The main download is a universal binary which means that it will work on both **Intel** and **Apple Silicon** macs.
+    info_text_4: Installing Windows on a mac is supported only for Intel x86 computers thus Macs Fan Control for Windows is **Intel-only**.
+    info_text_5: Windows XP/Vista/7/8/8.1/10 are supported both 32 and 64-bit. Windows 10 64-bit is highly recommended.
+    info_text_6: While some users report that the app works on x86 Hackintosh, it's not officially supported. We'll plan to improve that, more info [here](https://github.com/crystalidea/macs-fan-control/issues/448).
+    info_text_7: Not planned, but who knows. [Linux support feature request](https://github.com/crystalidea/macs-fan-control/issues/425)
   faq-page: # https://crystalidea.com/de/macs-fan-control/faq
     title: Macs Fan Control FAQ
     q1_q: Was sind die optimalen Einstellungen für mein MacBook/iMac/..?

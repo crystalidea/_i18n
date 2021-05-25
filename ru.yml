@@ -54,6 +54,7 @@ common:
   products: Программы
   contact: Контакты
   multilingual_interface: "Интерфейс $app_name доступен на большинстве языков, включая Русский:"
+  related_pages: Смотрите также
 
 footer:
   subscribe: Подписаться на новости CrystalIDEA
@@ -142,7 +143,7 @@ download-page: # https://crystalidea.com/ru/uninstall-tool/download
   updated: Обновлено
   download_win: Скачать для Windows
   download_mac: Скачать для macOS
-  download_mac_info: macOS 10.12 Sierra и выше
+  download_mac_info: macOS 10.13 High Sierra и выше
   older_systems: "Версии для более старых систем:"
 
 uninstall-tool: # https://crystalidea.com/ru/uninstall-tool
@@ -581,6 +582,7 @@ macs-fan-control: # https://crystalidea.com/ru/macs-fan-control
     title: Macs Fan Control - Помощь и поддержка
     support_page_activate: Как активировать Pro версию
     support_page_models: Поддерживаемые модели Mac компьютеров
+    support_page_systems: Поддерживаемые операционные системы
     support_page_sensors: Поддерживаемые температурные датчики и их смысл
     support_page_cmdline: Командная строка
     support_page_presets: Профили вентиляторов
@@ -591,6 +593,25 @@ macs-fan-control: # https://crystalidea.com/ru/macs-fan-control
     info_text_1: Вы можете скачать и использовать Macs Fan Control абсолютно бесплатно. Если у Вас возникли проблемы со скачиванием программы, пожалуйста, [свяжитесь с нами](/contact).
     info_text_2: Эта программа для продвинутых пользователей, которые понимают, как её использовать не причиняя вреда их mac. Авторы не несут ответственности за потерю данных, порчу оборудования или любые другие потери связанные с использованием программы.
     info_text_3: Подробная информация о том, что нового в программе на [странице с историей изменений](/macs-fan-control/release-notes). Архив старых версий [тут](https://github.com/crystalidea/macs-fan-control/releases).
+  supported-os-page: # https://crystalidea.com/ru/macs-fan-control/supported-operating-systems
+    title: Поддерживаемые операционные системы в Macs Fan Control
+    info_text_1: "Последняя версия программы совместима со всеми версиями macOS начиная с 10.7 (Lion). Однако, вам следует учесть, что в зависимости от версии вашей ОС, вам следует использовать одну из двух скачиваемых версий программы:"
+    info_text_1_main: Основная
+    info_text_1_main_desc: macOS 10.13 (High Sierra) или новее
+    info_text_1_second: Дополнительная
+    info_text_1_second_desc: macOS 10.7 (Lion) до macOS 10.12 (Sierra)
+    info_text_2: "Несмотря на то, что дополнительная версия для более старых систем всегда доступна, настоятельно рекомендуется обновить macOS до 10.13 High Sierra, если это возможно. Официально эта версия macOS может быть установлена на:"
+    info_text_2_pc1: MacBook Pro (Mid 2010 или новее)
+    info_text_2_pc2: MacBook Air (Late 2010 или новее)
+    info_text_2_pc3: MacBook (Late 2009 или новее)
+    info_text_2_pc4: iMac (Late 2009 или новее)
+    info_text_2_pc5: Mac mini (Mid 2010 или новее)
+    info_text_2_pc6: Mac Pro (Mid 2010 или новее)
+    info_text_3: Основная скачиваемая версия - это универсальный исполняемый файл, предназначенный как для **Intel**, так и **Apple Silicon** компьютеров Apple.
+    info_text_4: На данный момент устанавливать Windows на компьютер Apple возможно лишь для Intel x86, поэтому Macs Fan Control для Windows на данный момент **только для Intel**.
+    info_text_5: Поддерживаются Windows XP/Vista/7/8/8.1/10 как 32, так и 64-битные, однако настоятельно рекомендуется использовать 64-битную Windows 10.
+    info_text_6: Некоторые пользователи сообщают о том, что программа может работать на Хакинтош, однако это официально не поддерживается на данный момент, более подробно прочитать можно [здесь](https://github.com/crystalidea/macs-fan-control/issues/448).
+    info_text_7: Не планируется на данный момент. [Запрос на Linux версию](https://github.com/crystalidea/macs-fan-control/issues/425)
   faq-page: # https://crystalidea.com/ru/macs-fan-control/faq
     title: Часто задаваемые вопросы по Macs Fan Control
     q1_q: Каковы оптимальные настройки для моего MacBook/iMac/..?

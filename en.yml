@@ -54,6 +54,7 @@ common:
   products: Products
   contact: Contact
   multilingual_interface: "$app_name interface is translated into most languages:"
+  related_pages: Related pages
 
 footer:
   subscribe: Subscribe to CrystalIDEA news
@@ -142,7 +143,7 @@ download-page: # https://crystalidea.com/uninstall-tool/download
   updated: Updated
   download_win: Download for Windows
   download_mac: Download for macOS
-  download_mac_info: macOS 10.12 Sierra and later
+  download_mac_info: macOS 10.13 High Sierra and later
   older_systems: "Downloads for older systems:"
 
 uninstall-tool: # https://crystalidea.com/uninstall-tool
@@ -581,6 +582,7 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     title: Macs Fan Control - Help & Support    
     support_page_activate: How to activate Pro version
     support_page_models: Supported Mac computer models
+    support_page_systems: Supported Operating Systems
     support_page_sensors: Supported temperature sensors and their meaning
     support_page_cmdline: Command Line
     support_page_presets: Fan Presets
@@ -591,6 +593,25 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     info_text_1: You can download and use Macs Fan Control absolutely free of charge. If you have any problems downloading the app, please [contact us](/contact).
     info_text_2: This program is for advanced users who know how to use it without doing harm to their macs. The authors are not liable for data loss, damages, profit loss or any other types of losses connected with the use or misuse of the program.
     info_text_3: "See detailed information about what's new in the [Release Notes](/macs-fan-control/release-notes). Get older versions [here](https://github.com/crystalidea/macs-fan-control/releases)."
+  supported-os-page: # https://crystalidea.com/macs-fan-control/supported-operating-systems
+    title: Поддерживаемые операционные системы в Macs Fan Control
+    info_text_1: "The latest version of the app works on all macOS systems starting with 10.7 (Lion). You should only consider that depending on your macOS version you should choose one of two downloads:"
+    info_text_1_main: Main
+    info_text_1_main_desc: macOS 10.13 (High Sierra) and higher
+    info_text_1_second: Secondary
+    info_text_1_second_desc: macOS 10.7 (Lion) through macOS 10.12 (Sierra)
+    info_text_2: "While the secondary download is always an option, please consider updating your macOS to 10.13 High Sierra if possible. macOS 10.13 can be officially installed on:"
+    info_text_2_pc1: MacBook Pro (Mid 2010 or newer)
+    info_text_2_pc2: MacBook Air (Late 2010 or newer)
+    info_text_2_pc3: MacBook (Late 2009 or newer)
+    info_text_2_pc4: iMac (Late 2009 or newer)
+    info_text_2_pc5: Mac mini (Mid 2010 or newer)
+    info_text_2_pc6: Mac Pro (Mid 2010 or newer)
+    info_text_3: The main download is a universal binary which means that it will work on both **Intel** and **Apple Silicon** macs.
+    info_text_4: Installing Windows on a mac is supported only for Intel x86 computers thus Macs Fan Control for Windows is **Intel-only**.
+    info_text_5: Windows XP/Vista/7/8/8.1/10 are supported both 32 and 64-bit. Windows 10 64-bit is highly recommended.
+    info_text_6: While some users report that the app works on x86 Hackintosh, it's not officially supported. We'll plan to improve that, more info [here](https://github.com/crystalidea/macs-fan-control/issues/448).
+    info_text_7: Not planned, but who knows. [Linux support feature request](https://github.com/crystalidea/macs-fan-control/issues/425)
   faq-page: # https://crystalidea.com/macs-fan-control/faq
     title: Macs Fan Control FAQ
     q1_q: Why do I have high CPU usage by kernel_task when using Macs Fan Control?
@@ -609,7 +630,7 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     q7_a: On macOS simply quit the app and drag it from the application folder to the trash. On Windows you need to run its uninstall program. [Uninstall Tool](/uninstall-tool) can be helpful here.
   activate-page:
     title: Activate Pro version of Macs Fan Control
-    enter_key_info: "Once you [purchased](/macs-fan-control/buy) a license and received the license key, click on the 'More' -> 'Upgrade to Pro version' menu as seen below:"
+    enter_key_info: "Once you [purchased](/macs-fan-control/buy) a license and received the license key, click on the Macs Fan Control icon in the Menu Bar, go down to the '**More**' submenu and click '**Upgrade to Pro version**' as seen below:"
     enter_key_info_2: "Then press the 'Enter License' button:"
     enter_key_info_3: "Enter your email and the code and press the 'Unlock' button. When a license is for multiple computers, the code must be entered on each one."
   presets-page:
