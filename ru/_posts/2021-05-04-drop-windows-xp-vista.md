@@ -1,12 +1,12 @@
 ---
 permalink: /blog/drop-windows-xp-vista
 layout: blog-post
-title: Drop Windows XP/Vista support
+title: Завершение поддержки Windows XP/Vista
 image: /assets/images/blog/rip-windows-xp.jpg
 tags: [ "macs-fan-control", "anytoiso", "uninstall-tool"]
 ---
 
-Windows XP and Windows Vista will no longer be supported in future versions of CrystalIDEA [apps](/).
+Windows XP и Windows Vista более не будут поддерживаться в будущих версиях наших [программ](/).
 Server versions of these legacy systems will be discontinued as well (Windows Server 2003/2008).
 
 Below is the list of last versions of our apps (plus download links) that are still compatible with Windows XP and Vista:
