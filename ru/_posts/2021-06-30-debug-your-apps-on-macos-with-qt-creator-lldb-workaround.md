@@ -11,9 +11,9 @@ Many developers started complaining that lldb debugger shipped with latest XCode
 
 What you should really do is to sign your app using the following command line:
 
-`codesign --entitlements debuggee-entitlement.xml ...`
+`codesign --entitlements codesign_entitlements_debug.plist ...`
 
-debuggee-entitlement.xml:
+codesign_entitlements_debug.plist:
 
 ```
 
@@ -24,9 +24,13 @@ debuggee-entitlement.xml:
 <dict>
     <key>com.apple.security.get-task-allow</key>
     <true/>
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <true/>
 </dict>
 </plist>
 
 ```
 
-Signing with this entitlement must be done **only for the debug binary**, otherwise your app will be [rejected for notarization](https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution/resolving_common_notarization_issues?language=objc).
+We also use **com.apple.security.cs.disable-library-validation** to allow loading of unsigned Qt frameworks when Qt is compiled manually. In release build frameworks are signed together with the main binary.
+
+Signing with the **com.apple.security.get-task-allow** entitlement must be done **only for the debug binary**, otherwise your app will be [rejected for notarization](https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution/resolving_common_notarization_issues?language=objc).
