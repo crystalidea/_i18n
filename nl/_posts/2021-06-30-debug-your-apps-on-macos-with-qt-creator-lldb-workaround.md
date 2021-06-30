@@ -1,7 +1,7 @@
 ---
 permalink: /blog/debug-your-apps-on-macos-with-qt-creator-lldb-workaround
 layout: blog-post
-title: "Debug your apps on macOS in Qt Creator (lldb workaround)"
+title: "Debug your Qt apps on macOS in Qt Creator (lldb workaround)"
 tags: [ "dev"]
 ---
 
