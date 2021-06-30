@@ -9,7 +9,7 @@ Many developers started complaining that lldb debugger shipped with latest XCode
 
 <!--more-->
 
-After building your app you need sign it using the following command line (we do signing via [QMAKE_POST_LINK](https://doc.qt.io/qt-5/qmake-variable-reference.html#qmake-post-link)):
+To debug your app after it's built you need to sign it specifying required entitlements using command line (we run codesign command via [QMAKE_POST_LINK](https://doc.qt.io/qt-5/qmake-variable-reference.html#qmake-post-link)):
 
 `codesign --entitlements codesign_entitlements_debug.plist ...`
 
