@@ -609,8 +609,8 @@ macs-fan-control: # https://crystalidea.com/ru/macs-fan-control
     info_text_2_pc6: Mac Pro (Mid 2010 или новее)
     info_text_3: Основная скачиваемая версия - это универсальный исполняемый файл, предназначенный как для **Intel**, так и **Apple Silicon** компьютеров Apple.
     info_text_4: На данный момент устанавливать Windows на компьютер Apple возможно лишь для Intel x86, поэтому Macs Fan Control для Windows на данный момент **только для Intel**.
-    info_text_5: Поддерживаются Windows XP/Vista/7/8/8.1/10 как 32, так и 64-битные, однако настоятельно рекомендуется использовать 64-битную Windows 10.
-    info_text_6: Некоторые пользователи сообщают о том, что программа может работать на Хакинтош, однако это официально не поддерживается на данный момент, более подробно прочитать можно [здесь](https://github.com/crystalidea/macs-fan-control/issues/448).
+    info_text_5: Поддерживаются Windows 7/8/8.1/10 как 32, так и 64-битные, однако настоятельно рекомендуется использовать 64-битную Windows 10. [Версия для Windows XP/Vista](https://crystalidea.com/downloads/legacy/macsfancontrol_xp_setup.exe)
+    info_text_6: Некоторые пользователи сообщают о том, что программа может работать на Хакинтош, однако он официально не поддерживается.
     info_text_7: Не планируется на данный момент. [Запрос на Linux версию](https://github.com/crystalidea/macs-fan-control/issues/425)
   faq-page: # https://crystalidea.com/ru/macs-fan-control/faq
     title: Часто задаваемые вопросы по Macs Fan Control

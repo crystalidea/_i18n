@@ -594,7 +594,7 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     info_text_2: This program is for advanced users who know how to use it without doing harm to their macs. The authors are not liable for data loss, damages, profit loss or any other types of losses connected with the use or misuse of the program.
     info_text_3: "See detailed information about what's new in the [Release Notes](/macs-fan-control/release-notes). Get older versions [here](https://github.com/crystalidea/macs-fan-control/releases)."
   supported-os-page: # https://crystalidea.com/macs-fan-control/supported-operating-systems
-    title: Поддерживаемые операционные системы в Macs Fan Control
+    title: Operating systems supported in Macs Fan Control
     info_text_1: "The latest version of the app works on all macOS systems starting with 10.7 (Lion). You should only consider that depending on your macOS version you should choose one of two downloads:"
     info_text_1_main: Main
     info_text_1_main_desc: macOS 10.13 (High Sierra) and higher
@@ -609,8 +609,8 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     info_text_2_pc6: Mac Pro (Mid 2010 or newer)
     info_text_3: The main download is a universal binary which means that it will work on both **Intel** and **Apple Silicon** macs.
     info_text_4: Installing Windows on a mac is supported only for Intel x86 computers thus Macs Fan Control for Windows is **Intel-only**.
-    info_text_5: Windows XP/Vista/7/8/8.1/10 are supported both 32 and 64-bit. Windows 10 64-bit is highly recommended.
-    info_text_6: While some users report that the app works on x86 Hackintosh, it's not officially supported. We'll plan to improve that, more info [here](https://github.com/crystalidea/macs-fan-control/issues/448).
+    info_text_5: Windows 7/8/8.1/10 are supported both 32 and 64-bit. Windows 10 64-bit is highly recommended. [Download for Windows XP/Vista](https://crystalidea.com/downloads/legacy/macsfancontrol_xp_setup.exe)
+    info_text_6: Not officially supported but users report that the app works correctly on x86 Hackintosh.
     info_text_7: Not planned, but who knows. [Linux support feature request](https://github.com/crystalidea/macs-fan-control/issues/425)
   faq-page: # https://crystalidea.com/macs-fan-control/faq
     title: Macs Fan Control FAQ
