@@ -1,17 +1,17 @@
 ---
 permalink: /blog/switching-to-plausible-analytics
 layout: blog-post
-title: "Switching to Plausible Analytics and ditch Google Analytics"
+title: "Переход на Plausible Analytics и отказ от Google Analytics"
 tags: [ "dev"]
 ---
 
-We're happy to announce that we recently switched from Google Analytics to [Plausible Analytics](https://plausible.io/), lightweight, privacy-friendly and open-source website analytics tool.
+Мы рады сообщить что недавно отказались от Google Analytics в пользу нового и крутого сервиса [Plausible Analytics](https://plausible.io/) для анализа трафика сайта. Быстрый и легковесный сервис с открытым исходным кодом и в первую очередь ориентированный на неприкосновенность частной жизни пользователей.
 
 <!--more-->
 
-- The script size is less than 1KB which is almost 50 times less than Google Analytics
-- No cookies which means no cross-site or cross-device tracking, fully compliant with GDPR, CCPA and PECR
-- No personal data is collected and all stats are in aggregate only. No connection to the AdTech and surveillance capitalism
-- Fully open source web analytics software that is self-hosted by us at [webstatistics.io](https://webstatistics.io/)
+- Крошечный скрипт размером меньше 1Кб, что почти в 50 меньше скрипта Google Analytics
+- Никаких cookies, что означает никакого слежения между сайтами и устройствами, полностью совместимый с правилами GDPR, CCPA и PECR
+- Никакой частной информации не собирается и не хранится, только общая информация. Никаких связей с компаниями из мира рекламы и слежения
+- Полностью открытый исходный код позволяет устанавливать на собственный сервер, у нас это [webstatistics.io](https://webstatistics.io/)
 
-Big brother is **no longer** watching you.
+Большой брат **больше не следит** за тобой.
