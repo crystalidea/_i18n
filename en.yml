@@ -671,7 +671,7 @@ changelog: # https://crystalidea.com/speedyfox/release-notes
   new: New
   improved: Improved
   fixed: Fixed
-  older_versions: Older versions history
+  older_versions: Older versions
 
 blog: # https://crystalidea.com/blog
   title: CrystalIDEA Blog - products news, articles about Uninstall Tool, AnyToISO, Macs Fan Control
