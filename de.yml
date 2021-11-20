@@ -538,8 +538,9 @@ macs-fan-control: # https://crystalidea.com/de/macs-fan-control
   description: Lüftersteuerung auf Apple-Computer, auch auf Windows über Boot Camp. Überwachung der Lüftergeschwindigkeit und Temperatursensoren. Lösen Sie Überhitzungsprobleme und Lüftergeräusche, iMax HDD-Ersatz
   header: Lüftersteuerung auf Apple-Computer
   highlight_1: Echtzeit-Überwachung der Lüftergeschwindigkeit und Temperaturen
-  highlight_2: Lösen Sie Geräuschprobleme, die durch einen Austausch der iMac HDD Festplatte entstanden sind
-  highlight_3: Beheben Sie Überhitzungsprobleme, die auf MacBook Pro auftreten können
+  highlight_2: Beheben Sie Überhitzungsprobleme
+  highlight_3: Lösen Sie Geräuschprobleme, die durch einen Austausch der iMac HDD Festplatte entstanden sind
+  highlight_4: Works on all Macs, both Intel & Apple Silicon
   header_button_1: Kostenloser Download
   header_button_1_info: MacOS und Windows-Versionen (Boot Camp) verfügbar
   stripe_1_header: Überwachung und Steuerung der Lüfter auf Apple-Computern

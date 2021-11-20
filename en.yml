@@ -409,7 +409,7 @@ anytoiso: # https://crystalidea.com/anytoiso
   tour_feature_6: Portable Mode
   tour_featureDescription_6: Run AnyToISO directly from USB flash drive. No need to install.
   tour_feature_7: Command Line
-  tour_featureDescription_7: Using AnyToISO (for batch operations) via command line in Windows &amp; MacOS.
+  tour_featureDescription_7: Using AnyToISO (for batch operations) via command line in Windows &amp; macOS.
   stripe_2_slide_1_title: File Extract / Convert to ISO on Windows & Mac
   stripe_2_slide_1_descr: Supports most disk image and archive file formats. 
   stripe_2_slide_2_title: CD/DVD/Blu-ray disk to ISO on Windows & Mac
@@ -428,7 +428,7 @@ anytoiso: # https://crystalidea.com/anytoiso
     title: AnyToISO Pricing & Buy
     header: AnyToISO Pricing & Buy
     license_win: Standard Pro License for Windows
-    license_mac: Standard Pro License for MacOS
+    license_mac: Standard Pro License for macOS
     license_both: Standard Pro License for 
     license_portable_win: __Portable__ Pro License for Windows
   support-page: # https://crystalidea.com/anytoiso/support
@@ -538,8 +538,9 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
   description: Control fans on Apple computers, also on Windows via Boot Camp. Monitoring of fan speed and temperature sensors. Solve fan noise and overheating problems, iMac HDD replacement
   header: Control fans on Apple computers
   highlight_1: Real-time monitoring of fan speeds and temperatures
-  highlight_2: Solve noise problems such as those caused by iMac HDD replacement
-  highlight_3: Solve overheating problems like those found on a MacBook Pro
+  highlight_2: Solve overheating problems like those found on a MacBook Pro
+  highlight_3: Solve noise problems such as those caused by iMac HDD replacement
+  highlight_4: Works on all Macs, both Intel & Apple Silicon
   header_button_1: Free Download
   header_button_1_info: macOS and Windows (Boot Camp) versions available
   stripe_1_header: Monitor and control fans on Apple computers

@@ -540,6 +540,7 @@ macs-fan-control: # https://crystalidea.com/ru/macs-fan-control
   highlight_1: Мониторинг скорости вентиляторов и температурных датчиков
   highlight_2: Решение проблем шума, связанных с заменой диска iMac
   highlight_3: Решение проблем перегрева, наблюдаемых на MacBook Pro
+  highlight_4: Работает на всех моделях Mac, как Intel, так и новых Apple Silicon
   header_button_1: Скачать бесплатно
   header_button_1_info: Доступны версии для macOS и Windows (Boot Camp)
   stripe_1_header: Мониторинг и управление вентиляторами компьютеров Apple

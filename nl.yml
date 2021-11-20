@@ -537,6 +537,7 @@ macs-fan-control: # https://crystalidea.com/nl/macs-fan-control
   highlight_1: Real-time monitoring van snelheden koelers en temperaturen
   highlight_2: Los geluidsproblemen op zoals deze veroorzaakt door vervanging iMac HDD
   highlight_3: Los problemen met oververhitting op zoals deze aangetroffen bij MacBook Pro
+  highlight_4: Werkt op alle Macs, zowel Intel en Apple Silicon
   header_button_1: Gratis Downloaden
   header_button_1_info: macOS en Windows (Boot Camp) versies beschikbaar
   stripe_1_header: Monitor en controleer koelers in Apple computers
