@@ -5,7 +5,7 @@ title: M1 Pro/Max MacBook Pro temperatures and fan control
 tags: [ "macs-fan-control"]
 ---
 
-We're happy to announce that the most recent version of <a href="{% link macs-fan-control/index.html %}">Macs Fan Control</a> fully supports lates Apple Silicon chips M1 Pro &amp; M1 Max on new MacBook Pro 2021. As you can see the app displays both CPU efficiency/performance cores as well as GPU clusters temperatures.
+We're happy to announce that the most recent version of <a href="{% link macs-fan-control/index.html %}">Macs Fan Control</a> fully supports latest Apple Silicon chips M1 Pro &amp; M1 Max on new MacBook Pro 2021. As you can see the app displays both CPU efficiency/performance cores as well as GPU clusters temperatures.
 
 <!--more-->
 
