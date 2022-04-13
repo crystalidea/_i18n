@@ -328,8 +328,10 @@ uninstall-tool: # https://crystalidea.com/nl/uninstall-tool
     download_button: Nu Downloaden
     info_text_1: U kunt Uninstall Tool volledig gratis downloaden en uitproberen om al zijn functies te evalueren. Indien u enige problemen ondervindt bij het downloaden van de app, gelieve [ons te contacteren](/contact).
     info_text_2: "[Draagbare versie](/downloads/uninstalltool_portable.zip) (geen proefperiode, vereist speciale licentie en instructies voor activatie). [Meer info](/uninstall-tool/portable-mode)"
-    info_text_3: Bekijk gedetailleerde informatie over wat er nieuw is in de [Release-Opmerkingen](/uninstall-tool/release-notes).
-    info_text_4: "[Gebruikersovereenkomst](/uninstall-tool/eula)"
+    info_text_3: "[Oude versie](/downloads/legacy/uninstalltool_xp_setup.exe) voor Windows XP en Vista"
+    info_text_4: "[Release Opmerkingen](/uninstall-tool/release-notes)"
+    info_text_5: '[Gebruikersovereenkomst](/uninstall-tool/eula)'
+    info_more_links: "Andere links:"
   help-shortcuts-page: # https://crystalidea.com/nl/uninstall-tool/keyboard-shortcuts
     title: Uninstall Tool Sneltoetsen
     header: Uninstall Tool Sneltoetsen

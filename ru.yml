@@ -331,8 +331,10 @@ uninstall-tool: # https://crystalidea.com/ru/uninstall-tool
     download_button: Скачать сейчас
     info_text_1: Вы можете бесплатно скачать и использовать Uninstall Tool без каких-либо ограничений в течение 30 дней. Если у Вас возникли проблемы со скачиванием программы, [свяжитесь с нами](/contact), пожалуйста.
     info_text_2: "[Портативная версия](/downloads/uninstalltool_portable.zip) (испытательного периода нет, требуется специальная лицензия и особый способ активациии). [Подробнее](/uninstall-tool/portable-mode)"
-    info_text_3: Подробная информация о том, что нового в программе на [странице с историей изменений](/uninstall-tool/release-notes).
-    info_text_4: "[Лицензионное соглашение](/uninstall-tool/eula)"
+    info_text_3: "[Последняя версия](/downloads/legacy/uninstalltool_xp_setup.exe) для Windows XP и Vista"
+    info_text_4: "[История изменений](/uninstall-tool/release-notes)"
+    info_text_5: '[Лицензионное соглашение](/uninstall-tool/eula)'
+    info_more_links: "Другие ссылки:"
   help-shortcuts-page: # https://crystalidea.com/ru/uninstall-tool/keyboard-shortcuts
     title: Горячие клавиши в Uninstall Tool
     header: Горячие клавиши в Uninstall Tool

@@ -331,8 +331,10 @@ uninstall-tool: # https://crystalidea.com/de/uninstall-tool
     download_button: Jetzt Herunterladen
     info_text_1: Sie können das Uninstall Tool kostenlos herunterladen um alle Funktionen zu testen. Wenn beim Download der App Probleme auftreten sollten, wenden Sie sich bitte [an uns](/contact).
     info_text_2: "[Portable Version](/downloads/uninstalltool_portable.zip) (keine Testversion, benötigt eine spezielle Lizenz und Aktivierungsanweisungen). [Mehr Informationen](/uninstall-tool/portable-mode)"
-    info_text_3: Detaillierte Informationen über die Neuerungen finden Sie in den [Release Notes](/uninstall-tool/release-notes).
-    info_text_4: "[Endbenutzer-Lizenzvertrag](/uninstall-tool/eula)"
+    info_text_3: "[Legacy version](/downloads/legacy/uninstalltool_xp_setup.exe) for Windows XP and Vista"
+    info_text_4: "[Release Notes](/uninstall-tool/release-notes)"
+    info_text_5: "[Endbenutzer-Lizenzvertrag](/uninstall-tool/eula)"
+    info_more_links: "More links:"
   help-shortcuts-page: # https://crystalidea.com/de/uninstall-tool/keyboard-shortcuts
     title: Uninstall Tool Tastenkombinationen
     header: Uninstall Tool Tastenkombinationen
