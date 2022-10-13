@@ -572,7 +572,7 @@ macs-fan-control: # https://crystalidea.com/nl/macs-fan-control
   buy-page: # https://crystalidea.com/nl/macs-fan-control/buy
     title: Koop Macs Fan Control Pro, steun de ontwikkeling van Macs Fan Control
     header: Koop Macs Fan Control Pro
-    info_text_1: With Pro version you get extra features (custom ([fan presets](/macs-fan-control/fan-presets)), priority customer support and confidence in future updates and improvements.
+    info_text_1: With Pro version you get extra features (custom [fan presets](/macs-fan-control/fan-presets)), priority customer support and confidence in future updates and improvements.
     pro_license: Pro Licensie voor macOS
     pro_license_bundle: Pro Licensie voor macOS &amp; Windows
     toolbox_info_1: The Pro License is on a per-PC basis. Volume discounts apply when specifying multiple computers quantity.
