@@ -187,8 +187,8 @@ uninstall-tool: # https://crystalidea.com/de/uninstall-tool
   stripe_3_cat_2_info: System-Updates und Komponenten, hauptsächlich von Microsoft
   stripe_3_cat_3: Versteckt
   stripe_3_cat_3_info: Versteckte Objekte, die nicht dafür gemacht sind deinstalliert zu werden
-  stripe_3_cat_4: Apps aus dem Windows Store
-  stripe_3_cat_4_info: Windows Store Apps auf Windows 8 und höher
+  stripe_3_cat_4: Apps aus dem Microsoft Store
+  stripe_3_cat_4_info: Microsoft Store Apps auf Windows 8 und höher
   stripe_3_info_2: "Die Gruppe kann mit dem Button am Ende der Toolbar gewechselt werden:"
   stripe_review_try: Uninstall Tool Testen
   review_1: Das Uninstall Tool kombiniert Benutzerfreundlichkeit mit erweiterten Funktionen, wie das Tracking von Neu-Installationen und der Verwaltung von Systemstart-Programmen.
@@ -267,7 +267,7 @@ uninstall-tool: # https://crystalidea.com/de/uninstall-tool
     stripe_2_header: Funktionsweise
     stripe_2_info_1: Sowohl das **Batch Force Removal** als auch das normale [Force Removal](/uninstall-tool/force-removal) führt keine zugehörigen Uninstaller aus und scannt das Dateisystem/Registry-Einträge nur für verbleibende Elemente und zeigt diese in einer zusammengefassten Liste an, die eine genaue Überprüfung erfordert.
     stripe_2_info_2: "**Batch Remove Entries** aus der Liste entfernt nur die ausgewählten Elemente aus der Windows Registry ohne andere Dateisysteme/Registry-Elemente die zu den ausgewählten Programmen gehören zu entfernen. Verwenden Sie dies Funktion mit Vorsicht und nur für veraltete oder ungültige Listenelemente."
-    stripe_2_info_3: "**Batch Uninstall** ist momentan auf die Deinstallation von Apps des Windows Store beschränkt."
+    stripe_2_info_3: "**Batch Uninstall** ist momentan auf die Deinstallation von Apps des Microsoft Store beschränkt."
   startup_programs: # https://crystalidea.com/de/uninstall-tool/startup-programs
     title: Startprogramme in Windows verwalten - Uninstall Tool
     stripe_1_header: Startprogramme in Windows verwalten

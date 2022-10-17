@@ -184,8 +184,8 @@ uninstall-tool: # https://crystalidea.com/nl/uninstall-tool
   stripe_3_cat_2_info: Systeemupdates en componenten, voornamelijk van Microsoft
   stripe_3_cat_3: Verborgen
   stripe_3_cat_3_info: Verborgen items die niet ontworpen zijn om verwijderd te worden
-  stripe_3_cat_4: Windows Store Apps
-  stripe_3_cat_4_info: Windows Store Apps op Windows 8 en later
+  stripe_3_cat_4: Microsoft Store Apps
+  stripe_3_cat_4_info: Microsoft Store Apps op Windows 8 en later
   stripe_3_info_2: "De groepschakelaar bevindt zich in de onderste werkbalk:"
   stripe_review_try: Probeer Uninstall Tool Nu
   review_1: Uninstall Tool combineert gebruiksgemak met geavanceerde functies, zoals opsporen van nieuwe installaties, en beheren van opstartprogramma's.
@@ -264,7 +264,7 @@ uninstall-tool: # https://crystalidea.com/nl/uninstall-tool
     stripe_2_header: Hoe werkt het
     stripe_2_info_1: "**Geforceerd Verwijderen Batch**, evenals gewoon [Geforceerd Verwijderen](/uninstall-tool/force-removal), voert geen verbonden verwijderprogramma's uit, maar scant enkel voor resterende items in het bestandssysteem/register, en geeft deze weer in een samengevoegde lijst die een nauwkeurige beoordeling vereist."
     stripe_2_info_2: "**Batch Verwijder Ingaves** van de lijst verwijdert enkel geselecteerde items van Windows Registry zonder enige items uit het bestandssysteem/register te verwijderen die tot de geselecteerde programma's behoren. Gebruik deze functie zorgvuldig en enkel voor verouderde of ongeldige lijstwaarden."
-    stripe_2_info_3: "**Batch Verwijderen** is momenteel beperkt tot het verwijderen van Windows Store Apps."
+    stripe_2_info_3: "**Batch Verwijderen** is momenteel beperkt tot het verwijderen van Microsoft Store Apps."
   startup_programs: # https://crystalidea.com/nl/uninstall-tool/startup-programs
     title: Beheer Opstartprogramma's in Windows - Uninstall Tool
     stripe_1_header: Beheer Opstartprogramma's in Windows

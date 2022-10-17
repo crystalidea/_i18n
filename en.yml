@@ -187,8 +187,8 @@ uninstall-tool: # https://crystalidea.com/uninstall-tool
   stripe_3_cat_2_info: System updates and components, mostly from Microsoft
   stripe_3_cat_3: Hidden
   stripe_3_cat_3_info: Hidden items, which are not designed to be uninstalled
-  stripe_3_cat_4: Windows Store Apps
-  stripe_3_cat_4_info: Windows Store Apps on Windows 8 and later
+  stripe_3_cat_4: Microsoft Store Apps
+  stripe_3_cat_4_info: Microsoft Store Apps on Windows 8 and later
   stripe_3_info_2: "The groups switcher is located in the bottom toolbar:"
   stripe_review_try: Try Uninstall Tool Now
   review_1: Uninstall Tool combines ease of use with advanced features, such as tracing new installations, as well as managing startup items.
@@ -267,7 +267,7 @@ uninstall-tool: # https://crystalidea.com/uninstall-tool
     stripe_2_header: How it works
     stripe_2_info_1: "**Batch Force Removal**, as well as regular [Force Removal](/uninstall-tool/force-removal) will not run associated uninstallers and will only scan for leftover file system/registry items and display them in a merged list that requires a precise review."
     stripe_2_info_2: "**Batch Remove Entries** from the list only removes selected items from Windows Registry without removing any file system/registry items belonging to selected programs. Use this function carefully and only for obsolete or invalid list entries."
-    stripe_2_info_3: "**Batch Uninstall** is currently limited to uninstalling Windows Store Apps."
+    stripe_2_info_3: "**Batch Uninstall** is currently limited to uninstalling Microsoft Store Apps."
   startup_programs: # https://crystalidea.com/uninstall-tool/startup-programs
     title: Manage Startup Programs in Windows - Uninstall Tool
     stripe_1_header: Manage Startup Programs in Windows
