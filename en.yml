@@ -630,7 +630,7 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     q6_q: Why isn't the app on the Mac App Store?
     q6_a: MFC uses low level access to mac hardware information. Though this method is publicly available (IOKit interface), this is not allowed on the Mac App Store.
     q7_q: How do I uninstall the app?
-    q7_a: On macOS simply quit the app and drag it from the application folder to the trash. On Windows you need to run its uninstall program. [Uninstall Tool](/uninstall-tool) can be helpful here.
+    q7_a: Please follow [the instructions](/uninstall) in order to uninstall the app on Windows & macOS.
   activate-page:
     title: Activate Pro version of Macs Fan Control
     enter_key_info: "Once you [purchased](/macs-fan-control/buy) a license and received the license key, click on the Macs Fan Control icon in the Menu Bar, go down to the '**More**' submenu and click '**Upgrade to Pro version**' as seen below:"

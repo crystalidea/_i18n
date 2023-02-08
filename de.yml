@@ -628,7 +628,7 @@ macs-fan-control: # https://crystalidea.com/de/macs-fan-control
     q5_q: Warum ist die App nicht im Mac App Store?
     q5_a: MFC verwendet Low-Level-Funktionen, die auf Mac Hardware Informationen zugreifen. obwohl diese Methode öffentlich verfügbar sind (IOKit interface), ist dies im Mac App Store nicht erlaubt.
     q6_q: Wie kann die die App deinstallieren?
-    q6_a: Auf MacOS schließen Sie die App einfach und ziehen Sie aus Anwendungsverzeichnis in der Papierkorb. Unter Windows müssen Sie das Deinstallationsprogramm ausführen. [Uninstall Tool](/uninstall-tool) kann hierbei auch behilflich sein.
+    q6_a: Please follow [the instructions](/uninstall) in order to uninstall the app on Windows & macOS.
     q7_q: Warum wird eine hohe CPU-Auslastung von kernel_task angezeigt, wenn ich Macs Fan Control verwende?
     q7_a: Hitzeprobleme führen dazu, dass der Kernel-Task die CPU verwendet, um eine Überhitzung zu vermeiden. Versuchen Sie, die Lüfter wieder auf den automatischen Modus umzuschalten und wenn das nicht hilft, versuchen Sie [den SMC zurückzusetzen](https://support.apple.com/en-us/HT201295).
   activate-page:
