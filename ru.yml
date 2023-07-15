@@ -580,7 +580,7 @@ macs-fan-control: # https://crystalidea.com/ru/macs-fan-control
     pro_license_bundle: Pro версия для macOS &amp; Windows
     toolbox_info_1: Pro лицензия покупается отдельно на каждый компьютер. При указании большего количества компьютеров действуют скидки.
     toolbox_info_2: При покупке Pro лицензии для macOS и Windows, Вы также можете управлять вентиляторами в среде Windows, установленной через Boot Camp. Даже на современных Apple компьютерах, оснащённых чипом безопасности T2.
-    toolbox_info_3: Если Вы покупали программу ранее (донатили), пожалуйста, [восстановите свою лицензию](/restore-license).
+    toolbox_info_3: Это единовременная покупка без каких-либо подписок.
   support-page: # https://crystalidea.com/ru/macs-fan-control/support
     title: Macs Fan Control - Помощь и поддержка
     support_page_activate: Как активировать Pro версию

@@ -580,7 +580,7 @@ macs-fan-control: # https://crystalidea.com/de/macs-fan-control
     pro_license_bundle: Pro Lizenz für MacOS &amp; Windows
     toolbox_info_1: Die Pro-Lizenz gilt je PC. Mengenrabatte werden bei der Angabe der Computeranzahl angerechnet.
     toolbox_info_2: Beim Kauf der Pro-Lizenz für MacOS und Windows können Sie auch Lüfter unter Windows steuern, die über Boot Camp installiert wurden. Auch auf modernen Apple-Computern mit dem T2-Sicherheitschip.
-    toolbox_info_3: Wenn Sie die App bereits zuvor erworben haben (Spende), stellen Sie bitte Ihre [Lizenz wieder her](/restore-license).
+    toolbox_info_3: It's a one time purchase with no subscription.
   support-page: # https://crystalidea.com/de/macs-fan-control/support
     title: Macs Fan Control - Hilfe & Support
     support_page_activate: How to activate Pro version
