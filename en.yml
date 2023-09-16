@@ -624,7 +624,7 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     q3_q: Why is Macs Fan Control reporting 0rpm for one of my fans?
     q3_a: It's ok if you have MacBook Pro 13 inch 2015/2016, these models turn off the fan when the CPU temperature is low enough. If you have another model, it most likely means that the fan did not report any data to MFC. It is possible that one of your fan's is dead (there's physical damage to the fan or its cable). Please check your computer with the Apple Hardware Test (it's on the DVD that comes with your computer) and see if it reports a failure with one of your fans.
     q4_q: The app asks for a password. Which password is that?
-    q4_a: Macs Fan Control asks for the macOS administrator password when you decide to change fan control. It must be done only initially and when you install the update (when a new version of the app is released). Please don't ask us what YOUR computer's password is.
+    q4_a: Macs Fan Control asks for the macOS administrator password when you decide to change fan control. It must be done only initially or when you install an update (when a new version is released). Please don't ask us what YOUR computer's password is.
     q5_q: Does Macs Fan Control work in virtual machines (VirtualBox, Vmware, Parallels)?
     q5_a: No, MFC doesn't work in virtual machines and will never be able to do that. It's not technically possible.
     q6_q: Why isn't the app on the Mac App Store?
