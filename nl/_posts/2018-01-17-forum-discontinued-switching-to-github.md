@@ -10,7 +10,7 @@ Good news! We has discontinued our [phpBB forum](https://forums.crystalidea.com/
 <!--more-->
 
 [Issue Tracker for Uninstall Tool](https://github.com/crystalidea/uninstall-tool/issues)  
-[Issue Tracker for AnyToISO](https://github.com/crystalidea/anytoiso/issues)  
+[Issue Tracker for AnyToISO](https://github.com/crystalidea/anytoiso-public/issues)  
 [Issue Tracker for Macs Fan Control](https://github.com/crystalidea/macs-fan-control/issues)
 
 Additonally we'll be keeping release archive for every app at GitHub (example for [Macs Fan Control](https://github.com/crystalidea/macs-fan-control/releases)) along with [its translations](https://github.com/crystalidea/macs-fan-control/tree/master/languages). If you feel confortable with git, you can simply create a pull request to update your translation.

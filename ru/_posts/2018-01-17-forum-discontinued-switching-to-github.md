@@ -10,7 +10,7 @@ title: Техническая поддержка через GitHub
 <!--more-->
 
 [Трекер тикетов для Uninstall Tool](https://github.com/crystalidea/uninstall-tool/issues)  
-[Трекер тикетов для AnyToISO](https://github.com/crystalidea/anytoiso/issues)  
+[Трекер тикетов для AnyToISO](https://github.com/crystalidea/anytoiso-public/issues)  
 [Трекер тикетов для Macs Fan Control](https://github.com/crystalidea/macs-fan-control/issues)
 
 Дополнительно мы будем хранить историю релизов программ на GitHub (например, [Macs Fan Control](https://github.com/crystalidea/macs-fan-control/releases)) и [переводы](https://github.com/crystalidea/macs-fan-control/tree/master/languages). Если Вы умеете пользоваться git, можно просто сделать pull request, чтобы обновить перевод интерфейса программы.
