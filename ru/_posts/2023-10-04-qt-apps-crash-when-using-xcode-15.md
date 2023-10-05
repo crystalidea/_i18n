@@ -7,7 +7,9 @@ tags: [ "dev"]
 
 Once you upgrade to macOS Sonoma, you have to use Xcode 15 (Xcode 14 won't work) and might face similar problems described below.
 
-#### Problem #1: QMake does not work with Xcode 15
+<!--more-->
+
+### Problem #1: QMake does not work with Xcode 15
 
 When trying to build a project on macOS you get the following error:
 
@@ -17,7 +19,7 @@ failed to parse default search paths from compiler output
 
 **Solution**: this has been fixed in Qt 6.5.3 (will be also fixed in Qt 5.15.16 commercial), for earlier Qt version you should apply the following [patch](https://codereview.qt-project.org/c/qt/qtbase/+/503916) to `mkspecs/features/toolchain.prf` file before compiling. It can be easily backported to Qt 5.15.x - [example](https://github.com/crystalidea/qt-build-tools/commit/134b1cc523bf266c7a2cd00e8902268537406f1c).
 
-#### Problem #2: your Qt app crashes when running on macOS < 14 (and iOS < 17)
+### Problem #2: your Qt app crashes when running on macOS < 14 (and iOS < 17)
 
 Crash report will have something like this:
 
@@ -29,7 +31,7 @@ dyld[56529]: Symbol not found: __ZTVNSt3__13pmr15memory_resourceE
 
 **Solution**: this has been fixed in Qt 6.5.3 (will be also fixed in Qt 5.15.16 commercial), for earlier Qt version you should apply the following [patch](https://codereview.qt-project.org/c/qt/qtbase/+/482392) to some headers before compiling. It can be easily backported to Qt 5.15.x - [example](https://github.com/crystalidea/qt-build-tools/commit/fffd3d4b0a628dd780ff8cd553e8f8dc9c66c2ab).
 
-#### Problem #3: your Qt app crashes when running on macOS < 13 (and iOS < 15)
+### Problem #3: your Qt app crashes when running on macOS < 13 (and iOS < 15)
 
 Crash reports might look different, our report on macOS 11:
 
