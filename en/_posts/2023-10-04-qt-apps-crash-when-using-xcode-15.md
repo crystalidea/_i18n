@@ -5,7 +5,7 @@ title: Solving problems using Qt with Xcode 15
 tags: [ "dev"]
 ---
 
-Once you upgrade to macOS Sonoma, you have to use Xcode 15 (Xcode 14 won't work) and might face similar problems described below.
+Once you upgrade to macOS Sonoma, you have to use Xcode 15 (Xcode 14 won't work) and might face similar problems as described below.
 
 <!--more-->
 
