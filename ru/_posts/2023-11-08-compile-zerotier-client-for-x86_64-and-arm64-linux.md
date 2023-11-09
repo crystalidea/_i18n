@@ -9,7 +9,7 @@ Using the steps below you can successfully compile ZeroTier for both x86_64 and 
 
 Related: 
 
-- [Use ZeroTier on Synology NAS (also arm64) without Docker](/blog/zero-tier-synology-arm-no-docker). 
+- [Use ZeroTier on Synology NAS (also arm64) without Docker](/blog/zerotier-synology-arm-no-docker). 
 - [Compiled binaries](https://github.com/crystalidea/zerotier-linux-binaries/releases)
 
 <!--more-->

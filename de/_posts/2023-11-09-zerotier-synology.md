@@ -1,5 +1,5 @@
 ---
-permalink: /blog/zero-tier-synology-arm-no-docker
+permalink: /blog/zerotier-synology-arm-no-docker
 layout: blog-post
 title: ZeroTier on Synology NAS (also ARM64) without Docker
 tags: [ "tech"]
