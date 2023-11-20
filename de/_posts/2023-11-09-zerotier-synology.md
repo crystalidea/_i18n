@@ -95,5 +95,6 @@ If not, you should check the log folder. Now you can join the networks you need 
 
 ## Final thoughts
 
+- The method successfully survives DSM updates
 - Updating ZeroTier is as easy as replacing one file and reboot
 - You could probably also compile and use ZeroTier on older armv7 32-bit Synology models
