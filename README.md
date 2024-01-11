@@ -1,2 +1,1 @@
-.yml files in the root are language translation of crystalidea.com webite
-These files don't include blog posts which should be translated as separate .md files in corresponding subdirectories.
+.yml files in the root are language translation of the [crystalidea.com](crystalidea.com) website. These files don't include blog posts which should be translated as separate .md files in corresponding subdirectories.
