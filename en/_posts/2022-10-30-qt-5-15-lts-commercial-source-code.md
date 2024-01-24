@@ -5,7 +5,7 @@ title: Getting Qt 5.15 LTS source
 tags: [ "dev"]
 ---
 
-<p class="font-gray font-xs text-right">Last update: 5 October 2023</p>
+<p class="font-gray font-xs text-right">Last update: 24 January 2024</p>
 
 As you might know, Qt Group doesn't publish source code neither changelog for Qt 5.15 LTS updates. Instead getting those now requires buying a commercial license starting with Qt 5.15.3. This decision was controversial and pretty unfortunate for many Qt users but luckily Qt Group decided to release source code for each LTS update exactly after 1 year.
 Qt Group never announced this information officially but according to the upload date on their server, 1 year is what you need to wait before getting the source code.
