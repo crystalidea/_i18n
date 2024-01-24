@@ -1,0 +1,23 @@
+---
+permalink: /blog/solving-imac-fan-noise-issue-after-hdd-replacement
+layout: blog-post
+title: Solving iMac fan noise issue after HDD replacement
+tags: [ "macs-fan-control"]
+image: /assets/images/blog/imac-hdd.png
+---
+
+<p>Everyone who replaces HDD in most of iMac models faces the problem that HDD fan will start to spin at maximum speed after the replacement. This speed is about 6000-7000 RPM and the noise produced is unbearable (it happens because Apple puts special firmware in its HDDs)! What is more - you cannot just switch off the fan or put it rotating at MIN value (actually it's OK but only for SSD), because it will cause HDD overheating.</p>
+
+<!--more-->
+
+<p class="font-xs"><strong>Note:</strong> (screenshots are provided for Mac but remember that Macs Fan Control also works flawlessly in Boot Camp Windows XP/Vista/7/8!)</p>
+
+<p>If you replaced your HDD with some <b>SDD</b> - just set fan rotating at minimum speed (normally about 1000 RPM):</p>
+
+<p><div class="text-center"><img class="product-screenshot" src="/assets/images/blog/imac_minimum_mac.png" alt="iMac Fan Control"></div></p>
+
+<p>If you replaced your HDD with another <b>HDD</b> - you have to set it rotating in relation to HDD temperature:</p>
+
+<p><div class="text-center"><img class="product-screenshot" src="/assets/images/blog/imac_sensor_mac.png" alt="iMac Fan Control"></div></p>
+
+<p>These values (43C & 54C) are provided as an example for one of Seagate HDDs. One should referer to technical manual of his HDD and his preferences for noise/perfomance ballance.</p>

@@ -1,0 +1,701 @@
+# Translated by bel57 (bel57@outlook.com) for CrystalIDEA (support@crystalidea.com)
+# The file contains all French strings on CrystalIDEA website (https://crystalidea.com)
+# It doesn't include blog posts which should be translated as separate .md files
+
+top_navigation:
+  store: Boutique
+  blog: Blog
+  forum: Forums
+  home: Accueil
+
+main-page: # https://crystalidea.com/
+  title: CrystalIDEA - Uninstall Tool, Uninstall Software, Remove Programs, AnyToISO & Macs Fan Control
+  description: Uninstall Tool - un outil qui désinstalle proprement n'importe quel logiciel de votre PC. Macs Fan Control - contrôle des ventilateurs sur les ordinateurs Apple. AnyToISO - Ouvrir/Extraire/Convertir des ISO, extraire des ISO & créer des ISO. Disponible pour Windows & macOS
+  heading_one: Des applis efficaces et faciles d'utilisation
+  heading_two: Conçu intelligemment pour Windows et Mac
+  latest_blog_posts: Billets de blogue récents
+  button_learn_more: En savoir plus
+  button_free_download: Télécharger
+  box_short_text_ut: Suppression effiace de n'importe quel programme sur votre PC.
+  box_short_text_anytoiso: Extraire/Convertir n'importe quelle image CD/DVD vers le format ISO.
+  box_short_text_mfc: Contrôler les ventilateurs sur iMac, Macbook Pro/Air, Mac mini et Mac Pro.
+  box_short_text_speedyfox: Des lenteurs avec votre Firefox/Skype/Chrome/...? Optimisez-le en 1 clic !
+  about_info_1: CrystalIDEA Software, fondée en 2005, une entreprise privée de services sur Internet qui développe des outils logiciels pour Windows & macOS. Les clients de CrystalIDEA sont des particuliers, des entités commerciales ainsi que des structures gouvernementales.
+  about_info_2: Nous avons une approche spéciale concernant la qualité de nos logiciels afin de distribuer des produits efficaces et puissants à nos utilisateurs.
+  about_info_3: Fiers de nos succès dans le domaine logiciel, notre but est d'améliorer nos produits actuels et tout en misant sur la recherche et le développement de nouvelles technologies. Notre entreprise s'efforce toujours de fournir des réponses utiles et adaptées si vous rencontrez la moindre difficulté avec nos solutions logicielles.
+
+page-contact: # https://crystalidea.com/contact
+  title: Contacter CrystalIDEA
+  description: Contacter CrystalIDEA, obtenir de l'aide concernant l'utilisation des applications CrystalIDEA. Demandes d'affaires et autres propositions.
+  requests_header: "Requêtes fréquentes :"
+  request_1: J'ai acheté Uninstall Tool. Commment l'enregistrer (obtenir la version complète)?
+  request_2: J'ai acheté AnyToISO. Comment l'enregister (passer à la version Pro)?
+  request_3: Récupérer une licence perdue
+  contact_header: Nous contacter
+  contact_info: Pour des questions sur nos produits, des suggestions, des rapport de bogues, et tout autre commentaire, merci d'utiliser notre forum officiel.
+  support_header: Signaler un bogue, un problème ou une demande de fonctionnalité
+  support_info: "Le traqueur de problèmes GitHub (issue tracker) est le meilleur moyen d'obtenir de l'assistance. Naviguer vers GitHub en cliquant ci-dessous sur le lien de l'application concernée :"
+  email_header: Nous contacter par courriel
+  email_info: Pour les cas concernant des données sensibles, veuillez nous contacter en privé.
+  box_help_pages: Pages d'aide
+  box_help_pages_info: "Avant de nous contacter, merci de consulter nos pages d'aide :"
+  box_business: Contact commercial
+  box_business_info: Demandes d'affaires, propositions, etc.
+  button_email: Nous contacter par courriel
+  button_forum: Demander sur le forum
+  button_business: Contact commercial
+
+toolbox-contact: # https://crystalidea.com/privacy-policy
+  title: Nous contacter
+  text: Merci de nous contacter pour toute question au sujet de CrystalIDEA ou de nos produits
+  button: Contact
+
+common:
+  products: Produits
+  contact: Contact
+  multilingual_interface: "$app_name est traduite dans plusieurs langues :"
+  related_pages: Pages connexes
+
+footer:
+  subscribe: S'abonner aux bulletins CrystalIDEA
+  subscribe_join: En rejoignant plus de 14 000 abonnés, vous recevrez des informations concernant les mises à jour logicielles et autres communiqués pertinents.
+  connect_with_us: Nous rejoindre
+  languages: Langues
+  email_placeholder: Votre adresse courriel
+  try_ut: Essayer Uninstall Tool
+  try_ut_more: Tester immédiatement Uninstall Tool et l'essayer gratuitement pendant 30 jours.
+  try_anytoiso: Essayer AnyToISO
+  try_anytoiso_more: Tester AnyToISO immédiatement et gratuitement.
+  try_mfc: Essayer Macs Fan Control
+  try_mfc_more: Tester immédiatement Macs Fan Control.
+  try_download: Télécharger
+  privacy_policy: Politique de confidentialité
+
+product-menu: # https://crystalidea.com/uninstall-tool
+  overview: Aperçu
+  features: Fonctionnalités
+  buy: Tarifs et achat
+  support: Aide
+  download: Télécharger
+
+store-page: # https://crystalidea.com/store
+  title: La boutique CrystalIDEA, plateforme d'achat sécurisée
+  header: La boutique CrystalIDEA
+  description: La boutique CrystalIDEA, plateforme d'achat sécurisée. Livraison instantanée de clés d'enregistrement, licences de volume et offres groupées
+
+buy-page: # https://crystalidea.com/store
+  toolbox_header: En bref
+  toolbox_info_1: Chaque type de licence correspond à un paiement unique comprenant une assistance technique à vie.
+  toolbox_info_2: La licence standard est décomptée par PC. Le nombre de machines peut être spécifié au niveau du champ 'Quantité' après avoir pressé le bouton "Acheter maintenant" (rabais disponibles).
+  toolbox_info_3: "[Licence portable](/$app_id/portable-mode) est conçu pour un seul utilisateur sur plusieurs PC. Le mode Portable ne requiert pas d'installation ni d'activation sur chaque machine, il est possible de le lancer via un support USB. Des instructions détaillées sont communiquées immédiatement après achat."
+  toolbox_info_4: Toutes les mises à jour mineures sont GRATUITES. Les mises à jour majeures (2.x -> 3.x) sont proposées à -50 % pour nos clients.
+  quantity: Quantité
+  quantity_other: Autre
+  price: Prix
+  buy_button: Acheter maintenant
+  bundle_save: Économiser $ !
+  volume_discounts: Rabais disponibles en achat de volume
+  portable_info: Utilisateur unique - plusieurs PC
+  info_eu: Pour les clients de l'Union Européenne, la taxe sur la valeur ajoutée (TVA) **est incluse** dans les prix listés. Les entreprises peuvent acheter hors taxe en fournissant le numéro de TVA. Pour nos clients hors UE, aucune TVA n'est ajoutée.
+  info_switch: Afficher les prix estimés en $curr
+  info_switch_back: Afficher les prix en USD
+  student_discount_header: Rabais étudiant
+  student_discount_info: Si vous êtes étudiant, enseignant ou professeur dans n'importe quelle institution accréditée du monde, vous êtes éligible à un rabais de -30 % ; SVP [soumettre une demande](/request-educational-discount).
+
+support-page: # https://crystalidea.com/uninstall-tool/support
+  banner_header: $app_name - Aide
+  banner_info: Apprendre comment utiliser $app_name et trouver les réponses à vos questions.
+  version: Dernière version
+  button_upgrade: Mettre à niveau maintenant
+  requirements: Configuration requise
+  documentation: Documentation
+  documentation_info: Lisez notre FAQ  et nos pages d'aide ci-dessous pour des informations complémentaires.
+  documentation_faq: Foire aux questions
+  documentation_release_notes: Notes de version
+  contact: Nous contacter
+  contact_2: Obtenir de l'aide
+  contact_info: Nous répondons aux demandes sous 2 jours ouvrés et à la plupart des questions en l'espace de quelques heures.
+  contact_info_2: Pour signaler un bogue, un problème ou une demande de fonctionnalité, merci d'utiliser le traqueur GitHub (issue tracker).
+  contact_mail: Nous contacter
+  contact_mail_2: Nous contacter par courriel
+  contact_forum: Forum d'aide
+  contact_github: Traqueur de problèmes GitHub (Issue Tracker)
+  support_pages: Pages d'aide
+  latest_blog_posts: "Dernier billet de blogue pour $app_name :"
+  box_user_guide_header: $app_name Guide utilisateur
+  box_user_guide_text: "Ce sujet fait partie des rubriques d'aide pour $app_name. Voir plus :"
+  box_user_guide_link: Retourner à la page d'aide
+  box_contact_header: Questions ?
+  box_contact_text: N'hésitez pas à contacter CrystalIDEA pour toute question.
+  box_contact_link: Contacter l'assistance
+
+portable_mode: # https://crystalidea.com/uninstall-tool/portable-mode
+  stripe_1_info_1: Il n'est pas nécessaire d'installer $app_name sur toutes vos machines pour profiter de toutes ses fonctionnalités.
+  stripe_1_info_2: Apportez cette appli n'importe où avec vous (via un support USB), paramètres et licence inclus. Pour l'utiliser sur n'importe quel ordinateur Windows.
+  stripe_1_info_3: $app_name Portable peut être utilisé par une seule personne sur plusieurs machines.
+  download_link: Lien de téléchargement de la version Portable
+
+faq-page: # https://crystalidea.com/uninstall-tool/faq
+  header: Foire aux questions
+
+download-page: # https://crystalidea.com/uninstall-tool/download
+  version: Version
+  updated: Mis à jour
+  download_win: Télécharger pour Windows
+  download_mac: Télécharger pour macOS
+  download_mac_info: macOS 10.13 High Sierra et ultérieur
+  older_systems: "Télécharger pour des systèmes plus anciens :"
+
+uninstall-tool: # https://crystalidea.com/uninstall-tool
+  title: Uninstall Tool - Un outil incroyablement puissant, désinstaller et supprimer des programmes
+  description: Un désinstalleur qui effectue un retrait complet de n'importe quel programme sur votre PC. Repère les installations et supprime les traces. Fonctionne en un éclair et contrôle les programmes s'exécutant au démarrage.
+  header: Un désinstalleur rapide et puissant <br>pour une suppression complète des programmes
+  header_feature_1: Nettoyage minutieux des programmes indésirables
+  header_feature_2: Surveillance d'installation en temps réel
+  header_feature_3: Contrôle les applications démarrant avec le système
+  header_feature_4: Portable, multilingue et conçu intelligemment
+  header_button_1: Essai gratuit
+  header_button_2: Voir les fonctionnalités
+  stripe_1_header: Retirer les programmes indésirables, nettoie votre PC et le rend plus rapide <br> tout cela dans une appli Windows efficace, puissante et facile d'utilisation
+  tour_feature_1: Assistant de désinstallation
+  tour_feature_1_text: Supprime complètement les logiciels indésirables en effaçant les résidus système et les traces du registre
+  tour_feature_2: Traqueur d'installation
+  tour_feature_2_text: Installer des applications avec un traqueur en temps réel. Visualiser et enregistrer les fichiers crées dans le système/registre
+  tour_feature_3: Suppression forcée
+  tour_feature_3_text: Désinstaller les applications récalcitrantes qui ne partent pas en utilisant le désinstalleur standard
+  tour_feature_4: Désinstallation multiple
+  tour_feature_4_text: Désinstaller ou supprimer de force plusieurs applications sélectionnées
+  tour_feature_5: Gestionnaire du démarrage
+  tour_feature_5_text: Trouver, ajouter, retirer des applis qui se lancent automatiquement au démarrage de Windows
+  tour_feature_6: Mode portable
+  tour_feature_6_text: Lancer l'outil de désinstallation depuis un support USB sur plusieurs PC
+  stripe_2_slide_1_title: Un désinstalleur incroyablement rapide et pratique
+  stripe_2_slide_1_descr: Une appli efficace et puissante avec une interface simple mais intuitive.
+  stripe_2_slide_2_title: Efface les traces de la base de fichiers et du registre
+  stripe_2_slide_2_descr: Effectue une recherche minutieuse des résidus sur votre PC sans nécessiter le désinstalleur par défaut.
+  stripe_2_slide_3_title: Trouve instantément les programmes indésirables
+  stripe_2_slide_3_descr: La liste d'applis est immédiatement filtrée selon les termes recherchés.
+  stripe_2_slide_4_title: Traque les changements effectués par l'assistant/installeur d'un programme
+  stripe_2_slide_4_descr: Lorsque vous installez une appli, le Traqueur observe toutes les modifications effectuées au niveau du système.
+  stripe_2_slide_5_title: Gérer les programmes au démarrage
+  stripe_2_slide_5_descr: Contrôler, ajouter ou retirer n'importe quel programme qui se lance avec Windows au démarrage.
+  stripe_3_header: Groupes de programmes
+  stripe_3_info_1: "Uninstall Tool regroupe les programmes en 4 catégories :"
+  stripe_3_cat_1: Applis
+  stripe_3_cat_1_info: Applis de bureau
+  stripe_3_cat_2: Système
+  stripe_3_cat_2_info: Mises à jour et composants système, de Microsoft pour la plupart
+  stripe_3_cat_3: Cachés
+  stripe_3_cat_3_info: Éléments masqués, ne sont pas conçus pour être désinstallés
+  stripe_3_cat_4: Applis du Microsoft Store
+  stripe_3_cat_4_info: Applis provenant du Microsoft Store, Windows 8 et ultérieur
+  stripe_3_info_2: "Le gestionnaire de groupes se situe dans la barre d'outils inférieure :"
+  stripe_review_try: Essayer Uninstall Tool maintenant
+  review_1: Uninstall Tool combine la facilité d'utilisation avec des fonctionnalités avancées, telles que le suivi d'installations et la gestion des éléments au démarrage.
+  review_2: Nous adorons Uninstall Tool. Ce logiciel est très efficace pour supprimer les publiciels et autres fichiers inutiles.
+  review_3: Satisfait d'utiliser Uninstall Tool de CrystalIDEA. Efface toutes les traces, même les plus tenaces et supprime les applications cachées.
+  review_4: Au final, Uninstall Tool est un outil de maintenance impressionnant qui tient ses promesses autant côté performances que fonctionnalités. Vivement recommandé.
+  review_5: Votre programme est un incontournable de ma boîte à outils, je le recommande à tous ceux qui cherchent à se débarrasser en un clic de tous ces logiciels indésirables.
+  review_customers: "Uninstall Tool est utilisé par les entreprises d'informatique les plus réputées :"
+  tour_back: Précédent
+  tour_next: Suivant
+  tour_try_button: Essayer gratuitement
+  tour_try_text: Télécharger la version complète dès maintenant pour tirer parti de toutes ses fonctionnalités. <br> Période d'essai gratuite de 30 jours.
+  release_notes:
+    title: Uninstall Tool - Notes de version
+  uninstall_wizard: # https://crystalidea.com/uninstall-tool/uninstall-wizard
+    title: L'assistant de désinstallation, une suppression complète des programmes - Uninstall Tool
+    stripe_1_header: Une suppression en profondeur des programmes indésirables <br> Recherche et nettoyage des résidus dans le registre et le système de fichiers
+    feature_1: Effectue une recherche minutieuse des résidus laissés sur votre PC sans avoir besoin du désinstalleur par défaut qui a tendance à laisser beaucoup derrière lui.
+    feature_2: Fonctionne de pair en effaçant les traces marquées par le [Traqueur d'installation](/uninstall-tool/install-tracker-installation-monitor) (surveille les installations).
+    feature_3: Quand un fichier ou dossier est utilisé par le système, l'assistant de désinstallation cédule la suppression de ces éléments au prochain redémarrage de Windows.
+    feature_4: Détecte et force la fin de tâche des processus en cours (associés à l'appli que vous souhaitez supprimer) avant de déclencher la désinstallation.
+    feature_5: Affiche un historique d'évènements détaillés à la fin de chaque désinstallation.
+    feature_6: Fonctionne de manière rapide et sécurisée - vous gardez en tout temps le contrôle sur ce qui va être supprimé.
+    stripe_2_header: Comment cela fonctionne
+    stripe_2_info_1: "L'assistant de désinstallation se lance :"
+    stripe_2_info_2: Après avoir exécuté le désinstalleur fourni afin d'effacer toutes les traces restantes
+    stripe_2_info_3: Lors de la [Suppression forcée](/uninstall-tool/force-removal) (sans lancer le désinstalleur associé)
+    stripe_2_info_4: Lorsque l'assistant de désinstallation a fini son analayse, il retourne une boîte de dialogue où vous pouvez vérifier et désélectionner n'importe quelle trace restante. Il est aussi possible d'exporter ces données sous format XML.
+    stripe_3_header: Suppression ultérieure
+    stripe_3_info_1: Quand un fichier ou dossier est utilisé par le système, l'assistant de désinstallation cédule la suppression des éléments restants au prochain redémarrage de Windows.
+    stripe_4_header: Détecte et met fin aux processus en cours d'exécution
+    stripe_4_info_1: Lorsque certains processus associés à une application que vous souhaitez déinstaller sous toujours en cours, l'assistant de désinstallation permet d'y mettre fin pour assurer une suppression complète.
+    stripe_5_header: Historique d'évènements détaillé
+    stripe_5_info_1: Une fois que l'assistant de désinstallation a fini son travail, il affiche une fenêtre du résultat dont le contenu peut être consulté et sauvegardé. Chaque opération est consignée (exemple : tentative d'effacer un fichier/dossier/clé du registre ou de mettre fin à un processus/objets COM non enregistrés, etc.). Lorsqu'une opération échoue, l'erreur correspondante et la description sont ajoutées au journal d'évènements.
+  install_tracker: # https://crystalidea.com/uninstall-tool/install-tracker-installation-monitor  
+    title: Traqueur d'installation (Observateur d'installation) - Uninstall Tool
+    stripe_1_header: Traqueur d'installation (Observateur d'installation)
+    stripe_1_header_2: Lorsque vous installez une application, le Traqueur d'installation garde en mémoire tous les changements appliqués à votre système.
+    stripe_1_info_1: "Suivi en temps réel : plus besoin de créer des points de restauration avant et après installation."
+    stripe_1_info_2: "Précision parfaite : l'outil de surveillance utilise le pilote Kernel-Mode (qui ne traque que 'nos' processus)."
+    stripe_1_info_3: En désinstallant une application surveillée, [l'assistant de désinstallation](/uninstall-tool/uninstall-wizard) supprime toutes les traces mémorisées, laissant votre système Windows dans un état impeccable.
+    stripe_1_info_4: Un journal d'évènements en temps réel avec des informations détaillées sur la progression de l'installation avec des fonctions __Stop et Rétablir__.
+    stripe_2_header: Comment surveiller une installation
+    stripe_2_info_1: "En 3 étapes :"
+    stripe_2_info_2: Procéder normalement à l'installation pendant que Uninstall Tool surveille. La mémorisation s'arrêtera automatiquement une fois tous les processus terminés, autrement il faudra procéder manuellement à l'arrêt une fois la tâche d'installation complétée.
+    stripe_2_info_3: "Après l'installation avec succès d'un nouveau programme, celui-ci apparaîtra alors dans la liste des éléments 'traqués' avec un symbole indiquant que toutes les données marquées seront supprimées du PC (dans [l'assistant de désinstallation](/uninstall-tool/uninstall-wizard)) pendant la désinstallation avec le désinstalleur fourni (ou en utilisant la fonction de[suppression forcée](/uninstall-tool/force-removal)) :"
+    stripe_2_img_text_1: Depuis un clic droit sur le fichier installeur
+    stripe_2_img_text_2: Depuis la barre d'outils inférieure
+    stripe_2_img_text_3: Depuis le menu à partir de l'icône dans barre des tâches
+    stripe_3_header: Avancée de l'installation
+    stripe_3_info_1: Lorsqu'une installation suivie est en cours, Uninstall Tool est minimisé dans la barre d'état. Cependant il est possible d'afficher la fenêtre de progression en temps réel via un double clic sur l'icône dans la barre d'état ou en utilisant le menu associé.
+    stripe_3_info_2: "Vous pouvez stopper le suivi d'une installation avec la fonction optionnelle __Rétablir__ :"
+    stripe_3_img_text_1: Journal d'évènements détaillé en temps réel
+    stripe_4_header: Installation multiple (intégrées)
+    stripe_4_info_1: "Certains installeurs ont tendance à installer plus qu'un programme. Le Traqueur d'installation est capable de détecter ce type d'installation et les traite de cette manière : lorsque l'installation est complétée, le Traqueur d'installation affiche la liste des applications qui ont été installées et permet à l'utilisateur de sélectionner le principal programme. L'élément principal sera affiché dans la liste d'applications avec une icône spéciale dans la colonne 'Suivis', les autres programmes seront traités comme dépendants. Lors de la d'installation d'une application suivie en lien avec des objets dépendants, [l'assistant de désinstallation](/uninstall-tool/uninstall-wizard) supprimmera aussi toute trace de chaque élément sous-listé. Un message d'avertissement spécial s'affichera lorsque nécessaire."
+    stripe_5_header: Associer de nouvelles données aux installations déjà suivies
+    stripe_5_info_1: "Rajouter des données de suivi se fait via le menu contextuel **Données suivies** pour un programme déjà surveillé. Cela peut être fait lorsque vous :"
+    stripe_5_info_2: Avez besoin de lancez l'exécutable du logiciel qui vient d'être installé afin avec le Traqueur d'installation pour le laisser s'autoconfigurer et créer le plus de traces possible.
+    stripe_5_info_3: Avez besoin de mettre à jour une application suivie vers une nouvelle version.
+    stripe_5_info_4: "Après avoir spécifié le fichier exécutable, le Traqueur d'installation va procéder au suivi et l'ajout de nouvelles données une fois que la tâche de l'exécutable cible terminée."
+  force_removal: # https://crystalidea.com/uninstall-tool/force-removal
+    title: Suppression forcée de programmes - Uninstall Tool
+    stripe_1_header: Suppression forcée de programmes
+    stripe_1_info_1: Effectuée avec [l'assistant de désinstallation](/uninstall-tool/uninstall-wizard) pour détecter et effacer les résidus sans devoir passer par le désinstalleur par défaut.
+    stripe_1_info_2: Supprimer des applications dont l'installation est corrompue ou partiellement des applications en partie (dés)installées.
+    stripe_1_info_3: Pour de meilleurs résultats, il est préférable de désinstaller une appli avec [le Traqueur d'installation](/uninstall-tool/install-tracker-installation-monitor) (Observateur d'installations).
+    stripe_2_header: Fonctionnement
+    stripe_2_text: "[L'assitant de désinstallation](/uninstall-tool/uninstall-wizard) effectue un scan approfondi du registre et du système de fichier à la recherche de résidus. Il est capable de localiser les traces de services Windows (y compris les pilotes), associations de fichiers, objets COM (y compris les extensions Shell), divers composants liés à l'installeur Windows, les raccourcis et plus encore."
+    stripe_2_info_1: Si l'installation était précédemment surveillée avec [le Traqueur d'installation](/uninstall-tool/install-tracker-installation-monitor), l'assitant de désinstallation affiche instantément une liste des traces trouvées et garantit une suppression complète à 100 %.
+  batch_removal: # https://crystalidea.com/uninstall-tool/batch-uninstaller-batch-programs-removal
+    title: Désinstalleur multiple, Suppression groupée de programmes - Uninstall Tool
+    stripe_1_header: Suppression groupée de programmes
+    stripe_1_info_1: Activez le mode groupé en maintenant la __Touche Ctrl__ et sélectionner les applis en cliquant dessus une par une (ou en maintenant la __Touche MAJ__ et utiliser les Touches directionnelles Haut/Bas pour sélectionner les objets suivants).
+    stripe_1_info_2: Le désinstalleur multiple fait appel au puissant [assistant de désinstallation](/uninstall-tool/uninstall-wizard) pour repérer et éliminer les résidus.
+    stripe_1_info_3: Cela fonctionne aussi pour [les programmes à démarrage automatique](/uninstall-tool/startup-programs).
+    stripe_2_header: Fonctionnement
+    stripe_2_info_1: "**Suppression forcée multiple**, et [suppression forcée](/uninstall-tool/force-removal) normale ne lancent pas les désinstalleurs associés, ces modes lancent seulement une recherche des résidus dans le système de fichiers/registre et affichent les éléments trouvés dans une liste unifiée nécessitant une attention particulière."
+    stripe_2_info_2: "**Suppression multiple d'entrées** depuis la liste retire uniquement les éléments sélectionnés depuis le registre Windows sans toucher aux fichiers/éléments du registrés appartenant aux programmes sélectionnés. À utiliser avec précaution seulement pour les entrées obsolètes ou invalides."
+    stripe_2_info_3: "**Désinstallation multiple** est pour l'instant limitée seulement aux applis du Microsoft Store."
+  startup_programs: # https://crystalidea.com/uninstall-tool/startup-programs
+    title: Contrôle des programmes à démarrage automatique - Uninstall Tool
+    stripe_1_header: Contrôle des programmes à démarrage automatique
+    stripe_1_info_1: "Avec Uninstall Tool vous pouvez :"
+    stripe_1_info_2: Activer/désactiver ou supprimer toute application se lançant avec Windows
+    stripe_1_info_3: Détecter les entrées invalides
+    stripe_1_info_4: Voir des informations détaillées sur chaque entrée (dossier d'installation, éditeur, ligne de commande, statut et origine)
+    stripe_1_info_5: Opérations multiples pour les éléments sélectionnés (utiliser la touche Ctrl pour en sélectionner plusieurs)
+    stripe_1_info_6: Ajouter de nouveaux programmes au démarrage
+    stripe_1_info_7: Vérifier régulièrement la liste d'applications au démarrage  (et retirer les éléments indésirables) est une bonne manière d'optimiser les performances de votre PC à l'allumage. De plus, c'est aussi l'occasion de détecter de potentiels espiogiciels et publiciels installés secrètement sur votre machine.
+    stripe_2_header: Origine/Type d'un programme
+    stripe_2_info_1: "La colonne origine retourne la méthode de démarrage d'un programme. Uninstall Tool détecte les programme au démarrage de plusieurs façons :"
+    stripe_2_info_2: "**HKLM Run** - HKEY_LOCAL_MACHINE - Clé du registre, commune à tous les utilisateurs"
+    stripe_2_info_3: "**HKLM RunOnce** - HKEY_LOCAL_MACHINE - Clé du registre, commune à tous les utilisateurs. S'exécute une seule fois"
+    stripe_2_info_4: "**HKCU Run** - HKEY_CURRENT_USER - Clé du registre"
+    stripe_2_info_5: "**HKCU RunOnce** - HKEY_CURRENT_USER - Clé du registre. S'exécute une seule fois"
+    stripe_2_info_6: "**StartMenu All** - Menu Démarrer de tous les utilisateurs, dossier Démarrage (situé dans Menu Démarrer\\Programmes\\Démarrage)"
+    stripe_2_info_7: "**StartMenu CU** - Menu démarrer de l'utilisateur actuel, dossier Démarrage"
+    stripe_2_info_8: "**Windows Task** - Tâche Windows programmée pour l'ouverture de session. Il est possible d'ajouter une nouvelle tâche programmée"
+    stripe_3_header: Ajouter un nouveau programme au démarrage
+    stripe_3_info_1: Avec Uninstall Tool il est possible d'ajouter de nouveaux programmes qui se lanceront automatiquement au démarrage de Windows. Le type de lancement utilisé peut être n'importe lequel de la liste ci-dessus.
+    stripe_3_info_2: "**Type de lancement** - la manière dont le programme démarre. Voir la colonne **Origine** ci-dessus"
+    stripe_3_info_3: "**Chemin de l'exécutable** - chemin complet de l'exécutable cible appartenant au programme que vous souhaitez démarrer"
+    stripe_3_info_4: "**Arguments** (optionnel) - liste d'arguments en ligne de commande que vous souhaitez spécifier au lancement"
+    stripe_3_info_5: "**Lancer la tâche avec les privilèges les plus élevés** - (seulement disponible comme Tâche Windows) conçu spécifiquement pour lancer le démarrage automatique d'une programme en tant qu'administrateur"
+  portable_mode: # https://crystalidea.com/uninstall-tool/portable-mode
+    title: Mode portable - Uninstall Tool
+    stripe_1_header: Mode portable
+    stripe_1_info_1: Le cache du programme et les traces de suivi d'installation demeurent conservées en local sur la machine.
+    stripe_2_header: Mode portable et Traqueur d'installation
+    stripe_2_info_1: "[Traqueur d'installation](/uninstall-tool/install-tracker-installation-monitor) (Observateur d'installations) est pleinement fonctionnel en mode portable à une seule exception : installer des applications avec l'Observateur d'installation ne peut que se faire via le bouton 'Installer et suivre' button (and not via the right click context menu in Windows Explorer because portable version doesn't not install any shell extensions):"
+    stripe_3_header: Activation de la licence en mode portable
+    activate_info_1: "Les données d'enregistrement devraient être stockées dans le fichier texte '**license.dat**' dans le répertoire du programme. Ce fichier contient :"
+    activate_info_2: Première ligne - nom d'enregistrement  
+    activate_info_3: Deuxième ligne - code d'enregistrement
+    activate_info_4: "Exemple :"
+  buy-page: # https://crystalidea.com/uninstall-tool/buy
+    title: Uninstall Tool - Tarifs et achat
+    header: Uninstall Tool - Tarifs et achat
+    personal_license: Licence Standard
+    portable_license: Licence __Portable__
+    upgrade_header: Mettre à niveau depuis la version 2.x
+    upgrade_info: Les clients de Uninstall Tool 2.x (n'importe quel type de licence, même celles obtenues en offres groupées) bénéficient d'un rabais de -50 % sur Uninstall Tool 3. Afin d'en bénéficier, saisir son adresse courriel (utilisée lors de l'achat précédent) en tant que coupon [sur cette page](https://store.payproglobal.com/checkout?products&#91;1&#93;&#91;id&#93;=34958).
+  support-page: # https://crystalidea.com/uninstall-tool/support
+    title: Uninstall Tool - Assistance
+    requirements_info: Prend en charge nativement Windows 64/32 bits, requiert les privilèges d'administrateur.
+    support_basics: Fondamentaux
+    support_basics_1: Activation après achat
+    support_basics_2: Raccoucis clavier
+    support_basics_3: Traduire Uninstall Tool dans une autre langue
+    support_basics_4: Ligne de commande
+    support_basics_5: Préférences
+    support_uninstaller: Désinstalleur
+    support_uninstaller_1: Liste des programmes
+    support_uninstaller_2: Recherche intelligente
+  download-page: # https://crystalidea.com/uninstall-tool/download
+    title: Uninstall Tool - Télécharger
+    header: Télécharger Uninstall Tool
+    header_info: Le désinstalleur de choix pour une suppression efficace et rapides des applications indésirables.
+    download_name: Uninstall Tool - Installeur 
+    download_button: Télécharger maintenant
+    info_text_1: Vous pouvez télécharger et essayer Uninstall Tool gratuitement afin de tester toutes ses fonctionnalités. En cas de problème avec l'appli, SVP [contactez-nous](/contact).
+    info_text_2: "[Version portable](/downloads/uninstalltool_portable.zip) (pas de période d'essai, nécessite une licence spécifique avec des instructions d'enregistrement). [En savoir plus](/uninstall-tool/portable-mode)"
+    info_text_3: "[Ancienne version 'legacy'](/downloads/legacy/uninstalltool_xp_setup.exe) pour Windows XP et Vista"
+    info_text_4: "[Notes de version](/uninstall-tool/release-notes)"
+    info_text_5: '[Contrat de licence d'utilisateur final(/uninstall-tool/eula)'
+    info_more_links: "Liens utiles :"
+  help-shortcuts-page: # https://crystalidea.com/uninstall-tool/keyboard-shortcuts
+    title: Uninstall Tool - Raccourcis clavier
+    header: Uninstall Tool - Raccourcis clavier
+    info_1: Il existe beaucoup de raccourcis clavier utiles dans Uninstall Tool qui peuvent accélérer la façon d'interagir avec le programme. Vous pouvez retrouver toutes ces fonctions dans le menu the menu associé, pour les découvrir lors de l'utilisation du programme. Considérez cette liste comme un aide-mémoire des raccourcis disponibles, il n'est pas forcément nécessaire de les connaître pour utiliser Uninstall Tool efficacement.
+    group_1: "Raccourcis génériques :"
+    group_1_key_1: "**F1** - Aide"
+    group_1_key_2: "**F5** - Rafraîchit la liste des programmes"
+    group_1_key_3: "**F9** - Afficher les préférences"
+    group_1_key_4: "**Ctrl+Tab** - Basculer entre le désinstalleur et les fonctions au démarage"
+    group_1_key_5: "**Ctrl+S** - Sauvegarder (exporter) la liste d'applications actuelle au format HTML"
+    group_2: "Raccourcis clavier du désinstalleur :"
+    group_2_key_1: "**Entrée** - Désinstaller/Modifier les programmes sélectionnés. Équivaut à un double clic"
+    group_2_key_2: "**MAJ+Suppr** - Suppression forcée des éléments sélectionnés"
+    group_2_key_3: "**Ctrl+G** - Rechercher le programme sélectionné sur Google"
+    group_2_key_4: "**Ctrl+R** - Parcourir l'entrée sélectionnée du registre Windows"
+    group_2_key_5: "**Ctrl+E** - Ouvrir le dossier d'installation de l'élement sélectionné (si disponible)"
+    group_2_key_6: "**Ctrl+W** - Ouvrir le site Internet de l'objet sélectionné (si disponible)"
+    group_2_key_7: "**Échap** - Réinitialiser le filtre de recherche"
+    group_3: "Raccourcis - Gestionnaire du démarrage :"
+    group_3_key_1: "**MAJ+Suppr** - Effacer les éléments sélectionnés de la liste"
+    group_3_key_2: "**Ctrl+G** - Rechercher le programme sélectionné sur Google"
+    group_3_key_3: "**Ctrl+R** - Naviguer jusqu'à la source de l'élément sélectionné. En fonction de l'origine, cette action peut ouvrir l'éditeur de registre Windows,  le dossier du menu Démarrer ou le gestionnaire des tâches"
+    group_3_key_4: "**Ctrl+E** - Ouvrir le dossier d'installation de l'élement sélectionné (si disponible)"
+  help-smart-search-page: # https://crystalidea.com/uninstall-tool/smart-search
+    title: Uninstall Tool - Recherche intelligente
+    header: Uninstall Tool - Recherche intelligente
+    info_1: Uninstall Tool **Recherche intelligente ™** est le moyen le plus rapide de localiser une appli installée sur votre PC. Il suffit de saisir nimporte quelle partie connue du nom de l'appli - Uninstall Tool affichera **immédiatement** tous les programmes correspondants au filtre !
+    info_2: "Vous pouvez commencer à taper dès que Uninstall Tool se lance, la recherche intelligente filtre les éléments de la liste pendant la saisie :"
+  help-activate-page: # https://crystalidea.com/uninstall-tool/activate-after-purchase
+    title: Comment enregistrer Uninstall Tool
+    header: Activer/enregistrer Uninstall Tool après l'achat 
+    text_info_1: "Après [achat](/uninstall-tool/buy) du logiciel, un courriel de confirmation avec le code d'enregistrement vous est envoyé. Ouvrir le logiciel puis accéder au menu **Aide->Saisir clé**:"
+    text_info_2: "ou depuis la boîte de dialogue :"
+    text_info_3: "Saisir le nom et le code d'enregistrement fournis dans le courriel de commande :"
+    text_info_4: puis valider avec le bouton OK et relancer le programme.
+  faq-page: # https://crystalidea.com/uninstall-tool/faq
+    title: Uninstall Tool - FAQ
+    q1_q: La licence est-elle à vie ? Dois-je payer pour les futures mises à jour ?
+    q1_a: La licence n'a pas de date d'expiration, elle est valide à vie. Toutes les mises à jour - excepté les MAJ majeures - sont GRATUITES. Les MAJ majeures (comme une mise à niveau de la version 2.x vers 3.x) sont proposées avec un rabais de -50 % aux clients existants.
+    q2_q: Devrais-je acheter 2 licences si je souhaite utiliser Uninstall Tool sur 2 machines à domicile et au travail ?
+    q2_a: Oui. Mais il y a rabais pour 2 licences. Une autre solution serait d'acheter Uninstall Tool en offre groupée avec AnyToISO et utiliser ces programmes sur les 2 machines.
+    q3_q: Comment mettre à jour Uninstall Tool lorsqu'une nouvelle version (nouvelle "build") est disponible ?
+    q3_a: Si une version précédente de Uninstall Tool est déjà installée, vous pouvez laisser l'installeur procéder à la mise à jour (écraser) l'installation existante. L'installeur vous demandera de redémarrer l'ordinateur au besoin.
+    q4_q: Pourquoi dois-je renseigner mon numéro de téléphone lors de l'achat ?
+    q4_a: Notre partenaire de paiement demande parfois un numéro de téléphone pour minimiser le risque de [fraude](https://fr.wikipedia.org/wiki/Utilisation_frauduleuse_des_instruments_de_paiement).
+  customers-page: # https://crystalidea.com/uninstall-tool/customers
+    title: Uninstall Tool - Avis de nos clients
+    description: Des milliers de gens et des centaines d'organisations choisissent Uninstall Tool pour maintenir la santé de leur PC.
+    header: Vous êtes en bonne compagnie
+    header_info: Les compagnies les plus réputées au monde font confiance à Uninstall Tool
+    text_try: Démarrez en un clic avec Uninstall Tool <br> et essayez Uninstall Tool gratuitement pendant 30 jours !
+
+anytoiso: # https://crystalidea.com/anytoiso
+  title: AnyToISO - Ouvrir/Extraire/Convertir en ISO, Extraire des ISO, Créer des ISO
+  description: Extraction de fichier/Conversion d'ISO sur Windows & macOS, disques CD/DVD/Blu-ray en ISO, dossier en ISO
+  header: Extraire/Convertir en ISO n'importe quelle image disque <br> Créer des ISO depuis des disques CD/DVD/Blu-ray et des dossiers
+  header_feature_1: Compatibilité avec les fichiers DMG, RAR, 7Z, PKG... (plus de 20 formats)
+  header_feature_2: Prise en charge des lignes de commande
+  header_feature_3: Intégration avec l'Explorateur Windows et Apple Finder
+  header_button_1: Téléchargement gratuit
+  header_button_2: Aperçu des fonctionnalités
+  features_block_title: AnyToISO - Fonctionnalités
+  stripe_1_header: L'outil ultime de Création d'image disque / Extraction / Montage ISO
+  tour_feature_1: Extraction de fichiers/Conversion en ISO
+  tour_featureDescription_1: Convertir vers le standard ISO/Extraire n'importe quelle image CD/DVD ou archive (7Z/RAR/ZIP/...).
+  tour_feature_2: Disque CD/DVD/Blu-ray vers ISO
+  tour_featureDescription_2: L'image ISO finale peut être extraire ultérieurement avec AnyToISO ou gravée sur un autre disque.
+  tour_feature_3: Dossiers en ISO
+  tour_featureDescription_3: Créer des images ISO à partir de n'importe quels fichiers et dossiers sur votre disque local.
+  tour_feature_4: Intégration avec l'explorateur
+  tour_featureDescription_4: Menu contextuel pour les fichiers, dossiers, lecteurs dans l'explorateur Windows.
+  tour_feature_5: Integration avec le Finder
+  tour_featureDescription_5: Convertir/Extraire des fichiers des archives/images disques directement depuis le Finder.
+  tour_feature_6: Mode portable
+  tour_featureDescription_6: Exécutez AnyToISO directement depuis un support USB. Aucune installation nécessaire.
+  tour_feature_7: Ligne de commande
+  tour_featureDescription_7: Utilisez AnyToISO (pour des traitements par lots) en ligne de commande depuis Windows &amp; macOS.
+  stripe_2_slide_1_title: Extraction de fichier / Conversion en ISO depuis Windows & Mac
+  stripe_2_slide_1_descr: Prise en charge de la plupart des formats d'images disques et d'archives. 
+  stripe_2_slide_2_title: Conversion disque CD/DVD/Blu-ray en ISO sur Windows & Mac
+  stripe_2_slide_2_descr: L'image ISO résultante contiendra un système de fichiers identique à celui du disque d'origine.
+  stripe_2_slide_3_title: Dossier en ISO sur Windows & Mac
+  stripe_2_slide_3_descr: L'ISO résultant peut contenir le système de fichiers 9660, Joliet et/ou UDF.
+  stripe_review_try: Essayer AnyToISO maintenant
+  review_1: Si vous avez déjà eu des difficultés à convertir un format en ISO, vous verrez qu'AnyToISO offre une solution simple mais efficace.
+  review_2: AnyToISO est simple et facile à prendre en main, l'outil parfait pour travailler avec les fichiers ISO.
+  review_3: "Beaucoup de fonctionnalités, le tout agencé avec une interface agréable : simple, épurée, mais efficace. Essayer AnyToISO c'est l'adopter."
+  review_4: Fonctionne tel qu'attendu. Cette application est essentielle pour qui travaille avec des images ISO mais n'est pas à l'aise avec le terminal. Pour des raisons qui m'échappent, Apple ne semble pas vouloir laisser la possibilité de créer des images ISO depuis l'interface graphique.
+  review_5: AnyToISO est pour moi un incontournable, depuis des années. Il a toujours accepté ce que je lui assignais sans rechigner. Il ne faut pas oublier que les développeurs derrière ce produit travaillent fort pour fournir un outil de qualité. Sans doute que beaucoup de gens n'en ont pas entendu parler vu qu'il propose des fonctionnalités plutôt uniques.
+  release_notes: # https://crystalidea.com/anytoiso/release-notes
+    title: AnyToISO - Notes de version
+  buy-page: # https://crystalidea.com/anytoiso/buy
+    title: AnyToISO - Tarifs et achat
+    header: AnyToISO - Tarifs et achat
+    license_win: Licence Standard Pro pour Windows
+    license_mac: Licence Standard Pro pour macOS
+    license_both: Licence Standard Pro pour 
+    license_portable_win: Licence __Portable__ Pro pour Windows
+  support-page: # https://crystalidea.com/anytoiso/support
+    title: AnyToISO - Assistance
+    support_page_1: Comment activer la version Pro
+    support_page_2: Traduire AnyToISO vers d'autres langues
+    support_page_3: "Vidéo : utiliser AnyToISO sur Mac (en allemand)"
+  download-page: # https://crystalidea.com/anytoiso/download
+    title: AnyToISO - Télécharger
+    header: Télécharger AnyToISO
+    header_info: L'outil ultime de Création d'image disque / Extraction / Montage ISO.
+    info_text_1: Vous pouvez télécharger et utiliser AnyToISO Lite gratuitement. En cas de problème pour télécharger l'application, SVP [contactez-nous](/contact).
+    info_text_2: La version Lite est complètement GRATUITE mais ne fonctionne qu'avec les fichiers de taille ne dépassant pas celle d'un CD standard (870 Mo).
+    info_text_3: "[Version portable](/downloads/anytoiso_portable.zip) (nécessite une licence spéciale et des instructions d'activation). [En savoir plus](/anytoiso/portable-mode)"
+    info_text_4: Découvrir les nouveaux ajouts en consultat les [notes de version](/anytoiso/release-notes).
+  file-to-iso-page: # https://crystalidea.com/anytoiso/file-extract-convert-to-iso
+    title: Extraction de fichier/Conversion en ISO - AnyToISO
+    header: Extraction de fichier/Conversion en ISO - Windows & macOS
+    info_text_1: "Vous avez téléchargé une image CD/DVD ou une archive dans un format inconnu ? Pas besoin de chercher et payer un logiciel spécifique : un seul logiciel, AnyToISO, supporte tous les formats y compris **7Z, BIN, DAA, DEB, DMG, IMG, ISO, ISZ, MDF, NRG, PKG, RAR, TAR.GZ, TAR.BZ2, XAR, ZIP...** (pour la liste complète voir la section 'Types de fichiers supportés' ci-dessous)."
+    info_header_2: Types de fichiers supportés
+    info_text_2: Le tableau suivant contient la liste de tous les formats CD/DVD et archives pouvant être extraits ou convertis en ISO depuis AnyToISO.
+    table_header_1: Format de fichier (extension)
+    table_header_2: Description du format
+    table_7z: 7Z archive
+    table_b5i: B5I/B6I est une image disque créée avec BlindWrite version 5 et 6.
+    table_bin: BIN est un format d'image disque, pris en charge par des programmes comme Roxio Toast, NTI Dragon Burn, Roxio Easy Media Creator, Golden Hawk Technology CDRWin, Daemon Tools, IsoBuster, EZB Systems UltraISO.
+    table_cdi: CDI est une image disque créée via DiscJuggler. Prise en charge par Padus DiscJuggler, EZB Systems UltraISO, IsoBuster, PowerISO.
+    table_cpi: Archives Linux CPIO et autres variantes compressées.
+    table_daa: Image compressée PowerISO. Format propriétaire, peut être protégée par mot de passe (chiffré) et divisée en multiples volumes (non supporté par AnyToISO).
+    table_deb: Image Debian (Ubuntu) Linux, format compressé.
+    table_dmg: Image de copie de disque Apple Macintosh OS X, utilise compression et chiffrement. Lors de la conversion de fichiers DMG en ISO, veuillez noter que l'ISO résultant utilise le système de fichiers HFS+ (Apple).
+    table_gbi: Image compressée gBurner. Ce format est propriétaire, l'image peut-être protégée par mot de passe (chiffré) et divisée en plusieurs volumes.
+    table_img: Image disque CloneCD CD/DVD ; images disques FAT32/FAT16 (extraction uniquement).
+    table_iso: Image disque CD/DVD. Prenant en charge le système de fichiers **ISO9660** (y compris Joliet), **HFS+**, **UDF** et **Microsoft XBOX**.
+    table_isz: Image UltraISO, peut être compressée et chiffrée (protection par mot de passe), pleinement supporté par AnyToISO. Prend aussi en charge les images segmentées.
+    table_mdf: Image disque créée avec Alcohol 120% .
+    table_nrg: NRG est une image disque créée avec Nero Software (Nero Burning ROM). Peut aussi extraire les images [CD Audio NRG](/blog/extract-nrg-to-wav-files-extract-bincue-to-wav-files) en fichiers .wav individuels.
+    table_pdi: Image créée avec InstantCopy (de la suite Pinnacle Instant CD/DVD).
+    table_pkg: Paquet d'installation Mac OS X.
+    table_rar: Archive WinRAR haute compression. Le format RAR5 est pris en charge.
+    table_rpm: Image Linux compressée (RedHat/Madriva/Fedora/Suse et autres).
+    table_tar: Linux TAR et autres variantes compressées.
+    table_uif: UIF est un fichier image disque CD/DVD créé avec MagicISO. Ce format comprend la compression et la protetion par mot de passe.
+    table_xar: Le format d'archive XAR est utilisé depuis macOS 10.5 pour l'installation de logiciels.
+    table_zip: ZIP, le format d'archive le plus populaire au monde.
+    info_text_3: Besoin d'aide pour un autre format de fichier ? Veuillez [nous contacter](/contact), nous l'ajouterons dès que possible.
+  disk-to-iso-page: # https://crystalidea.com/anytoiso/create-iso-from-cd-dvd-mac-windows
+    title: Créer un ISO depuis un disque CD/DVD/Blu-ray sur Windows & macOS - AnyToISO
+    header: Créer un ISO depuis un disque CD/DVD/Blu-ray (Windows & macOS)
+    info_text_1: "Sélectionner l'onglet **CD/DVD vers ISO** dans AnyToISO, choisir le lecteur CD/DVD depuis la liste et appuyer sur le bouton **Créer ISO**. L'option **Créer BIN/CUE** aide à créer une image brute RAW en multiples pistes (ex : CD Audio). Sur Windows il est possible de créer un ISO d'un média physique directement depuis l'explorateur Windows via le menu contextuel sur le lecteur."
+    info_text_2: L'image ISO résultante contiendra un système de fichiers identique au disque d'origine. Il y a souvent plusieurs systèmes de fichiers sur un disque, exemple ISO 9660 et UDF. Le système HFS+ (macOS) peut aussi se retrouver sur des disques. Des informations de démarrage (Boot) peuvent aussi se retrouver à l'intérieur d'une image ISO. L'ISO final pourra toujours être extrait avec AnyToISO ou gravé sur un autre disque.
+    info_header_3: Prise en charge des images BIN/CUE
+    info_text_3: Les images BIN/CUE sonr des images CD(DVD) sous la forme de fichiers .bin et .cue. Les fichiers .cue (cue-sheet) contiennent les informations de piste et les fichiers .bin renferment la partie de données (en format brut). Les fichiers BIN/CUE contenant des données peuvent être convertis en ISO, les images CD Audio peuvent être extraits séparement en morceaux .WAV.
+    info_text_4: "Note : vous ne pouvez pas créer de copies de disques DVD/Blu-Ray protégés par copyright."
+  folder-to-iso-page: # https://crystalidea.com/anytoiso/folder-to-iso-files-to-iso-create-iso-from-folder
+    title: Création d'ISO depuis un dossier sur Windows & macOS - AnyToISO
+    header: Création d'ISO depuis un dossier sur Windows & macOS
+    info_text_1: AnyToISO est capable de créer des images ISO de fichiers et dossiers situés sur votre disque local. Pour ce faire, préparez un dossier avec des dossiers et fichiers. Ensuite, sélectionnez ce dossier dans l'appli sous l'onglet 'Dossier vers ISO' (sous Windows, il est possible de faire un clic droit sur le dossier directement depuis l'explorateur). Il est recommandé de choisir le nom du volume. L'image ISO finale est compatible avec Windows/macOS/Linux et peut être lue par n'importe quel programme (supportant les images ISO). Bien évidemment cet ISO pourra aussi être gravé sur un média physique CD/DVD/Blu-ray.
+    info_text_2: Le format de fichiers par défaut est ISO 9660, Joliet (ISO 9660 est une extension prenant en charge les lettres minuscules et les longs noms de fichier) et UDF. La configuration du système de fichiers et les paramètres associés peut être réalisée depuis la boîte de dialogue dédiée après avoir cliqué sur le bouton Options.
+  integration-explorer-page: # https://crystalidea.com/anytoiso/integration-explorer
+    title: Intrégration AnyToISO avec l'explorateur Windows
+    header: Intrégration AnyToISO avec l'explorateur Windows
+    info_text_1: AnyToISO s'ingègre de façon transparente avec de l'explorateur Windows en ajoutant des menus contextuels pour les [fichiers supportés](/anytoiso/file-extract-convert-to-iso), disques CD/DVD/Blu-ray et dossiers.
+    info_header_1: "Fichiers : Conversion ISO ou Extraction"
+    info_header_2: "Lecteurs : Création d'ISO depuis des disques CD/DVD/Blu-ray"
+    info_header_3: "Dossiers : Création d'ISO depuis des répertoires locaux"
+  integration-finder-page: # https://crystalidea.com/anytoiso/integration-finder
+    title: Intrégration AnyToISO avec Apple Finder
+    info_text_1: AnyToISO sur macOS s'intègre de façon transparente avec Apple Finder en s'ajoutant au menu 'Ouvrir avec' pour les [fichiers supportés](/anytoiso/file-extract-convert-to-iso). L'utilisateur peut à partir de là convertir ou extraire le fichier concerné.
+  portable_mode_page: # https://crystalidea.com/anytoiso/portable-mode
+    title: AnyToISO - Mode portable
+    header: AnyToISO - Mode portable
+  command-line-page: # https://crystalidea.com/anytoiso/command-line
+    title: AnyToISO - Ligne de commande
+    info_1_header: Convertir une image/archive en fichier ISO
+    info_2_header: Extraire un fichier image/archive
+    info_2_text: Lors de l'extraction d'un fichier à système de fichiers multiples, le format de fichier UDF est choisi par défaut. Une option existe pour spécifier le système de fichiers via le paramètre /fs. Les valeurs possibles sont iso9660, udf, xbox et hfs.
+    info_3_header: Création d'ISO depuis des diques CD/DVD/Blu-ray
+    info_4_header: Création d'ISO depuis un dossier local
+    info_4_text: Il est toujours préférable de saisir un nom de volume pour l'ISO de destination. Il est également possible de spécifier le système de fichiers utilisé par l'ISO final (par défaut iso9660+joliet+udf) en utilisant le paramètre /fs. Les valeurs possibles sont iso9660, joliet et udf.
+    info_5_header: Exemple de ligne de commande sur  macOS
+    info_6_header: Exemple de traitement par lots sur Windows
+    info_7_header: Afficher l'aide par rapport à l'usage en ligne de commande
+  activate-page: # https://crystalidea.com/anytoiso/activate-pro-version
+    title: Mise à niveau vers la version Pro - AnyToISO
+    header_1: Comment activer la version Pro
+    info_1: "Les avantages de la mise à niveau vers AnyToISO Professional :"
+    info_2: Aucune limitation de taille de fichier. Vous pouvez convertir, extraire des fichiers de n'importe quelle taille et créer des ISO depuis des disques CD/DVD/Blu-ray
+    info_3: Service client prioritaire
+    info_4: Livraison instantanée du code de licence vers la version PRO
+    header_2: Acheter la licence Pro
+    info_5: Vous pouvez acheter la licence Pro depuis [la boutique en ligne CrystalIDEA](/anytoiso/buy). La licence Pro doit être achetée pour chaque machine sur laquelle vous allez utiliser le programme. Un rabais de volume est appliqué dès que vous commandez plus d'une licence. Des rabais sont disponibles en achetant AnyToISO pour 2 plateformes (Windows et Mac). Pour toute question, vous pouvez contacter notre [assistance](/contact).
+    header_3: Saisie du code d'enregistrement
+    info_6: "Immédiatement après avoir passé commande, vous recevrez un courriel contenant la clé d'enregistrement qui doit être renseignée dans AnyToISO afin de mettre à niveau la version Lite à la version Pro. La clé doit être saisie dans le menu correspondant 'Saisir clé d'enregistrement' :"
+    header_portable: Activate la licence Portable (Windows)
+  faq-page: # https://crystalidea.com/anytoiso/faq
+    title: AnyToISO - FAQ
+    q1_q: Prise en charge des images CD Audio
+    q1_a: Certains programmes peuvent créer des images de CD Audio (formats NRG, BIN/CUE, PDI). Ces images de CD Audio ne peuvent être converties au format ISO dû à des restrictions du format ISO. Les images NRG et BIN/CUE images peuvent être extraites sous forme de fichiers individuels WAV depuis AnyToISO. La création d'images ISO depuis un CD Audio est impossible dû aux restrictions du format, utilisez [une image BIN/CUE à la place](/anytoiso/create-iso-from-cd-dvd-mac-windows).
+    q2_q: Je clique sur Convertir mais rien ne se passe !
+    q2_a: Veuillez vous assurer que le fichier que vous essayez de convertir figure bien parmi les types de formats pris en charge. Il arrive souvent que le fichier porte une extension compatible, mais en realité c'est un format totalement différent (par exemple les .bin - peuvent être quasiment n'importe quel fichier, alors qu'AnyToISO supporte uniquement les images BIN créées avec des logiciels tels que Roxio Toast, NTI Dragon Burn, Roxio Easy Media Creator, Golden Hawk Technology CDRWin, Daemon Tools, IsoBuster, EZB Systems UltraISO, et autres).
+    q3_q: Est-ce possible de se faire rembourser dans certains cas ?
+    q3_a: Oui. Si le programme ne fonctionne pas comme prévu, merci de nous fournir la preuve (lien, torrent, ftp, courriel, etc. de l'image que vous n'arrivez pas à convertir avec la version PRO de notre programme). Si le fichier correspond bien à l'un des [formats supportés](/anytoiso/file-extract-convert-to-iso), nous vous rembourserons immédiatement.
+
+macs-fan-control: # https://crystalidea.com/macs-fan-control
+  title: Macs Fan Control - Contrôle des ventilateurs sur les ordinateurs Apple, fonctionne aussi sous Windows via Boot Camp
+  description: Contrôle des ventilateurs sur les ordinateurs Apple, fonctionne aussi sur Windows via Boot Camp. Surveillance de la vitesse des ventilateurs et des capteurs de température. Corrige les bruits de ventilateurs et les problèmes de surchauffe ainsi que les remplacements de disques iMac 
+  header: Contrôle des ventilateurs sur les ordinateurs Apple
+  highlight_1: Surveillance en temps réel de la vitesse des ventilateurs et des températures
+  highlight_2: Corrige les problèmes de surchauffe communs aux MacBook Pro
+  highlight_3: Corrige les problèmes de bruits notamment ceux liés aux disques sur iMac
+  highlight_4: Fonctionne sur tous les Mac, Intel & Apple Silicon
+  header_button_1: Téléchargement gratuit
+  header_button_1_info: Versions disponibles pour macOS et Windows (Boot Camp)
+  stripe_1_header: Surveillance et contrôle les ventilateurs sur les ordinateurs Apple
+  stripe_1_info_1: Surveillance en temps réel de la vitesse des ventilateurs et des capteurs de température, y compris les HDD/SSD tiers (via S.M.A.R.T.).
+  stripe_1_info_2: Mise en place de valeurs RPM (révolution par minute) ou contrôle de la vitesse des ventilateurs en relation avec la température des capteurs (exemple : avec un disque dur tier).
+  stripe_1_info_3: Création et sauvegarde des [modèles de réglages de ventilation](/macs-fan-control/fan-presets) permettant de basculer rapidement entre les profils selon l'activité.
+  stripe_1_info_4: Fonctionne également sur Windows 10/8/7/Vista/XP installé en Boot Camp même sur les modèles récents équipés de modèle de puce T2.
+  stripe_2_slide_1_title: Une interface utilisateur simple et efficace
+  stripe_2_slide_1_descr: "2 dispositions possibles : liste des ventilateurs et liste des capteurs de température."
+  stripe_2_slide_2_title: Changer la vitesse des ventilateurs
+  stripe_2_slide_2_descr: Saisir une valeur RPM personnalisée ou contrôler la vitesse du ventilateur en fonction du capteur de température.
+  stripe_2_slide_3_title: Affichage configurable de la barre de menu
+  stripe_2_slide_3_descr: Options pour afficher la vitesse des ventilateurs et capteurs de température (dans la barre d'état sous Windows).
+  stripe_3_header: Contrôle de ventilmation et des modèles existants
+  stripe_3_info_1: Le côntrole de la ventilation sur votre ordinateur Apple peut être :
+  stripe_3_info_2: "**Automatique**: contrôle automatique par le système (scénario par défaut d'Apple). Quand tous les ventilateurs sont contrôlés automatiquement par le système, l'application s'exécute juste en mode surveillance.
+  stripe_3_info_3: "**Personnalisé**: le ventilateur est contrôlé par l'appli. Soit une valeur constante (exemple : 1500 RPM) ou basée sur la température détectée (exemple : par rapport au capteur CPU PECI)."
+  stripe_3_info_4: Par commodité les fonctionnalités de l'appli concernant les [modèles de ventilation](/macs-fan-control/fan-presets) vous permettent d'ajuster rapidement les ventilateurs en mode **Auto** ou **Personnalisé** en fonction de votre activité. En savoir plus sur [les modèles de réglages](/macs-fan-control/fan-presets).
+  stripe_3_info_5: Lorsque vous quittez Macs Fan Control, l'outil restaure toujours les valeurs par défaut de ventilation vers **Auto** (Modèle automatique).
+  stripe_review_try: Essayer Macs Fan Control maintenant
+  review_1: Fonctionne à merveille sur sur mon vieux macbook pro... pourquoi Apple n'a pas sorti un utilitaire aussi bien ? Plus de réglages que ce que je ne pourrais utiliser. Merci au développeur pour cette appli.
+  review_2: Si vous avez des inquiétudes concernant la santé de votre ordinateur qui chauffe sur le long terme, utilisez Macs Fan Control pour plus de ventilation. 
+  review_3: C'est un très bon logiciel, vraiment bien pour surveiller les températures du cpu lorsque celui-ci est davantage sollicité.
+  review_4: Impeccable sur ma partition Windows 10, m'a permis de lancer des programmes plutôt gourmands sans me soucier d'une éventuelle surchauffe de mon portable !
+  review_5: Une appli très bien implémentée qui permet de surveiller de près les températures des composants de votre mac.
+  review_6: Parfait pour rendre un Mac Pro plus silencieux (le réglage automatique d'Apple peut parfois être un peu trop aggressif) et créer des courbes de ventilation personnalisées.
+  release_notes: # https://crystalidea.com/macs-fan-control/release-notes
+    title: Macs Fan Control - Notes de version
+  button_buy: Acheter la version Pro
+  buy-page: # https://crystalidea.com/macs-fan-control/buy
+    title: Achetez la version Pro, soutenez le développement de Macs Fan Control
+    header: Acheter Macs Fan Control Pro
+    info_text_1: Avec la version Pro vous avez accès à des fonctionnalités en plus ([modèles de courbes personnalisés](/macs-fan-control/fan-presets)), un service client prioritaire et la confiance de mises à jour futures ainsi que d'améliorations.
+    pro_license: Licence Pro pour macOS
+    pro_license_bundle: Licence Pro pour macOS &amp; Windows
+    toolbox_info_1: La licence Pro est décomptée par machine. Des rabais de volume sont disponibles lorsque vous ajustez la quantité de machines.
+    toolbox_info_2: Lorsque vous achetez la licence Pro pour macOS &amp; Windows vous pouvez aussi contrôler les ventilateurs sous Windows en installation Boot Camp sur les macs à architecture Intel.
+    toolbox_info_3: Achat unique sans abonnement.
+  support-page: # https://crystalidea.com/macs-fan-control/support
+    title: Macs Fan Control - Assistance    
+    support_page_activate: Comment activer la version Pro
+    support_page_models: Modèles Mac supportés
+    support_page_systems: Systèmes d'exploitation pris en charge
+    support_page_sensors: Capteurs de température compatibles et signification
+    support_page_cmdline: Ligne de commande
+    support_page_presets: Modèles de ventilation
+  download-page: # https://crystalidea.com/macs-fan-control/download
+    title: Télécharger Macs Fan Control pour macOS & Windows (Boot Camp)
+    header: Télécharger Macs Fan Control
+    header_info: Surveillance et contrôle des ventilateurs de l'ordinateur
+    info_text_1: Vous pouvez télécharger et utiliser Macs Fan Control gratuitement. En cas de problème avec le téléchargement de l'appli, veuillez [nous contacter](/contact).
+    info_text_2: Ce programme est destiné aux utilisateurs avancés qui savent ce qu'ils font sans endommager leurs macs. Les auteurs ne sont pas responsables de toute perte de données, dommages, perte de profits ou tout autre type de pertes lié à l'utilisation ou la mauvaise utilisation de ce programme.
+    info_text_3: "Informations détaillées sur les nouveautés en consultant les [notes de version](/macs-fan-control/release-notes). Les anciennes versions sont disponibles [ici](https://github.com/crystalidea/macs-fan-control/releases)."
+  supported-os-page: # https://crystalidea.com/macs-fan-control/supported-operating-systems
+    title: Systèmes d'exploitation pris en charge dans Macs Fan Control
+    info_text_1: "La dernière version de l'appli fonctionne sur les systèmes macOS à partir de la 10.7 (Lion). En prenant cela en considération, 2 versions peuvent être téléchargées :"
+    info_text_1_main: Principale
+    info_text_1_main_desc: macOS 10.13 (High Sierra) et ultérieur
+    info_text_1_second: Secondaire
+    info_text_1_second_desc: macOS 10.7 (Lion) à macOS 10.12 (Sierra)
+    info_text_2: "Même si la version secondaire est toujours une option, veuillez considérez la mise à niveau de votre système la 10.13 High Sierra si possible. macOS 10.13 peut officiellement être installé :"
+    info_text_2_pc1: MacBook Pro (Mi-2010 et récents)
+    info_text_2_pc2: MacBook Air (Fin 2010 et récents)
+    info_text_2_pc3: MacBook (Fin 2009 et récents)
+    info_text_2_pc4: iMac (Fin 2009 et récents)
+    info_text_2_pc5: Mac mini (Mi-2010 et récents)
+    info_text_2_pc6: Mac Pro (Mi-2010 et récents)
+    info_text_3: La version principale disponible en téléchargment est un fichier binaire universel ce qui signifie qu'il fonctionnera autant sur les macs **Intel** qu'**Apple Silicon**.
+    info_text_4: Installer Windows sur un mac est seulement supporté pour les ordinateurs Intel x86 d'où le fait que Macs Fan Control pour Windows est uniquement disponible sur **Intel**.
+    info_text_5: Windows 7/8/8.1/10 sont supportés en 32 et 64 bits. Windows 10 64 bits vivement recommandé. [Téléchargement pour XP/Vista](https://crystalidea.com/downloads/legacy/macsfancontrol_xp_setup.exe)
+    info_text_6: Pas officllement supporté, mais les utilisateurs rapportent que l'appli fonctionne correctement sur les Hackintosh x86.
+    info_text_7: Pas prévu, mais qui sait. [Requête de support pour systèmes Linux](https://github.com/crystalidea/macs-fan-control/issues/425)
+  faq-page: # https://crystalidea.com/macs-fan-control/faq
+    title: Macs Fan Control - FAQ
+    q1_q: Pourquoi y a-t-il un usage CPU élevé par le kernel_task en utilisant Macs Fan Control ?
+    q1_a: Les problèmes de température font que kernel task utilise préventivement le CPU pour éviter la surchauffe. Habituellement cela signifie que les courbes de ventilation personnalisées sont mal ajustées et font surchauffer l'ordinateur. Vous devriez créer un profil de ventilation plus adapté et si vous n'y arrivez pas - remettez le profil en mode auto - si cela n'aide pas, essayez de [réinintialiser le SMC](https://support.apple.com/fr-fr/HT201295).
+    q2_q: Quels paramètres de ventilation optimaux suggérez-vous pour mon MacBook/iMac/...?
+    q2_a: "Réponse rapide : expétimentez ! Observez d'abord comment les capteures de température réagissent sous contrôle automatique. Ensuite essayez d'appliquer des paramètres de ventilation personnalisés. Plus d'informations sur les capteurs de température [ici](/macs-fan-control/temperature-sensors)."
+    q3_q: Pourquoi Macs Fan Control rapporte une valeur de 0 rpm pour l'un des ventilateurs ?
+    q3_a: C'est correct, si vous avez un MacBook Pro 13" de 2015/2016, ces modèles arrêtent les ventilateurs lorsque la témpérature CPU est relativement basse. Si vous avez un autre modèle, c'est plus que probable que les ventilateurs ne retourner aucune valeur au MFC. C'est aussi possible qu'un des ventilateurs soit HS (dommage physique au niveau du ventilateur ou du câble). SVP vérifier le fonctionnement de l'ordinateur avec l'outil de diagnostic d'Apple (DVD fourni avec l'ordinateur) et vérifier s'il détecte une défaillance au niveau des ventilateurs.
+    q4_q: L'appli demande un mot de passe. Quel est-il ?
+    q4_a: Macs Fan Control demande le mot de passe macOS administrateur lorsque vous décidez de changer le contrôle de ventilation. C'est nécessaire lorsque vous installez une mise à jour (lorsqu'une nouvelle version est disponible). Veuillez ne pas nous demander quel est le mot de passe de VÔTRE ordinateur.
+    q5_q: Est-ce que Macs Fan Control fonctionne dans les machines virtuelles (VirtualBox, Vmware, Parallels) ?
+    q5_a: Non, MFC ne fonctionne pas dans les machines virtuelles et n'en sera jamais capables. Cela n'est techniquement pas possible.
+    q6_q: Pourquoi l'appli n'est pas sur le Mac App Store ?
+    q6_a: MFC utilise une interface bas niveau pour accéder aux informations matérielles du mac. Bien que cette méthode soit disponible publiquement (IOKit), cela n'est pas permis pour les applis du Mac App Store.
+    q7_q: Comment désinstaller cette appli ?
+    q7_a: SVP suivre [ces instructions](/uninstall) afin de déinstaller l'appli depuis Windows & macOS.
+  activate-page:
+    title: Activer la version Pro de Macs Fan Control
+    enter_key_info: "Après [achat](/macs-fan-control/buy) d'une licence et avoir reçu la clé d'enregistrement, cliquez sur l'icône de Macs Fan Control dans la barre de menu, défiler jusqu'au sous-menu '**Plus**' et cliquer sur '**Mettre à niveau vers la version Pro**' comme ci-dessous :"
+    enter_key_info_2: "Ensuite appuyer sur le bouton 'Saisir licence' :"
+    enter_key_info_3: "Entrer l'adresse courriel et le code puis valider avec le bouton 'Déverrouiller'. Pour utiliser une licence sur plusieurs machines, le code devra être saisir sur chacune d'entre elles."
+  presets-page:
+    title: Modèles de ventilation dans Macs Fan Control
+    
+speedyfox: # https://crystalidea.com/speedyfox
+  title: SpeedyFox - Optimisez Firefox, Skype, Chrome, Thunderbird en 1 clic !
+  description: Optimisez les performances de Firefox, Chrome, Skype, Opera, Chromium et bien d'autres 
+  header: Optimisez Firefox, Skype, Chrome, Thunderbird en 1 clic !
+  highlight_1: Démarrage jusque 3x plus rapide ! 
+  highlight_2: Accélérez la navigation dans l'historique
+  highlight_3: Fonctionnement général plus rapide
+  highlight_4: Taille de profil réduite
+  header_button_1: Télécharger pour Windows
+  header_button_2: Télécharger pour macOS
+  header_button_2_info: (supporte seulement Firefox)
+  stripe_1_header: Programmes compatibles
+  stripe_1_info_1: Les programmes mentionnés commencent à ralentir plus le temps passe. Cela est dû à la fragmentation des bases de données liée au profil. SpeedyFox est spécialement conçu pour résoudre ce problème. La méthode utilisée par SpeedyFox est 100 % sécurisé pour votre profil (exemple : favoris, mots de passe, etc.), cela a été documenté et testé sur des millions de machines.
+  stripe_2_header: Comment SpeedyFox fonctionne
+  stripe_2_info_1: Au fil du temps les bases de données SQLITE sont de moins en moins efficaces. Cela prend du temps de lancer des applis qui utilisent ce type de base de données et le fonctionnement général s'en retrouve affecté. C'est un problème très répandu qui survient en majeure partie à cause de la fragmentation des bases de données.
+  stripe_2_info_2: SpeedyFox est capable de corriger ce problème en 1 simple clic ! Cela semble difficile à croire mais après avoir optimisé Firefox avec cet outil, vous retrouverez un navigateur fonctionnant comme au premier jour avec une vitesse décuplée. Lancement jusqu'à 3x plus rapide, historique réactif, et la gestion des témoins (cookies) devient bien plus rapide qu'auparavant.
+  stripe_2_info_3: SpeedyFox compacte les bases de données sans altérer leur contenu. Celles-ci sont optimisées tout en étant allégées, d'où ce comportement plus rapide.
+  stripe_3_header: Comment utiliser SpeedyFox
+  stripe_3_info_1: Une fois installé, SpeedyFox détecte automatiquement les profils des applications supportées. Si vous avez plus qu'un profil, il est possible de sélectionner celui que vous souhaitez optimiser depuis la liste. Dans le cas d'une version portable, choisissez manuellement le chemin du profil en sélectionnant "Ajouter profil personnalisé..." depuis le menu contextuel dans la liste. Ensuite, ne reste plus qu'à cliquer sur "Optimiser".
+  stripe_3_info_2: Le processus d'utilisation peut prendre de 5 secondes à 1 minute dépendemment de la taille des bases de données. Le processus complet d'optimisation est sécurisé étant donné que cela n'affecte pas l'historique, les favoris,  ni les mots de passe.
+  stripe_3_info_3: En fonction de vos activités de navigation, nous vous recommandons d'optimiser votre profil toutes les 1-2 semaines.
+  stripe_4_header: Ligne de commande
+  stripe_4_info_1: Optimiser un profil spécifique (le nom apparaît dans l'arborescence des profils listés par SpeedyFox)
+  stripe_4_info_2: Optimiser le profil personnalisé program_name situé dans profile_path (pour une version portable d'un programme compatible)
+  release_notes: # https://crystalidea.com/speedyfox/release-notes
+    title: SpeedyFox - Notes de version (Windows)
+
+changelog: # https://crystalidea.com/speedyfox/release-notes
+  version: Version
+  released_on: Publiée le
+  release_notes: Notes de version
+  github_download: Télécharger depuis GitHub
+  new: Nouveau
+  improved: Amélioré
+  fixed: Corrigé
+  older_versions: Anciennes versions
+
+blog: # https://crystalidea.com/blog
+  title: CrystalIDEA le Blog - informations produits, l'actualité autour de Uninstall Tool, AnyToISO, Macs Fan Control
+  subscribe: S'abonner
+  join_us: Rejoignez notre communauté. <br> Receivez des astuces et notifications de mise à jour dès qu'elles sont disponibles.
+  published: Publié le
+  continue_reading: Continuer de lire
+  related_posts: Posts connexes
+  next_page: Page suivante
+  previous_page: Page précédente
+
+privacy-policy-page: # https://crystalidea.com/privacy-policy
+  title: CrystalIDEA - Politique de confidentialité
+  description: CrystalIDEA s'engage à protéger votre vie privée, pas d'inquiétude concernant la sécurité de vos informations personnelles
+
+restore-license-page: # https://crystalidea.com/restore-license
+  title: Restauration de licence - CrystalIDEA
+  header: Restauration de licence
+  description: Récupérer la licence perdue d'un programme CrystalIDEA, Uninstall Tool, AnyToISO, Macs Fan Control et autres
+  info_text_1: Veuillez nous indiquer l'adresse courriel utilisée lors de votre commande. Votre licence sera renvoyée à cette adresse courriel.
+  info_text_2: Si votre adresse courriel a changé ou si vous n'en avez plus l'accès, veuillez nous le faire savoir en nous écrivant [par courriel](mailto:support@crystalidea.com).
+  message_sent: Vos informations de licence ont bien été envoyées. Si vous n'avez toujours rien reçu après une heure, mercide vérifier le dossier pourriels or nous contacter à support@crystalidea.com
+  message_fail: Aucune commande pour $email n'a été trouvée
+  button_restore: Restaurer
