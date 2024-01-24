@@ -222,7 +222,7 @@ uninstall-tool: # https://crystalidea.com/uninstall-tool
     stripe_4_header: Détecte et met fin aux processus en cours d'exécution
     stripe_4_info_1: Lorsque certains processus associés à une application que vous souhaitez déinstaller sous toujours en cours, l'assistant de désinstallation permet d'y mettre fin pour assurer une suppression complète.
     stripe_5_header: Historique d'évènements détaillé
-    stripe_5_info_1: Une fois que l'assistant de désinstallation a fini son travail, il affiche une fenêtre du résultat dont le contenu peut être consulté et sauvegardé. Chaque opération est consignée (exemple : tentative d'effacer un fichier/dossier/clé du registre ou de mettre fin à un processus/objets COM non enregistrés, etc.). Lorsqu'une opération échoue, l'erreur correspondante et la description sont ajoutées au journal d'évènements.
+    stripe_5_info_1: "Une fois que l'assistant de désinstallation a fini son travail, il affiche une fenêtre du résultat dont le contenu peut être consulté et sauvegardé. Chaque opération est consignée (exemple: tentative d'effacer un fichier/dossier/clé du registre ou de mettre fin à un processus/objets COM non enregistrés, etc.). Lorsqu'une opération échoue, l'erreur correspondante et la description sont ajoutées au journal d'évènements."
   install_tracker: # https://crystalidea.com/uninstall-tool/install-tracker-installation-monitor  
     title: Traqueur d'installation (Observateur d'installation) - Uninstall Tool
     stripe_1_header: Traqueur d'installation (Observateur d'installation)
@@ -333,7 +333,7 @@ uninstall-tool: # https://crystalidea.com/uninstall-tool
     info_text_2: "[Version portable](/downloads/uninstalltool_portable.zip) (pas de période d'essai, nécessite une licence spécifique avec des instructions d'enregistrement). [En savoir plus](/uninstall-tool/portable-mode)"
     info_text_3: "[Ancienne version 'legacy'](/downloads/legacy/uninstalltool_xp_setup.exe) pour Windows XP et Vista"
     info_text_4: "[Notes de version](/uninstall-tool/release-notes)"
-    info_text_5: '[Contrat de licence d'utilisateur final(/uninstall-tool/eula)'
+    info_text_5: "[Contrat de licence d'utilisateur final(/uninstall-tool/eula)"
     info_more_links: "Liens utiles :"
   help-shortcuts-page: # https://crystalidea.com/uninstall-tool/keyboard-shortcuts
     title: Uninstall Tool - Raccourcis clavier
@@ -547,7 +547,7 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
   header_button_1_info: Versions disponibles pour macOS et Windows (Boot Camp)
   stripe_1_header: Surveillance et contrôle les ventilateurs sur les ordinateurs Apple
   stripe_1_info_1: Surveillance en temps réel de la vitesse des ventilateurs et des capteurs de température, y compris les HDD/SSD tiers (via S.M.A.R.T.).
-  stripe_1_info_2: Mise en place de valeurs RPM (révolution par minute) ou contrôle de la vitesse des ventilateurs en relation avec la température des capteurs (exemple : avec un disque dur tier).
+  stripe_1_info_2: "Mise en place de valeurs RPM (révolution par minute) ou contrôle de la vitesse des ventilateurs en relation avec la température des capteurs (exemple : avec un disque dur tier)."
   stripe_1_info_3: Création et sauvegarde des [modèles de réglages de ventilation](/macs-fan-control/fan-presets) permettant de basculer rapidement entre les profils selon l'activité.
   stripe_1_info_4: Fonctionne également sur Windows 10/8/7/Vista/XP installé en Boot Camp même sur les modèles récents équipés de modèle de puce T2.
   stripe_2_slide_1_title: Une interface utilisateur simple et efficace
@@ -557,8 +557,8 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
   stripe_2_slide_3_title: Affichage configurable de la barre de menu
   stripe_2_slide_3_descr: Options pour afficher la vitesse des ventilateurs et capteurs de température (dans la barre d'état sous Windows).
   stripe_3_header: Contrôle de ventilmation et des modèles existants
-  stripe_3_info_1: Le côntrole de la ventilation sur votre ordinateur Apple peut être :
-  stripe_3_info_2: "**Automatique**: contrôle automatique par le système (scénario par défaut d'Apple). Quand tous les ventilateurs sont contrôlés automatiquement par le système, l'application s'exécute juste en mode surveillance.
+  stripe_3_info_1: "Le côntrole de la ventilation sur votre ordinateur Apple peut être :"
+  stripe_3_info_2: "**Automatique**: contrôle automatique par le système (scénario par défaut d'Apple). Quand tous les ventilateurs sont contrôlés automatiquement par le système, l'application s'exécute juste en mode surveillance."
   stripe_3_info_3: "**Personnalisé**: le ventilateur est contrôlé par l'appli. Soit une valeur constante (exemple : 1500 RPM) ou basée sur la température détectée (exemple : par rapport au capteur CPU PECI)."
   stripe_3_info_4: Par commodité les fonctionnalités de l'appli concernant les [modèles de ventilation](/macs-fan-control/fan-presets) vous permettent d'ajuster rapidement les ventilateurs en mode **Auto** ou **Personnalisé** en fonction de votre activité. En savoir plus sur [les modèles de réglages](/macs-fan-control/fan-presets).
   stripe_3_info_5: Lorsque vous quittez Macs Fan Control, l'outil restaure toujours les valeurs par défaut de ventilation vers **Auto** (Modèle automatique).
@@ -651,7 +651,7 @@ speedyfox: # https://crystalidea.com/speedyfox
   header_button_2: Télécharger pour macOS
   header_button_2_info: (supporte seulement Firefox)
   stripe_1_header: Programmes compatibles
-  stripe_1_info_1: Les programmes mentionnés commencent à ralentir plus le temps passe. Cela est dû à la fragmentation des bases de données liée au profil. SpeedyFox est spécialement conçu pour résoudre ce problème. La méthode utilisée par SpeedyFox est 100 % sécurisé pour votre profil (exemple : favoris, mots de passe, etc.), cela a été documenté et testé sur des millions de machines.
+  stripe_1_info_1: "Les programmes mentionnés commencent à ralentir plus le temps passe. Cela est dû à la fragmentation des bases de données liée au profil. SpeedyFox est spécialement conçu pour résoudre ce problème. La méthode utilisée par SpeedyFox est 100 % sécurisé pour votre profil (exemple : favoris, mots de passe, etc.), cela a été documenté et testé sur des millions de machines."
   stripe_2_header: Comment SpeedyFox fonctionne
   stripe_2_info_1: Au fil du temps les bases de données SQLITE sont de moins en moins efficaces. Cela prend du temps de lancer des applis qui utilisent ce type de base de données et le fonctionnement général s'en retrouve affecté. C'est un problème très répandu qui survient en majeure partie à cause de la fragmentation des bases de données.
   stripe_2_info_2: SpeedyFox est capable de corriger ce problème en 1 simple clic ! Cela semble difficile à croire mais après avoir optimisé Firefox avec cet outil, vous retrouverez un navigateur fonctionnant comme au premier jour avec une vitesse décuplée. Lancement jusqu'à 3x plus rapide, historique réactif, et la gestion des témoins (cookies) devient bien plus rapide qu'auparavant.
