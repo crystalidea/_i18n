@@ -1,7 +1,7 @@
 ---
 permalink: /blog/zerotier-synology-arm-no-docker
 layout: blog-post
-title: ZeroTier on Synology NAS (also ARM64) without Docker
+title: Install ZeroTier on Synology NAS (also ARM64) without Docker
 tags: [ "tech"]
 ---
 
@@ -97,4 +97,4 @@ If not, you should check the log folder. Now you can join the networks you need 
 
 - The method successfully survives DSM updates
 - Updating ZeroTier is as easy as replacing one file and reboot
-- You could probably also compile and use ZeroTier on older armv7 32-bit Synology models
+- We [failed to compile](https://github.com/zerotier/ZeroTierOne/issues/2208) ZeroTier static on Raspberry Pi 2b 1GB for older armv7 32-bit Synology models
