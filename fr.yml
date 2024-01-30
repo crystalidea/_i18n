@@ -615,6 +615,8 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     info_text_5: Windows 7/8/8.1/10 sont supportés en 32 et 64 bits. Windows 10 64 bits vivement recommandé. [Téléchargement pour XP/Vista](https://crystalidea.com/downloads/legacy/macsfancontrol_xp_setup.exe)
     info_text_6: Pas officllement supporté, mais les utilisateurs rapportent que l'appli fonctionne correctement sur les Hackintosh x86.
     info_text_7: Pas prévu, mais qui sait. [Requête de support pour systèmes Linux](https://github.com/crystalidea/macs-fan-control/issues/425)
+  support_page_limited_fan_control: # https://crystalidea.com/macs-fan-control/limited-fan-control-on-certain-models
+    title: Limited fan control on certain Mac models    
   faq-page: # https://crystalidea.com/macs-fan-control/faq
     title: Macs Fan Control - FAQ
     q1_q: Pourquoi y a-t-il un usage CPU élevé par le kernel_task en utilisant Macs Fan Control ?

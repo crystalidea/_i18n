@@ -615,6 +615,8 @@ macs-fan-control: # https://crystalidea.com/ru/macs-fan-control
     info_text_5: Поддерживаются Windows 7/8/8.1/10 как 32, так и 64-битные, однако настоятельно рекомендуется использовать 64-битную Windows 10. [Версия для Windows XP/Vista](https://crystalidea.com/downloads/legacy/macsfancontrol_xp_setup.exe)
     info_text_6: Некоторые пользователи сообщают о том, что программа может работать на Хакинтош, однако он официально не поддерживается.
     info_text_7: Не планируется на данный момент. [Запрос на Linux версию](https://github.com/crystalidea/macs-fan-control/issues/425)
+  support_page_limited_fan_control: # https://crystalidea.com/macs-fan-control/limited-fan-control-on-certain-models
+    title: Limited fan control on certain Mac models
   faq-page: # https://crystalidea.com/ru/macs-fan-control/faq
     title: Часто задаваемые вопросы по Macs Fan Control
     q1_q: Каковы оптимальные настройки для моего MacBook/iMac/..?
