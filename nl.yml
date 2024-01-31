@@ -612,8 +612,8 @@ macs-fan-control: # https://crystalidea.com/nl/macs-fan-control
     info_text_5: Windows 7/8/8.1/10 are supported both 32 and 64-bit. Windows 10 64-bit is highly recommended. [Download for Windows XP/Vista](https://crystalidea.com/downloads/legacy/macsfancontrol_xp_setup.exe)
     info_text_6: Not officially supported but users report that the app works correctly on x86 Hackintosh.
     info_text_7: Not planned, but who knows. [Linux support feature request](https://github.com/crystalidea/macs-fan-control/issues/425)
-  support_page_limited_fan_control: # https://crystalidea.com/macs-fan-control/limited-fan-control-on-certain-models
-    title: Limited fan control on certain Mac models
+  support_page_limited_fan_control: # https://crystalidea.com/macs-fan-control/limited-fan-control-on-some-models
+    title: Limited fan control on some Mac models
   faq-page: # https://crystalidea.com/nl/macs-fan-control/faq
     title: Macs Fan Control FAQ
     q1_q: Wat zijn optimale instellingen voor de koelers van mij MacBook/iMac/..?
