@@ -7,7 +7,7 @@ tags: [ "tech"]
 
 The official ZeroTier [tutorial for Synology](https://docs.zerotier.com/synology/) currently has the following limitations:
 
-- **No ARM64** - Docker cannot be installed on ARM64/aarch64 Synology models (DS124, DS423, DS223j, DS223, DS420j, DS220j, DS120j, RS819, DS119j, DS418, DS418j, DS218, DS218play, DS118). Even if you manage to install Docker yourself (we failed), the official [zerotier-synology](https://hub.docker.com/r/zerotier/zerotier-synology) image is amd64 only 
+- **No ARM64** - Docker ([Container Manager](https://www.synology.com/en-global/dsm/packages/ContainerManager)) package cannot be installed on older ARM64/aarch64 Synology models (RS819, DS119j, DS418, DS418j, DS218, DS218play and DS118 particularly). Even if you manage to install Docker yourself (might be tricky), the official [zerotier-synology](https://hub.docker.com/r/zerotier/zerotier-synology) image is amd64 only at the moment (there's a [pull request](https://github.com/zerotier/ZeroTierOne/pull/2169) for arm support, hopefully it will be merged some day).
 - **Older ZeroTier client**: at the time of writing <ins>zerotier-synology</ins> uses ZeroTier 1.10.6 while the latest version is 1.12.2
 
 If you want to use the latest ZeroTier and/or if you have ARM64-based Synology and/or simply <ins>prefer to avoid Docker</ins>, this tutorial is for you.
