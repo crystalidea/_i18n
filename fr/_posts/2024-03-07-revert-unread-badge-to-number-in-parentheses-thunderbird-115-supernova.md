@@ -29,24 +29,34 @@ By default userChrome.css usage is disabled in Thunderbird. To enable it you nee
   margin-right: 4px !important;
 }
 
-.folder-count-badge {
+.folder-count-badge.unread-count {
   color: inherit !important;
   font-size: inherit !important;
   padding: 0 !important;
   min-width: 0 !important;
 }
 
-.folder-count-badge:before {
+.folder-count-badge.unread-count:before {
     content: '(';
 }
 
-.folder-count-badge:after {
+.folder-count-badge.unread-count:after {
     content: ')';
 }
 
 .unread > .container > .unread-count
 {
   background-color: inherit !important;
+}
+
+/* total */
+
+.folder-count-badge.total-count {
+  flex: 1;
+  text-align: right !important;
+  background-color: inherit !important;
+  padding: 0 !important;
+  margin-inline-end: 0 !important;
 }
 
 ```
