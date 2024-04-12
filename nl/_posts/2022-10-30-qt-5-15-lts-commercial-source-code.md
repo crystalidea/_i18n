@@ -5,7 +5,7 @@ title: Getting Qt 5.15 LTS source
 tags: [ "dev"]
 ---
 
-<p class="font-gray font-xs text-right">Last update: 24 January 2024</p>
+<p class="font-gray font-xs text-right">Last update: 12 April 2024</p>
 
 As you might know, Qt Group doesn't publish source code neither changelog for Qt 5.15 LTS updates. Instead getting those now requires buying a commercial license starting with Qt 5.15.3. This decision was controversial and pretty unfortunate for many Qt users but luckily Qt Group decided to release source code for each LTS update exactly after 1 year.
 Qt Group never announced this information officially but according to the upload date on their server, 1 year is what you need to wait before getting the source code.
@@ -23,9 +23,6 @@ Qt Group never announced this information officially but according to the upload
 | 5.15.9      |  April 06, 2022      | [April 06, 2023](https://download.qt.io/official_releases/qt/5.15/5.15.9/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.9/release-note.md) | 
 | 5.15.10     |  June 07, 2022       | [June 06, 2023](https://download.qt.io/official_releases/qt/5.15/5.15.10/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.10/release-note.md) | 
 | 5.15.11     |  October 05, 2022    | [October 04, 2023](https://download.qt.io/official_releases/qt/5.15/5.15.11/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.11/release-note.md) |
-| 5.15.12     |  December 28, 2022    | [December 20, 2023](https://download.qt.io/official_releases/qt/5.15/5.15.12/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.12/release-note.md) |
-| 5.15.13     |  March 9, 2023    | March 10, 2024 | |
+| 5.15.12     |  December 28, 2022   | [December 20, 2023](https://download.qt.io/official_releases/qt/5.15/5.15.12/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.12/release-note.md) |
+| 5.15.13     |  March 9, 2023       | [8 March 20, 2024](https://download.qt.io/official_releases/qt/5.15/5.15.13/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.13/release-note.md) |
 | 5.15.14     |  May 25, 2023    | May 26, 2024 | |
-
-
-
