@@ -24,5 +24,7 @@ Qt Group never announced this information officially but according to the upload
 | 5.15.10     |  June 07, 2022       | [June 06, 2023](https://download.qt.io/official_releases/qt/5.15/5.15.10/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.10/release-note.md) | 
 | 5.15.11     |  October 05, 2022    | [October 04, 2023](https://download.qt.io/official_releases/qt/5.15/5.15.11/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.11/release-note.md) |
 | 5.15.12     |  December 28, 2022   | [December 20, 2023](https://download.qt.io/official_releases/qt/5.15/5.15.12/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.12/release-note.md) |
-| 5.15.13     |  March 9, 2023       | [8 March 20, 2024](https://download.qt.io/official_releases/qt/5.15/5.15.13/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.13/release-note.md) |
-| 5.15.14     |  May 25, 2023    | May 26, 2024 | |
+| 5.15.13     |  March 9, 2023       | [March 8, 2024](https://download.qt.io/official_releases/qt/5.15/5.15.13/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.13/release-note.md) |
+| 5.15.14     |  May 25, 2023    | [May 24, 2024](https://download.qt.io/official_releases/qt/5.15/5.15.14/) | [Link](https://code.qt.io/cgit/qt/qtreleasenotes.git/about/qt/5.15.14/release-note.md) |
+| 5.15.15     |  31 August, 2023    | 31 August, 2024 | |
+| 5.15.16     |  17 November, 2023    | 17 November, 2024 | |

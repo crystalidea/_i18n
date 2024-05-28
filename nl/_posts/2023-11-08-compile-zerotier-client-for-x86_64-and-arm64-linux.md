@@ -22,7 +22,7 @@ source "$HOME/.cargo/env"
 ```
 Download & extract ZeroTier:
 ```bash
-ZT_VERSION=1.12.2
+ZT_VERSION=1.14.0
 wget https://github.com/zerotier/ZeroTierOne/archive/refs/tags/$ZT_VERSION.tar.gz
 tar zxf $ZT_VERSION.tar.gz
 cd ZeroTierOne-*
