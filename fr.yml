@@ -596,6 +596,7 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     info_text_1: Vous pouvez télécharger et utiliser Macs Fan Control gratuitement. En cas de problème avec le téléchargement de l'appli, veuillez [nous contacter](/contact).
     info_text_2: Ce programme est destiné aux utilisateurs avancés qui savent ce qu'ils font sans endommager leurs macs. Les auteurs ne sont pas responsables de toute perte de données, dommages, perte de profits ou tout autre type de pertes lié à l'utilisation ou la mauvaise utilisation de ce programme.
     info_text_3: "Informations détaillées sur les nouveautés en consultant les [notes de version](/macs-fan-control/release-notes). Les anciennes versions sont disponibles [ici](https://github.com/crystalidea/macs-fan-control/releases)."
+    info_text_4: Windows (Boot Camp) version is a 14-day trial (not a completely free app). [Read more](/macs-fan-control/faq)
   supported-os-page: # https://crystalidea.com/macs-fan-control/supported-operating-systems
     title: Systèmes d'exploitation pris en charge dans Macs Fan Control
     info_text_1: "La dernière version de l'appli fonctionne sur les systèmes macOS à partir de la 10.7 (Lion). En prenant cela en considération, 2 versions peuvent être téléchargées :"
@@ -619,20 +620,22 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     title: Limited fan control on some Mac models    
   faq-page: # https://crystalidea.com/macs-fan-control/faq
     title: Macs Fan Control - FAQ
-    q1_q: Pourquoi y a-t-il un usage CPU élevé par le kernel_task en utilisant Macs Fan Control ?
-    q1_a: Les problèmes de température font que kernel task utilise préventivement le CPU pour éviter la surchauffe. Habituellement cela signifie que les courbes de ventilation personnalisées sont mal ajustées et font surchauffer l'ordinateur. Vous devriez créer un profil de ventilation plus adapté et si vous n'y arrivez pas - remettez le profil en mode auto - si cela n'aide pas, essayez de [réinintialiser le SMC](https://support.apple.com/fr-fr/HT201295).
-    q2_q: Quels paramètres de ventilation optimaux suggérez-vous pour mon MacBook/iMac/...?
-    q2_a: "Réponse rapide : expétimentez ! Observez d'abord comment les capteures de température réagissent sous contrôle automatique. Ensuite essayez d'appliquer des paramètres de ventilation personnalisés. Plus d'informations sur les capteurs de température [ici](/macs-fan-control/temperature-sensors)."
-    q3_q: Pourquoi Macs Fan Control rapporte une valeur de 0 rpm pour l'un des ventilateurs ?
-    q3_a: C'est correct, si vous avez un MacBook Pro 13" de 2015/2016, ces modèles arrêtent les ventilateurs lorsque la témpérature CPU est relativement basse. Si vous avez un autre modèle, c'est plus que probable que les ventilateurs ne retourner aucune valeur au MFC. C'est aussi possible qu'un des ventilateurs soit HS (dommage physique au niveau du ventilateur ou du câble). SVP vérifier le fonctionnement de l'ordinateur avec l'outil de diagnostic d'Apple (DVD fourni avec l'ordinateur) et vérifier s'il détecte une défaillance au niveau des ventilateurs.
-    q4_q: L'appli demande un mot de passe. Quel est-il ?
-    q4_a: Macs Fan Control demande le mot de passe macOS administrateur lorsque vous décidez de changer le contrôle de ventilation. C'est nécessaire lorsque vous installez une mise à jour (lorsqu'une nouvelle version est disponible). Veuillez ne pas nous demander quel est le mot de passe de VÔTRE ordinateur.
-    q5_q: Est-ce que Macs Fan Control fonctionne dans les machines virtuelles (VirtualBox, Vmware, Parallels) ?
-    q5_a: Non, MFC ne fonctionne pas dans les machines virtuelles et n'en sera jamais capables. Cela n'est techniquement pas possible.
-    q6_q: Pourquoi l'appli n'est pas sur le Mac App Store ?
-    q6_a: MFC utilise une interface bas niveau pour accéder aux informations matérielles du mac. Bien que cette méthode soit disponible publiquement (IOKit), cela n'est pas permis pour les applis du Mac App Store.
-    q7_q: Comment désinstaller cette appli ?
-    q7_a: SVP suivre [ces instructions](/uninstall) afin de déinstaller l'appli depuis Windows & macOS.
+    q1_q: Existe-t-il une version gratuite de Macs Fan Control pour Windows (Boot Camp) ? Vendez-vous une licence Pro uniquement pour Windows ?
+    q1_a: Macs Fan Control pour Windows (Boot Camp) propose un essai de 14 jours et n'est pas une application entièrement gratuite. Veuillez noter qu'il s'agit du seul logiciel au monde capable de contrôler les ventilateurs sous Boot Camp et que son développement et sa maintenance ont été techniquement complexes. Nous ne vendons pas de licence Windows séparément, sauf si vous possédez déjà une licence macOS. Dans ce cas, veuillez nous contacter.
+    q2_q: Pourquoi y a-t-il un usage CPU élevé par le kernel_task en utilisant Macs Fan Control ?
+    q2_a: Les problèmes de température font que kernel task utilise préventivement le CPU pour éviter la surchauffe. Habituellement cela signifie que les courbes de ventilation personnalisées sont mal ajustées et font surchauffer l'ordinateur. Vous devriez créer un profil de ventilation plus adapté et si vous n'y arrivez pas - remettez le profil en mode auto - si cela n'aide pas, essayez de [réinintialiser le SMC](https://support.apple.com/fr-fr/HT201295).
+    q3_q: Quels paramètres de ventilation optimaux suggérez-vous pour mon MacBook/iMac/...?
+    q3_a: "Réponse rapide : expétimentez ! Observez d'abord comment les capteures de température réagissent sous contrôle automatique. Ensuite essayez d'appliquer des paramètres de ventilation personnalisés. Plus d'informations sur les capteurs de température [ici](/macs-fan-control/temperature-sensors)."
+    q4_q: Pourquoi Macs Fan Control rapporte une valeur de 0 rpm pour l'un des ventilateurs ?
+    q4_a: C'est correct, si vous avez un MacBook 2015+, ces modèles arrêtent les ventilateurs lorsque la témpérature CPU est relativement basse. Si vous avez un autre modèle, c'est plus que probable que les ventilateurs ne retourner aucune valeur au MFC. C'est aussi possible qu'un des ventilateurs soit HS (dommage physique au niveau du ventilateur ou du câble). SVP vérifier le fonctionnement de l'ordinateur avec l'outil de diagnostic d'Apple (DVD fourni avec l'ordinateur) et vérifier s'il détecte une défaillance au niveau des ventilateurs.
+    q5_q: L'appli demande un mot de passe. Quel est-il ?
+    q5_a: Macs Fan Control demande le mot de passe macOS administrateur lorsque vous décidez de changer le contrôle de ventilation. C'est nécessaire lorsque vous installez une mise à jour (lorsqu'une nouvelle version est disponible). Veuillez ne pas nous demander quel est le mot de passe de VÔTRE ordinateur.
+    q6_q: Est-ce que Macs Fan Control fonctionne dans les machines virtuelles (VirtualBox, Vmware, Parallels) ?
+    q6_a: Non, MFC ne fonctionne pas dans les machines virtuelles et n'en sera jamais capables. Cela n'est techniquement pas possible.
+    q7_q: Pourquoi l'appli n'est pas sur le Mac App Store ?
+    q7_a: MFC utilise une interface bas niveau pour accéder aux informations matérielles du mac. Bien que cette méthode soit disponible publiquement (IOKit), cela n'est pas permis pour les applis du Mac App Store.
+    q8_q: Comment désinstaller cette appli ?
+    q8_a: SVP suivre [ces instructions](/uninstall) afin de déinstaller l'appli depuis Windows & macOS.
   activate-page:
     title: Activer la version Pro de Macs Fan Control
     enter_key_info: "Après [achat](/macs-fan-control/buy) d'une licence et avoir reçu la clé d'enregistrement, cliquez sur l'icône de Macs Fan Control dans la barre de menu, défiler jusqu'au sous-menu '**Plus**' et cliquer sur '**Mettre à niveau vers la version Pro**' comme ci-dessous :"

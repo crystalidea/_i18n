@@ -596,6 +596,7 @@ macs-fan-control: # https://crystalidea.com/ru/macs-fan-control
     info_text_1: Вы можете скачать и использовать Macs Fan Control абсолютно бесплатно. Если у Вас возникли проблемы со скачиванием программы, пожалуйста, [свяжитесь с нами](/contact).
     info_text_2: Эта программа для продвинутых пользователей, которые понимают, как её использовать не причиняя вреда их mac. Авторы не несут ответственности за потерю данных, порчу оборудования или любые другие потери связанные с использованием программы.
     info_text_3: Подробная информация о том, что нового в программе на [странице с историей изменений](/macs-fan-control/release-notes). Архив старых версий [тут](https://github.com/crystalidea/macs-fan-control/releases).
+    info_text_4: Windows (Boot Camp) version is a 14-day trial (not a completely free app). [Read more](/macs-fan-control/faq)
   supported-os-page: # https://crystalidea.com/ru/macs-fan-control/supported-operating-systems
     title: Поддерживаемые операционные системы в Macs Fan Control
     info_text_1: "Последняя версия программы совместима со всеми версиями macOS начиная с 10.7 (Lion). Однако, вам следует учесть, что в зависимости от версии вашей ОС, вам следует использовать одну из двух скачиваемых версий программы:"

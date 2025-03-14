@@ -596,6 +596,7 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     info_text_1: You can download and use Macs Fan Control absolutely free of charge. If you have any problems downloading the app, please [contact us](/contact).
     info_text_2: This program is for advanced users who know how to use it without doing harm to their macs. The authors are not liable for data loss, damages, profit loss or any other types of losses connected with the use or misuse of the program.
     info_text_3: "See detailed information about what's new in the [Release Notes](/macs-fan-control/release-notes). Get older versions [here](https://github.com/crystalidea/macs-fan-control/releases)."
+    info_text_4: Windows (Boot Camp) version is a 14-day trial (not a completely free app). [Read more](/macs-fan-control/faq)
   supported-os-page: # https://crystalidea.com/macs-fan-control/supported-operating-systems
     title: Operating systems supported in Macs Fan Control
     info_text_1: "The latest version of the app works on all macOS systems starting with 10.7 (Lion). You should only consider that depending on your macOS version you should choose one of two downloads:"
@@ -619,20 +620,22 @@ macs-fan-control: # https://crystalidea.com/macs-fan-control
     title: Limited fan control on some Mac models
   faq-page: # https://crystalidea.com/macs-fan-control/faq
     title: Macs Fan Control FAQ
-    q1_q: Why do I have high CPU usage by kernel_task when using Macs Fan Control?
-    q1_a: Thermal issues are causing kernel task to preemptively use up CPU to prevent overheating. Usually it means that custom fan(s) setting is not right and causes the computer to overheat. You should try to create a better colling profile and if you can't - put your fan(s) back to auto and if it doesn't help, try to [reset the SMC](https://support.apple.com/en-us/HT201295).
-    q2_q: What are optimal fan settings for my MacBook/iMac/..?
-    q2_a: "The short answer is: experiment! First observe how temperature sensors behave under automatic fan control. Then try using some custom fan settings. Learn more about temperature sensors [here](/macs-fan-control/temperature-sensors)."
-    q3_q: Why is Macs Fan Control reporting 0rpm for one of my fans?
-    q3_a: It's ok if you have MacBook Pro 13 inch 2015/2016, these models turn off the fan when the CPU temperature is low enough. If you have another model, it most likely means that the fan did not report any data to MFC. It is possible that one of your fan's is dead (there's physical damage to the fan or its cable). Please check your computer with the Apple Hardware Test (it's on the DVD that comes with your computer) and see if it reports a failure with one of your fans.
-    q4_q: The app asks for a password. Which password is that?
-    q4_a: Macs Fan Control asks for the macOS administrator password when you decide to change fan control. It must be done only initially or when you install an update (when a new version is released). Please don't ask us what YOUR computer's password is.
-    q5_q: Does Macs Fan Control work in virtual machines (VirtualBox, Vmware, Parallels)?
-    q5_a: No, MFC doesn't work in virtual machines and will never be able to do that. It's not technically possible.
-    q6_q: Why isn't the app on the Mac App Store?
-    q6_a: MFC uses low level access to mac hardware information. Though this method is publicly available (IOKit interface), this is not allowed on the Mac App Store.
-    q7_q: How do I uninstall the app?
-    q7_a: Please follow [the instructions](/uninstall) in order to uninstall the app on Windows & macOS.
+    q1_q: Is there a free version of Macs Fan Control for Windows (Boot Camp)? Do you sell Pro license only for Windows?
+    q1_a: Macs Fan Control for Windows (Boot Camp) offers a 14-day trial and is not a completely free app. Please note that it is the only software in the world capable of controlling fans in Boot Camp, and developing and maintaining it has been technically challenging. We do not sell a Windows license separately unless you already own a macOS license. In this case, please contact us.
+    q2_q: Why do I have high CPU usage by kernel_task when using Macs Fan Control?
+    q2_a: Thermal issues are causing kernel task to preemptively use up CPU to prevent overheating. Usually it means that custom fan(s) setting is not right and causes the computer to overheat. You should try to create a better colling profile and if you can't - put your fan(s) back to auto and if it doesn't help, try to [reset the SMC](https://support.apple.com/en-us/HT201295).
+    q3_q: What are optimal fan settings for my MacBook/iMac/..?
+    q3_a: "The short answer is: experiment! First observe how temperature sensors behave under automatic fan control. Then try using some custom fan settings. Learn more about temperature sensors [here](/macs-fan-control/temperature-sensors)."
+    q4_q: Why is Macs Fan Control reporting 0rpm for one of my fans?
+    q4_a: It's fine if you have MacBook Pro 2015 and later, these models turn off the fan(s) when the CPU temperature is low enough. If you have another model, it most likely means that the fan did not report any data to MFC. It is possible that one of your fan's is dead (there's physical damage to the fan or its cable). Please check your computer with the Apple Hardware Test (it's on the DVD that comes with your computer) and see if it reports a failure with one of your fans.
+    q5_q: The app asks for a password. Which password is that?
+    q5_a: Macs Fan Control asks for the macOS administrator password when you decide to change fan control. It must be done only initially or when you install an update (when a new version is released). Please don't ask us what YOUR computer's password is.
+    q6_q: Does Macs Fan Control work in virtual machines (VirtualBox, Vmware, Parallels)?
+    q6_a: No, MFC doesn't work in virtual machines and will never be able to do that. It's not technically possible.
+    q7_q: Why isn't the app on the Mac App Store?
+    q7_a: MFC uses low level access to mac hardware information. Though this method is publicly available (IOKit interface), this is not allowed on the Mac App Store.
+    q8_q: How do I uninstall the app?
+    q8_a: Please follow [the instructions](/uninstall) in order to uninstall the app on Windows & macOS.
   activate-page:
     title: Activate Pro version of Macs Fan Control
     enter_key_info: "Once you [purchased](/macs-fan-control/buy) a license and received the license key, click on the Macs Fan Control icon in the Menu Bar, go down to the '**More**' submenu and click '**Upgrade to Pro version**' as seen below:"

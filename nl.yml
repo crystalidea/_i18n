@@ -593,6 +593,7 @@ macs-fan-control: # https://crystalidea.com/nl/macs-fan-control
     info_text_1: U kunt Macs Fan Control volledig gratis downloaden en gebruiken. Indien u enige problemen ondervindt bij het downloaden van de app, gelieve [ons te contacteren](/contact).
     info_text_2: Dit programma is voor ervaren gebruikers die weten hoe het te gebruiken zonder schade aan te richten aan hun macs. De auteurs zijn niet aansprakelijk voor verlies van gegevens, schade, verlies van winst en andere soorten verlies verbonden aan het gebruik of misbruik van het programma.
     info_text_3: Bekijk gedetailleerde informatie over wat er nieuw is in de [Release-Opmerkingen](/macs-fan-control/release-notes). Vind [hier](https://github.com/crystalidea/macs-fan-control/releases) oudere versies.
+    info_text_4: Windows (Boot Camp) version is a 14-day trial (not a completely free app). [Read more](/macs-fan-control/faq)
   supported-os-page: # https://crystalidea.com/nl/macs-fan-control/supported-operating-systems
     title: Operating systems supported in Macs Fan Control
     info_text_1: "The latest version of the app works on all macOS systems starting with 10.7 (Lion). You should only consider that depending on your macOS version you should choose one of two downloads:"
@@ -616,20 +617,22 @@ macs-fan-control: # https://crystalidea.com/nl/macs-fan-control
     title: Limited fan control on some Mac models
   faq-page: # https://crystalidea.com/nl/macs-fan-control/faq
     title: Macs Fan Control FAQ
-    q1_q: Wat zijn optimale instellingen voor de koelers van mij MacBook/iMac/..?
-    q1_a: "Het korte antwoord is: experimenteer! Bekijk eerst hoe temperatuursensoren zich gedragen onder automatische controle van de koelers. Probeer vervolgens enkele aangepaste instellingen voor de koelers te gebruiken. Leer [here](/macs-fan-control/temperature-sensors) meer over temperatuursensoren."
-    q2_q: Waarom rapporteert Macs Fan Control 0tpm voor één van mijn koelers?
-    q2_a: Het is ok als u MacBook Pro 13 inch 2015/2016 hebt, deze modellen schakelen de koeler uit wanneer de temperatuur van de CPU laag genoeg is. Als u een ander model hebt, betekent dit wellicht dat de koeler geen gegevens rapporteerde aan MFC. Het is mogelijk dat één van uw koelers dood is (fysieke schade aan de koeler of de kabel ervan). Gelieve uw computer te controleren met de Apple Hardware Test (dit vindt u op de DVD die met uw computer meegeleverd wordt) en kijk of het een defect aan één van uw koelers rapporteert.
-    q3_q: De app vraagt om een wachtwoord. Welk wachtwoord is dit?
-    q3_a: Macs Fan Control vraagt om het macOS beheerderswachtwoord wanneer u beslist om de controle van de koeler te wijzigen. Het dient slechts in het begin ingevoerd te worden en wanneer u de update installeert (wanneer er een nieuwe versie van de app wordt uitgebracht). Gelieve ons niet te vragen van het wachtwoord van UW computer is.
-    q4_q: Werkt Macs Fan Control in virtuele machines (VirtualBox, Vmware, Parallels)?
-    q4_a: Nee, MFC werkt niet in virtuele machines en zal dat nooit kunnen. Het is technisch niet mogelijk.
-    q5_q: Waarom bevindt de app zich niet in de Mac App Store?
-    q5_a: MFC gebruikt toegang van laag niveau tot mac hardware informatie. Ook al is deze methode openbaar beschikbaar (IOKit interface), is deze niet toegelaten op de Mac App Store.
-    q6_q: Hoe verwijder ik de app?
-    q6_a: Please follow [the instructions](/uninstall) in order to uninstall the app on Windows & macOS.
-    q7_q: Why do I have high CPU usage by kernel_task when using Macs Fan Control?
-    q7_a: Thermal issues are causing kernel task to preemptively use up CPU to prevent overheating. Try putting fan(s) back to auto and if it doesn't help, try to [reset the SMC](https://support.apple.com/en-us/HT201295).
+    q1_q: Is er een gratis versie van Macs Fan Control voor Windows (Boot Camp)? Verkopen jullie een Pro-licentie alleen voor Windows?
+    q1_a: Macs Fan Control voor Windows (Boot Camp) biedt een proefperiode van 14 dagen en is geen volledig gratis app. Houd er rekening mee dat dit de enige software ter wereld is die ventilatoren in Boot Camp kan regelen en dat de ontwikkeling en het onderhoud technisch uitdagend zijn geweest. We verkopen geen Windows-licentie apart, tenzij je al een macOS-licentie hebt. Neem in dat geval contact met ons op.
+    q2_q: Why do I have high CPU usage by kernel_task when using Macs Fan Control?
+    q2_a: Thermal issues are causing kernel task to preemptively use up CPU to prevent overheating. Usually it means that custom fan(s) setting is not right and causes the computer to overheat. You should try to create a better colling profile and if you can't - put your fan(s) back to auto and if it doesn't help, try to [reset the SMC](https://support.apple.com/en-us/HT201295).
+    q3_q: Wat zijn optimale instellingen voor de koelers van mij MacBook/iMac/..?
+    q3_a: "Het korte antwoord is: experimenteer! Bekijk eerst hoe temperatuursensoren zich gedragen onder automatische controle van de koelers. Probeer vervolgens enkele aangepaste instellingen voor de koelers te gebruiken. Leer [here](/macs-fan-control/temperature-sensors) meer over temperatuursensoren."
+    q4_q: Waarom rapporteert Macs Fan Control 0tpm voor één van mijn koelers?
+    q4_a: Het is ok als u MacBook Pro 2015+ hebt, deze modellen schakelen de koeler uit wanneer de temperatuur van de CPU laag genoeg is. Als u een ander model hebt, betekent dit wellicht dat de koeler geen gegevens rapporteerde aan MFC. Het is mogelijk dat één van uw koelers dood is (fysieke schade aan de koeler of de kabel ervan). Gelieve uw computer te controleren met de Apple Hardware Test (dit vindt u op de DVD die met uw computer meegeleverd wordt) en kijk of het een defect aan één van uw koelers rapporteert.
+    q5_q: De app vraagt om een wachtwoord. Welk wachtwoord is dit?
+    q5_a: Macs Fan Control vraagt om het macOS beheerderswachtwoord wanneer u beslist om de controle van de koeler te wijzigen. Het dient slechts in het begin ingevoerd te worden en wanneer u de update installeert (wanneer er een nieuwe versie van de app wordt uitgebracht). Gelieve ons niet te vragen van het wachtwoord van UW computer is.
+    q6_q: Werkt Macs Fan Control in virtuele machines (VirtualBox, Vmware, Parallels)?
+    q6_a: Nee, MFC werkt niet in virtuele machines en zal dat nooit kunnen. Het is technisch niet mogelijk.
+    q7_q: Waarom bevindt de app zich niet in de Mac App Store?
+    q7_a: MFC gebruikt toegang van laag niveau tot mac hardware informatie. Ook al is deze methode openbaar beschikbaar (IOKit interface), is deze niet toegelaten op de Mac App Store.
+    q8_q: Hoe verwijder ik de app?
+    q8_a: Please follow [the instructions](/uninstall) in order to uninstall the app on Windows & macOS.
   activate-page:
     title: Activate Pro version of Macs Fan Control
     enter_key_info: "Once you [purchased](/macs-fan-control/buy) a license and received the license key, click on the 'More' -> 'Upgrade to Pro version' menu as seen below:"

@@ -596,6 +596,7 @@ macs-fan-control: # https://crystalidea.com/de/macs-fan-control
     info_text_1: Sie können Macs Fan Control komplett kostenlos herunterladen und verwenden. Falls Probleme beim herunterladen der App auftreten sollten, nehmen Sie bitte mit uns [Kontakt](/contact) auf.
     info_text_2: Dieses Programm ist für erfahrene Nutzer gedacht, die wissen, wie sie es einsetzen können, ohne Schaden an Ihren Macs anzurichten. Die Autoren übernehmen keine Haftung für Datenverlust, Schäden, Gewinnausfälle oder andere Verluste, die mit der Nutzung oder der falschen Anwendung des Programmes in Verbindung stehen.
     info_text_3: Detaillierte Informationen über die Neuerungen finden Sie in den [Versionshinweisen](/macs-fan-control/release-notes). Ältere Versionen finden Sie [hier](https://github.com/crystalidea/macs-fan-control/releases).
+    info_text_4: Windows (Boot Camp) version is a 14-day trial (not a completely free app). [Read more](/macs-fan-control/faq)
   supported-os-page: # https://crystalidea.com/de/macs-fan-control/supported-operating-systems
     title: Operating systems supported in Macs Fan Control
     info_text_1: "The latest version of the app works on all macOS systems starting with 10.7 (Lion). You should only consider that depending on your macOS version you should choose one of two downloads:"
@@ -619,20 +620,22 @@ macs-fan-control: # https://crystalidea.com/de/macs-fan-control
     title: Limited fan control on some Mac models
   faq-page: # https://crystalidea.com/de/macs-fan-control/faq
     title: Macs Fan Control FAQ
-    q1_q: Was sind die optimalen Einstellungen für mein MacBook/iMac/..?
-    q1_a: "Kurz gesagt: experimentieren! Beobachten Sie zunächst, wie die Temperatursensoren sich bei automatischer Lüftersteuerung verhalten. Probieren Sie dann benutzerdefinierte Lüftereinstellungen aus. [Hier](/macs-fan-control/temperature-sensors) erfahren Sie mehr über Temperatursensoren."
-    q2_q: Warum gibt Macs Fan Control  0rpm für einen meiner Lüfter an?
-    q2_a: Das ist normal, wenn Sie ein MacBook Pro 13 Zoll 2015/2016 besitzen. Diese Modelle  schalten den Lüfter aus, wenn die CPU Temperatur niedrig genug ist. Wenn Sie ein anderes Modell besitzen, bedeutet dies meistens, dass Ihr Lüfter keine Daten an MFC gesendet hat. Es kann sein, dass einer Ihrer Lüfter kaputt ist (der Lüfter oder das Kabel ist beschädigt). Bitte überprüfen Sie Ihren Computer mit dem Apple Hardware Test (es ist auf der DVD, die mit Ihrem PC geliefert wurde) und schauen Sie nach, ob es einen Fehler mit einem Ihrer Lüfter meldet.
-    q3_q: Die App fragt nach einem Passwort. Welches Passwort ist das?
-    q3_a: Macs Fan Control fragt nach dem MacOS Administrator-Passwort, wenn Sie versuchen die Lüftersteuerung zu ändern. Dies muss nur einmal am Anfang und bei der Installation eines Updates (wenn eine neue Version veröffentlicht wurde) eingegeben werden. Bitte fragen Sie uns nicht nach dem Passwort IHRES Computers.
-    q4_q: Funktioniert Macs Fan Control auf virtuellen Maschinen (VirtualBox, Vmware, Parallels)?
-    q4_a: Nein, MFC funktioniert nicht auf virtuellen Maschinen und wird dies auch in Zukunft nicht. Es ist technisch nicht möglich.
-    q5_q: Warum ist die App nicht im Mac App Store?
-    q5_a: MFC verwendet Low-Level-Funktionen, die auf Mac Hardware Informationen zugreifen. obwohl diese Methode öffentlich verfügbar sind (IOKit interface), ist dies im Mac App Store nicht erlaubt.
-    q6_q: Wie kann die die App deinstallieren?
-    q6_a: Please follow [the instructions](/uninstall) in order to uninstall the app on Windows & macOS.
-    q7_q: Warum wird eine hohe CPU-Auslastung von kernel_task angezeigt, wenn ich Macs Fan Control verwende?
-    q7_a: Hitzeprobleme führen dazu, dass der Kernel-Task die CPU verwendet, um eine Überhitzung zu vermeiden. Versuchen Sie, die Lüfter wieder auf den automatischen Modus umzuschalten und wenn das nicht hilft, versuchen Sie [den SMC zurückzusetzen](https://support.apple.com/en-us/HT201295).
+    q1_q: Gibt es eine kostenlose Version von Macs Fan Control für Windows (Boot Camp)? Verkaufen Sie eine Pro-Lizenz nur für Windows?
+    q1_a: Macs Fan Control für Windows (Boot Camp) bietet eine 14-tägige Testversion und ist keine vollständig kostenlose App. Bitte beachten Sie, dass es die einzige Software weltweit ist, die Lüfter in Boot Camp steuern kann, und dass die Entwicklung und Wartung technisch sehr anspruchsvoll war. Wir verkaufen keine Windows-Lizenz separat, es sei denn, Sie besitzen bereits eine macOS-Lizenz. In diesem Fall kontaktieren Sie uns bitte.
+    q2_q: Warum wird eine hohe CPU-Auslastung von kernel_task angezeigt, wenn ich Macs Fan Control verwende?
+    q2_a: Hitzeprobleme führen dazu, dass der Kernel-Task die CPU verwendet, um eine Überhitzung zu vermeiden. Versuchen Sie, die Lüfter wieder auf den automatischen Modus umzuschalten und wenn das nicht hilft, versuchen Sie [den SMC zurückzusetzen](https://support.apple.com/en-us/HT201295).
+    q3_q: Was sind die optimalen Einstellungen für mein MacBook/iMac/..?
+    q3_a: "Kurz gesagt: experimentieren! Beobachten Sie zunächst, wie die Temperatursensoren sich bei automatischer Lüftersteuerung verhalten. Probieren Sie dann benutzerdefinierte Lüftereinstellungen aus. [Hier](/macs-fan-control/temperature-sensors) erfahren Sie mehr über Temperatursensoren."
+    q4_q: Warum gibt Macs Fan Control  0rpm für einen meiner Lüfter an?
+    q4_a: Das ist normal, wenn Sie ein MacBook Pro 2015+ besitzen. Diese Modelle  schalten den Lüfter aus, wenn die CPU Temperatur niedrig genug ist. Wenn Sie ein anderes Modell besitzen, bedeutet dies meistens, dass Ihr Lüfter keine Daten an MFC gesendet hat. Es kann sein, dass einer Ihrer Lüfter kaputt ist (der Lüfter oder das Kabel ist beschädigt). Bitte überprüfen Sie Ihren Computer mit dem Apple Hardware Test (es ist auf der DVD, die mit Ihrem PC geliefert wurde) und schauen Sie nach, ob es einen Fehler mit einem Ihrer Lüfter meldet.
+    q5_q: Die App fragt nach einem Passwort. Welches Passwort ist das?
+    q5_a: Macs Fan Control fragt nach dem MacOS Administrator-Passwort, wenn Sie versuchen die Lüftersteuerung zu ändern. Dies muss nur einmal am Anfang und bei der Installation eines Updates (wenn eine neue Version veröffentlicht wurde) eingegeben werden. Bitte fragen Sie uns nicht nach dem Passwort IHRES Computers.
+    q6_q: Funktioniert Macs Fan Control auf virtuellen Maschinen (VirtualBox, Vmware, Parallels)?
+    q6_a: Nein, MFC funktioniert nicht auf virtuellen Maschinen und wird dies auch in Zukunft nicht. Es ist technisch nicht möglich.
+    q7_q: Warum ist die App nicht im Mac App Store?
+    q7_a: MFC verwendet Low-Level-Funktionen, die auf Mac Hardware Informationen zugreifen. obwohl diese Methode öffentlich verfügbar sind (IOKit interface), ist dies im Mac App Store nicht erlaubt.
+    q8_q: Wie kann die die App deinstallieren?
+    q8_a: Please follow [the instructions](/uninstall) in order to uninstall the app on Windows & macOS.
   activate-page:
     title: Activate Pro version of Macs Fan Control
     enter_key_info: "Once you [purchased](/macs-fan-control/buy) a license and received the license key, click on the 'More' -> 'Upgrade to Pro version' menu as seen below:"
