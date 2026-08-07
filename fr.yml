@@ -333,7 +333,7 @@ uninstall-tool: # https://crystalidea.com/uninstall-tool
     info_text_2: "[Version portable](/downloads/uninstalltool_portable.zip) (pas de période d'essai, nécessite une licence spécifique avec des instructions d'enregistrement). [En savoir plus](/uninstall-tool/portable-mode)"
     info_text_3: "[Ancienne version 'legacy'](/downloads/legacy/uninstalltool_xp_setup.exe) pour Windows XP et Vista"
     info_text_4: "[Notes de version](/uninstall-tool/release-notes)"
-    info_text_5: "[Contrat de licence d'utilisateur final(/uninstall-tool/eula)"
+    info_text_5: "[Contrat de licence d'utilisateur final](/uninstall-tool/eula)"
     info_more_links: "Liens utiles :"
   help-shortcuts-page: # https://crystalidea.com/uninstall-tool/keyboard-shortcuts
     title: Uninstall Tool - Raccourcis clavier
