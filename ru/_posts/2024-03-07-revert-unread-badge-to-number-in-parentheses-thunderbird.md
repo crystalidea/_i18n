@@ -1,26 +1,55 @@
 ---
 permalink: /blog/revert-unread-badge-to-number-in-parentheses-thunderbird
 layout: blog-post
-title: Revert Unread "Badge" to Number in Parentheses in Thunderbird
+title: Как вернуть в Thunderbird число непрочитанных в скобках вместо «бейджа»
 tags: [ "tech"]
 ---
 
-The fix works all Thunderbird versions starting from 115 (Supernova).
+<p class="font-gray font-xs text-right">Последнее обновление: 19 августа 2026 г.</p>
 
-The recent Thundebird upgrade brought unpleasant (for some) change of unread messages counter. The simple fix provided below reverts this to what it was before.
+В Thunderbird 115 (Supernova) привычный счётчик непрочитанных сообщений в панели папок заменили цветным бейджем. Если прежний вид **Входящие (3)** нравился больше, вот как его вернуть — теперь это делается дополнением в один щелчок, а не ручной правкой CSS.
 
 <p class="text-center">
     <img src="/assets/images/blog/thunderbird-unread-fix.png">
-    <span class="font-xs">Before and after the fix</span>
+    <span class="font-xs">До и после исправления</span>
 </p>
 
 <!--more-->
 
-### 1. Enable userChrome.css support in Thunderbird
+### Установка дополнения Classic Folder Counts
 
-By default userChrome.css usage is disabled in Thunderbird. To enable it you need to set **toolkit.legacyUserProfileCustomizations.stylesheets** to true on in the [Config Editor](https://support.mozilla.org/en-US/kb/config-editor).
+Теперь исправление оформлено в виде небольшого дополнения для Thunderbird, так что править вручную ничего не нужно:
 
-### 2. Put this CSS code to chrome/userChrome.css in your profile folder
+1. Скачайте файл `.xpi` со [страницы релизов](https://github.com/crystalidea/thunderbird-classic-folder-counts/releases/latest).
+2. В Thunderbird откройте **Дополнения и темы**, нажмите значок шестерёнки, выберите **Установить дополнение из файла…** и укажите скачанный файл.
+
+Счётчики меняются сразу — перезапуск не требуется. Менять что-либо в `about:config` тоже не нужно: Thunderbird устанавливает дополнение как есть. Оно работает во всех версиях начиная со 115 (Supernova).
+
+### Что можно настроить
+
+В настройках дополнения есть два флажка:
+
+- **число непрочитанных в скобках** вместо бейджа;
+- **общее число сообщений обычным текстом по правому краю** — видно, только если в меню панели папок включено отображение общего числа сообщений.
+
+Оба применяются мгновенно, а один щелчок в разделе «Дополнения и темы» снова всё отключает.
+
+Исходный код опубликован на [GitHub](https://github.com/crystalidea/thunderbird-classic-folder-counts). Никакой магии внутри нет: это та же таблица стилей, что и ниже; она регистрируется так же, как Thunderbird регистрирует `userChrome.css`, и удаляется обратно при отключении дополнения.
+
+### Почему дополнение, а не userChrome.css
+
+- не нужен флаг **toolkit.legacyUserProfileCustomizations.stylesheets** и не нужно искать папку профиля;
+- изменения применяются без перезапуска Thunderbird;
+- отключение — это один щелчок, а не правка файла;
+- дополнение обновляется вслед за Thunderbird, а скопированный вручную фрагмент тихо устаревает — CSS ниже уже дважды разошёлся с реальностью, см. примечание в конце.
+
+### Старый способ через userChrome.css
+
+**Устарел, но всё ещё работает.** Подойдёт, если не хочется ничего устанавливать.
+
+**1. Включите поддержку userChrome.css в Thunderbird.** По умолчанию использование userChrome.css в Thunderbird отключено. Чтобы включить его, задайте параметру **toolkit.legacyUserProfileCustomizations.stylesheets** значение true в [Редакторе настроек](https://support.mozilla.org/ru/kb/config-editor).
+
+**2. Поместите этот CSS-код в chrome/userChrome.css в папке профиля:**
 
 ```CSS
 
@@ -63,4 +92,11 @@ By default userChrome.css usage is disabled in Thunderbird. To enable it you nee
 
 ```
 
-### 3. Restart Thunderbird
+**3. Перезапустите Thunderbird.**
+
+В Thunderbird 148 и новее две детали этого фрагмента разошлись с реальностью, и обе стоит добавить в правило `.folder-count-badge.unread-count`:
+
+- в собственных правилах Thunderbird для бейджа `min-width` сменился на `min-inline-size`, поэтому `min-width: 0` больше не сжимает счётчик — добавьте `min-inline-size: 0 !important;`
+- у свёрнутой папки, во вложенных папках которой есть непрочитанные сообщения, вокруг числа остаётся тонкий овальный контур, потому что границу ничто не сбрасывает — добавьте `border: none !important;`
+
+В дополнении обе детали уже учтены.
